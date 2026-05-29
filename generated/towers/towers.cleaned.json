@@ -1,0 +1,6042 @@
+[
+  {
+    "id": "BeamCannon",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 0,
+    "name_key": "TOWER_BEAM_CANNON",
+    "description_key": "TOWER_DESC_BEAM_CANNON",
+    "name": {
+      "en": "Beam Cannon",
+      "zh": "光束炮"
+    },
+    "description": {
+      "en": "If you have at least one Beam Cannon in play, gain one less mana each round. Stuns enemies.",
+      "zh": "场上若存在至少一个此种防御塔，每回合少获得一点法力值。眩晕敌人。",
+      "en_plain": "If you have at least one Beam Cannon in play, gain one less mana each round. Stuns enemies.",
+      "zh_plain": "场上若存在至少一个此种防御塔，每回合少获得一点法力值。眩晕敌人。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 110,
+          "fire_rate": 0.68,
+          "damage": 0,
+          "magic_damage": 11,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "stun": 0.33
+        },
+        "2": {
+          "range_radius": 120,
+          "fire_rate": 0.9,
+          "damage": 0,
+          "magic_damage": 24,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "stun": 0.7
+        },
+        "3": {
+          "range_radius": 130,
+          "fire_rate": 1.12,
+          "damage": 0,
+          "magic_damage": 57,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "stun": 1.2
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\BeamCannon.gd",
+      "scene_res_path": "res://Scenes/Towers/BeamCannon.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\BeamCannon.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/12-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\12-1.png",
+          "website_path": "assets/towers/BeamCannon_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/12-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\12-2.png",
+          "website_path": "assets/towers/BeamCannon_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/12-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\12-3.png",
+          "website_path": "assets/towers/BeamCannon_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EMPWall",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 0,
+    "name_key": "TOWER_EMP_WALL",
+    "description_key": "TOWER_DESC_EMP_WALL",
+    "name": {
+      "en": "EMP Wall",
+      "zh": "电磁屏障"
+    },
+    "description": {
+      "en": "The towers in range cannot be deactivated by any means.\nDispel.",
+      "zh": "范围内的防御塔不能以任何方式禁用。消耗。",
+      "en_plain": "The towers in range cannot be deactivated by any means.\nDispel.",
+      "zh_plain": "范围内的防御塔不能以任何方式禁用。消耗。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 90,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 270,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 810,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\EMPWall.gd",
+      "scene_res_path": "res://Scenes/Towers/EMPWall.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\EMPWall.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/46-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\46-1.png",
+          "website_path": "assets/towers/EMPWall_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/46-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\46-2.png",
+          "website_path": "assets/towers/EMPWall_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/46-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\46-3.png",
+          "website_path": "assets/towers/EMPWall_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EtherealBlaster",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 0,
+    "name_key": "TOWER_ETHEREAL_BLASTER",
+    "description_key": "TOWER_DESC_ETHEREAL_BLASTER",
+    "name": {
+      "en": "Ethereal Blaster",
+      "zh": "虚灵爆弹"
+    },
+    "description": {
+      "en": "When this tower levels up, it improves more than other towers.\nDispel.",
+      "zh": "当这个塔的等级提高时，它的属性提升比一般防御塔更多。消耗。",
+      "en_plain": "When this tower levels up, it improves more than other towers.\nDispel.",
+      "zh_plain": "当这个塔的等级提高时，它的属性提升比一般防御塔更多。消耗。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 90,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 7,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 180,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 25,
+          "armor_pen": 0,
+          "magic_pen": 10,
+          "shot_speed": 250
+        },
+        "3": {
+          "range_radius": 300,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 100,
+          "armor_pen": 0,
+          "magic_pen": 40,
+          "shot_speed": 350
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\EtherealBlaster.gd",
+      "scene_res_path": "res://Scenes/Towers/EtherealBlaster.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\EtherealBlaster.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/60-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\60-1.png",
+          "website_path": "assets/towers/EtherealBlaster_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/60-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\60-2.png",
+          "website_path": "assets/towers/EtherealBlaster_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/60-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\60-3.png",
+          "website_path": "assets/towers/EtherealBlaster_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ScrapRecycler",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 0,
+    "name_key": "TOWER_SCRAP_RECYCLER",
+    "description_key": "TOWER_DESC_SCRAP_RECYCLER",
+    "name": {
+      "en": "Scrap Recycler",
+      "zh": "清道夫"
+    },
+    "description": {
+      "en": "On play: Draw 1 card and lose 1 crystal. Can be played with 0 crystals.",
+      "zh": "当放置时，抽一张牌并失去1个水晶。没有水晶也可放置该塔。",
+      "en_plain": "On play: Draw 1 card and lose 1 crystal. Can be played with 0 crystals.",
+      "zh_plain": "当放置时，抽一张牌并失去1个水晶。没有水晶也可放置该塔。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 200,
+          "fire_rate": 0.6,
+          "damage": 5,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 150
+        },
+        "2": {
+          "range_radius": 210,
+          "fire_rate": 0.75,
+          "damage": 12,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 150
+        },
+        "3": {
+          "range_radius": 220,
+          "fire_rate": 0.9,
+          "damage": 30,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 150
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ScrapRecycler.gd",
+      "scene_res_path": "res://Scenes/Towers/ScrapRecycler.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ScrapRecycler.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/38-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\38-1.png",
+          "website_path": "assets/towers/ScrapRecycler_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/38-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\38-2.png",
+          "website_path": "assets/towers/ScrapRecycler_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/38-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\38-3.png",
+          "website_path": "assets/towers/ScrapRecycler_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sentry",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 0,
+    "name_key": "TOWER_SENTRY",
+    "description_key": "TOWER_DESC_SENTRY",
+    "name": {
+      "en": "Sentry",
+      "zh": "哨兵"
+    },
+    "description": {
+      "en": "Disappears two rounds after being placed. The round counter resets when leveling up.",
+      "zh": "放置后两个回合就会消失。防御塔升级时回合计数器重置。",
+      "en_plain": "Disappears two rounds after being placed. The round counter resets when leveling up.",
+      "zh_plain": "放置后两个回合就会消失。防御塔升级时回合计数器重置。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 200,
+          "fire_rate": 0.9,
+          "damage": 6,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 400
+        },
+        "2": {
+          "range_radius": 220,
+          "fire_rate": 0.9,
+          "damage": 21,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 400
+        },
+        "3": {
+          "range_radius": 300,
+          "fire_rate": 0.9,
+          "damage": 81,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 400
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Sentry.gd",
+      "scene_res_path": "res://Scenes/Towers/Sentry.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Sentry.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/57-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\57-1.png",
+          "website_path": "assets/towers/Sentry_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/57-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\57-2.png",
+          "website_path": "assets/towers/Sentry_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/57-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\57-3.png",
+          "website_path": "assets/towers/Sentry_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SpikeThrower",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 0,
+    "name_key": "TOWER_SPIKE_THROWER",
+    "description_key": "TOWER_DESC_SPIKE_THROWER",
+    "name": {
+      "en": "Spike Thrower",
+      "zh": "尖刺发射器"
+    },
+    "description": {
+      "en": "Very high rate of fire with low range and damage.",
+      "zh": "射速非常高，射程和伤害都很低。",
+      "en_plain": "Very high rate of fire with low range and damage.",
+      "zh_plain": "射速非常高，射程和伤害都很低。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 90,
+          "fire_rate": 1.66,
+          "damage": 4,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 280
+        },
+        "2": {
+          "range_radius": 90,
+          "fire_rate": 5,
+          "damage": 4,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 280
+        },
+        "3": {
+          "range_radius": 90,
+          "fire_rate": 15,
+          "damage": 4,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 280
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\SpikeThrower.gd",
+      "scene_res_path": "res://Scenes/Towers/SpikeThrower.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\SpikeThrower.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/10-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\10-1.png",
+          "website_path": "assets/towers/SpikeThrower_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/10-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\10-2.png",
+          "website_path": "assets/towers/SpikeThrower_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/10-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\10-3.png",
+          "website_path": "assets/towers/SpikeThrower_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ArcaneRifle",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_ARCANE_RIFLE",
+    "description_key": "TOWER_DESC_ARCANE_RIFLE",
+    "name": {
+      "en": "Arcane Rifle",
+      "zh": "奥术步枪"
+    },
+    "description": {
+      "en": "Gains attack speed as more spell mana is spent during the combat.",
+      "zh": "战斗中消耗的法术法力值越多，攻击速度越快。",
+      "en_plain": "Gains attack speed as more spell mana is spent during the combat.",
+      "zh_plain": "战斗中消耗的法术法力值越多，攻击速度越快。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 160,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 8,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260
+        },
+        "2": {
+          "range_radius": 160,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 24,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260
+        },
+        "3": {
+          "range_radius": 160,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 72,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ArcaneRifle.gd",
+      "scene_res_path": "res://Scenes/Towers/ArcaneRifle.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ArcaneRifle.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/54-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\54-1.png",
+          "website_path": "assets/towers/ArcaneRifle_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/54-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\54-2.png",
+          "website_path": "assets/towers/ArcaneRifle_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/54-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\54-3.png",
+          "website_path": "assets/towers/ArcaneRifle_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ArcaneWarper",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_ARCANE_WARPER",
+    "description_key": "TOWER_DESC_ARCANE_WARPER",
+    "name": {
+      "en": "Arcane Warper",
+      "zh": "奥术折跃仪"
+    },
+    "description": {
+      "en": "Every time you cast a spell, teleport back all enemies in range. The teleport strength increases with the tower level.",
+      "zh": "每次施法时，将范围内的所有敌人向出生点传送一段距离。传送距离随塔的等级增加。",
+      "en_plain": "Every time you cast a spell, teleport back all enemies in range. The teleport strength increases with the tower level.",
+      "zh_plain": "每次施法时，将范围内的所有敌人向出生点传送一段距离。传送距离随塔的等级增加。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 100,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 300,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 900,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ArcaneWarper.gd",
+      "scene_res_path": "res://Scenes/Towers/ArcaneWarper.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ArcaneWarper.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/62-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\62-1.png",
+          "website_path": "assets/towers/ArcaneWarper_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/62-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\62-2.png",
+          "website_path": "assets/towers/ArcaneWarper_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/62-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\62-3.png",
+          "website_path": "assets/towers/ArcaneWarper_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Archer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_ARCHER",
+    "description_key": "TOWER_DESC_ARCHER",
+    "name": {
+      "en": "Archer",
+      "zh": "射手"
+    },
+    "description": {
+      "en": "Fires arrows at a high rate of fire.",
+      "zh": "以高射速发射箭矢。",
+      "en_plain": "Fires arrows at a high rate of fire.",
+      "zh_plain": "以高射速发射箭矢。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 130,
+          "fire_rate": 1.6,
+          "damage": 9,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 150,
+          "fire_rate": 2.5,
+          "damage": 15,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 170,
+          "fire_rate": 3.1,
+          "damage": 32,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Archer.gd",
+      "scene_res_path": "res://Scenes/Towers/Archer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Archer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/3-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\3-1.png",
+          "website_path": "assets/towers/Archer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/3-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\3-2.png",
+          "website_path": "assets/towers/Archer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/3-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\3-3.png",
+          "website_path": "assets/towers/Archer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ArmorAura",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_ARMOR_AURA",
+    "description_key": "TOWER_DESC_ARMOR_AURA",
+    "name": {
+      "en": "Armor Aura",
+      "zh": "穿甲光环塔"
+    },
+    "description": {
+      "en": "All towers in range get extra armor penetration.",
+      "zh": "范围内的所有防御塔获得额外的护甲穿透。",
+      "en_plain": "All towers in range get extra armor penetration.",
+      "zh_plain": "范围内的所有防御塔获得额外的护甲穿透。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 100,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 120,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 140,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ArmorAura.gd",
+      "scene_res_path": "res://Scenes/Towers/ArmorAura.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ArmorAura.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/68-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\68-1.png",
+          "website_path": "assets/towers/ArmorAura_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/68-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\68-2.png",
+          "website_path": "assets/towers/ArmorAura_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/68-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\68-3.png",
+          "website_path": "assets/towers/ArmorAura_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Ballista",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_BALLISTA",
+    "description_key": "TOWER_DESC_BALLISTA",
+    "name": {
+      "en": "Ballista",
+      "zh": "弩炮"
+    },
+    "description": {
+      "en": "Fires arrows that pierce enemies.",
+      "zh": "发射具有贯通效果的箭矢。",
+      "en_plain": "Fires arrows that pierce enemies.",
+      "zh_plain": "发射具有贯通效果的箭矢。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 140,
+          "fire_rate": 1,
+          "damage": 6,
+          "magic_damage": 0,
+          "armor_pen": 70,
+          "magic_pen": 0,
+          "shot_speed": 350,
+          "piercing": 100
+        },
+        "2": {
+          "range_radius": 140,
+          "fire_rate": 1.3,
+          "damage": 14,
+          "magic_damage": 0,
+          "armor_pen": 70,
+          "magic_pen": 0,
+          "shot_speed": 350,
+          "piercing": 100
+        },
+        "3": {
+          "range_radius": 140,
+          "fire_rate": 1.6,
+          "damage": 35,
+          "magic_damage": 0,
+          "armor_pen": 70,
+          "magic_pen": 0,
+          "shot_speed": 350,
+          "piercing": 100
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Ballista.gd",
+      "scene_res_path": "res://Scenes/Towers/Ballista.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Ballista.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/9-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\9-1.png",
+          "website_path": "assets/towers/Ballista_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/9-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\9-2.png",
+          "website_path": "assets/towers/Ballista_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/9-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\9-3.png",
+          "website_path": "assets/towers/Ballista_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BasicArcher",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": true,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_BASIC_ARCHER",
+    "description_key": "TOWER_DESC_BASIC_ARCHER",
+    "name": {
+      "en": "Basic Archer",
+      "zh": "基础射手"
+    },
+    "description": {
+      "en": "Weaker version of the Archer. Fires arrows at a high rate of fire.",
+      "zh": "射手的弱化版。以高射速发射箭矢。",
+      "en_plain": "Weaker version of the Archer. Fires arrows at a high rate of fire.",
+      "zh_plain": "射手的弱化版。以高射速发射箭矢。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 125,
+          "fire_rate": 1.5,
+          "damage": 7,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 145,
+          "fire_rate": 2.4,
+          "damage": 12,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 165,
+          "fire_rate": 3,
+          "damage": 26,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\BasicArcher.gd",
+      "scene_res_path": "res://Scenes/Towers/BasicArcher.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\BasicArcher.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/18-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\18-1.png",
+          "website_path": "assets/towers/BasicArcher_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/18-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\18-2.png",
+          "website_path": "assets/towers/BasicArcher_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/18-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\18-3.png",
+          "website_path": "assets/towers/BasicArcher_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BasicBomber",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": true,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_BASIC_BOMBER",
+    "description_key": "TOWER_DESC_BASIC_BOMBER",
+    "name": {
+      "en": "Basic Bomber",
+      "zh": "基础爆破手"
+    },
+    "description": {
+      "en": "Weaker version of the Bomber. Fires bombs that deal damage in an area.",
+      "zh": "爆破手的弱化版。发射炸弹，造成范围伤害。",
+      "en_plain": "Weaker version of the Bomber. Fires bombs that deal damage in an area.",
+      "zh_plain": "爆破手的弱化版。发射炸弹，造成范围伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 105,
+          "fire_rate": 0.5,
+          "damage": 10,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 115,
+          "fire_rate": 0.7,
+          "damage": 21,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 125,
+          "fire_rate": 0.9,
+          "damage": 48,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\BasicBomber.gd",
+      "scene_res_path": "res://Scenes/Towers/BasicBomber.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\BasicBomber.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/19-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\19-1.png",
+          "website_path": "assets/towers/BasicBomber_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/19-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\19-2.png",
+          "website_path": "assets/towers/BasicBomber_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/19-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\19-3.png",
+          "website_path": "assets/towers/BasicBomber_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Cremator",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_CREMATOR",
+    "description_key": "TOWER_DESC_CREMATOR",
+    "name": {
+      "en": "Cremator",
+      "zh": "焚毁者"
+    },
+    "description": {
+      "en": "Slowly burns enemies, slowing them and reducing their health regeneration.",
+      "zh": "缓慢焚毁敌人，降低其移动速度并减少其生命恢复。",
+      "en_plain": "Slowly burns enemies, slowing them and reducing their health regeneration.",
+      "zh_plain": "缓慢焚毁敌人，降低其移动速度并减少其生命恢复。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 155,
+          "fire_rate": 3.2,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "slow": 0.75,
+          "grievous_wounds": true
+        },
+        "2": {
+          "range_radius": 160,
+          "fire_rate": 3.3,
+          "damage": 0,
+          "magic_damage": 3,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "slow": 1.75,
+          "grievous_wounds": true
+        },
+        "3": {
+          "range_radius": 165,
+          "fire_rate": 3.4,
+          "damage": 0,
+          "magic_damage": 9,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "slow": 5.25,
+          "grievous_wounds": true
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Cremator.gd",
+      "scene_res_path": "res://Scenes/Towers/Cremator.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Cremator.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/27-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\27-1.png",
+          "website_path": "assets/towers/Cremator_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/27-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\27-2.png",
+          "website_path": "assets/towers/Cremator_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/27-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\27-3.png",
+          "website_path": "assets/towers/Cremator_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CrystalImpaler",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_CRYSTAL_IMPALER",
+    "description_key": "TOWER_DESC_CRYSTAL_IMPALER",
+    "name": {
+      "en": "Crystal Impaler",
+      "zh": "水晶穿刺者"
+    },
+    "description": {
+      "en": "Every time this tower shoots, lose 1 crystal. Can shoot when you have 0 crystals. Stuns.",
+      "zh": "每射出一发子弹就损失1个水晶。水晶为0时仍可以发射。眩晕。",
+      "en_plain": "Every time this tower shoots, lose 1 crystal. Can shoot when you have 0 crystals. Stuns.",
+      "zh_plain": "每射出一发子弹就损失1个水晶。水晶为0时仍可以发射。眩晕。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 125,
+          "fire_rate": 0.33,
+          "damage": 39,
+          "magic_damage": 0,
+          "armor_pen": 40,
+          "magic_pen": 0,
+          "shot_speed": 300,
+          "stun": 0.75
+        },
+        "2": {
+          "range_radius": 135,
+          "fire_rate": 0.36,
+          "damage": 97,
+          "magic_damage": 0,
+          "armor_pen": 50,
+          "magic_pen": 0,
+          "shot_speed": 300,
+          "stun": 1.5
+        },
+        "3": {
+          "range_radius": 145,
+          "fire_rate": 0.39,
+          "damage": 245,
+          "magic_damage": 0,
+          "armor_pen": 60,
+          "magic_pen": 0,
+          "shot_speed": 300,
+          "stun": 3.5
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\CrystalImpaler.gd",
+      "scene_res_path": "res://Scenes/Towers/CrystalImpaler.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\CrystalImpaler.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/43-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\43-1.png",
+          "website_path": "assets/towers/CrystalImpaler_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/43-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\43-2.png",
+          "website_path": "assets/towers/CrystalImpaler_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/43-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\43-3.png",
+          "website_path": "assets/towers/CrystalImpaler_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Disruptor",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_DISRUPTOR",
+    "description_key": "TOWER_DESC_DISRUPTOR",
+    "name": {
+      "en": "Disruptor",
+      "zh": "干扰者"
+    },
+    "description": {
+      "en": "Reduces enemy resistances with each shot.",
+      "zh": "每次射击都会降低敌人的抗性。",
+      "en_plain": "Reduces enemy resistances with each shot.",
+      "zh_plain": "每次射击都会降低敌人的抗性。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 160,
+          "fire_rate": 2.75,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "armor_drain": 1,
+          "mr_drain": 1
+        },
+        "2": {
+          "range_radius": 180,
+          "fire_rate": 2.75,
+          "damage": 0,
+          "magic_damage": 3,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "armor_drain": 3,
+          "mr_drain": 3
+        },
+        "3": {
+          "range_radius": 200,
+          "fire_rate": 2.75,
+          "damage": 0,
+          "magic_damage": 9,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "armor_drain": 9,
+          "mr_drain": 9
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Disruptor.gd",
+      "scene_res_path": "res://Scenes/Towers/Disruptor.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Disruptor.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/7-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\7-1.png",
+          "website_path": "assets/towers/Disruptor_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/7-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\7-2.png",
+          "website_path": "assets/towers/Disruptor_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/7-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\7-3.png",
+          "website_path": "assets/towers/Disruptor_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EMPGrenadier",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_EMP_GRENADIER",
+    "description_key": "TOWER_DESC_EMP_GRENADIER",
+    "name": {
+      "en": "EMP Grenadier",
+      "zh": "EMP投弹手"
+    },
+    "description": {
+      "en": "Launches grenades that stun enemies.",
+      "zh": "发射可以击晕敌人的手榴弹。",
+      "en_plain": "Launches grenades that stun enemies.",
+      "zh_plain": "发射可以击晕敌人的手榴弹。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 160,
+          "fire_rate": 0.5,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 160,
+          "stun": 0.5
+        },
+        "2": {
+          "range_radius": 160,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 160,
+          "stun": 0.75
+        },
+        "3": {
+          "range_radius": 160,
+          "fire_rate": 2.25,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 160,
+          "stun": 1
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\EMPGrenadier.gd",
+      "scene_res_path": "res://Scenes/Towers/EMPGrenadier.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\EMPGrenadier.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/4-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\4-1.png",
+          "website_path": "assets/towers/EMPGrenadier_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/4-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\4-2.png",
+          "website_path": "assets/towers/EMPGrenadier_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/4-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\4-3.png",
+          "website_path": "assets/towers/EMPGrenadier_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HolyExecutioner",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_HOLY_EXECUTIONER",
+    "description_key": "TOWER_DESC_HOLY_EXECUTIONER",
+    "name": {
+      "en": "Holy Executioner",
+      "zh": "神圣裁决者"
+    },
+    "description": {
+      "en": "Fires lasers that instantly destroy enemies below a certain percentage of health.",
+      "zh": "发射激光，能够斩杀生命值百分比较低的敌人。",
+      "en_plain": "Fires lasers that instantly destroy enemies below a certain percentage of health.",
+      "zh_plain": "发射激光，能够斩杀生命值百分比较低的敌人。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 175,
+          "fire_rate": 2.5,
+          "damage": 0,
+          "magic_damage": 4,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "execute": 12
+        },
+        "2": {
+          "range_radius": 185,
+          "fire_rate": 3.5,
+          "damage": 0,
+          "magic_damage": 8,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "execute": 16
+        },
+        "3": {
+          "range_radius": 195,
+          "fire_rate": 4.5,
+          "damage": 0,
+          "magic_damage": 18,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "execute": 20
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\HolyExecutioner.gd",
+      "scene_res_path": "res://Scenes/Towers/HolyExecutioner.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\HolyExecutioner.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/21-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\21-1.png",
+          "website_path": "assets/towers/HolyExecutioner_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/21-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\21-2.png",
+          "website_path": "assets/towers/HolyExecutioner_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/21-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\21-3.png",
+          "website_path": "assets/towers/HolyExecutioner_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Inhibitor",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_INHIBITOR",
+    "description_key": "TOWER_DESC_INHIBITOR",
+    "name": {
+      "en": "Inhibitor",
+      "zh": "抑制者"
+    },
+    "description": {
+      "en": "Makes enemies more vulnerable to stuns, slows and teleports.",
+      "zh": "使敌人更容易受到眩晕、减速和传送的影响。(减少他们的韧性)",
+      "en_plain": "Makes enemies more vulnerable to stuns, slows and teleports.",
+      "zh_plain": "使敌人更容易受到眩晕、减速和传送的影响。(减少他们的韧性)"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 240,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "tenacity_drain": 10
+        },
+        "2": {
+          "range_radius": 260,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "tenacity_drain": 25
+        },
+        "3": {
+          "range_radius": 280,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "tenacity_drain": 75
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Inhibitor.gd",
+      "scene_res_path": "res://Scenes/Towers/Inhibitor.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Inhibitor.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/36-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\36-1.png",
+          "website_path": "assets/towers/Inhibitor_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/36-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\36-2.png",
+          "website_path": "assets/towers/Inhibitor_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/36-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\36-3.png",
+          "website_path": "assets/towers/Inhibitor_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "IsochronBot",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_ISOCHRON_BOT",
+    "description_key": "TOWER_DESC_ISOCHRON_BOT",
+    "name": {
+      "en": "Isochron Bot",
+      "zh": "同步机械人"
+    },
+    "description": {
+      "en": "Gets stronger the more spells are cast this combat (100 spells max).",
+      "zh": "在这场战斗中施放的法术越多就越强（最多100个法术）。",
+      "en_plain": "Gets stronger the more spells are cast this combat (100 spells max).",
+      "zh_plain": "在这场战斗中施放的法术越多就越强（最多100个法术）。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 105,
+          "fire_rate": 1.05,
+          "damage": 0,
+          "magic_damage": 10,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 270
+        },
+        "2": {
+          "range_radius": 110,
+          "fire_rate": 1.1,
+          "damage": 0,
+          "magic_damage": 30,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 270
+        },
+        "3": {
+          "range_radius": 115,
+          "fire_rate": 1.15,
+          "damage": 0,
+          "magic_damage": 90,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 270
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\IsochronBot.gd",
+      "scene_res_path": "res://Scenes/Towers/IsochronBot.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\IsochronBot.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/8-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\8-1.png",
+          "website_path": "assets/towers/IsochronBot_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/8-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\8-2.png",
+          "website_path": "assets/towers/IsochronBot_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/8-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\8-3.png",
+          "website_path": "assets/towers/IsochronBot_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LaserLauncher",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_LASER_LAUNCHER",
+    "description_key": "TOWER_DESC_LASER_LAUNCHER",
+    "name": {
+      "en": "Magic Launcher",
+      "zh": "魔弹射手"
+    },
+    "description": {
+      "en": "Fires magical shots at a high rate of fire.",
+      "zh": "以高射速发射子弹造成法术伤害。",
+      "en_plain": "Fires magical shots at a high rate of fire.",
+      "zh_plain": "以高射速发射子弹造成法术伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 115,
+          "fire_rate": 1.4,
+          "damage": 0,
+          "magic_damage": 11,
+          "armor_pen": 0,
+          "magic_pen": 16,
+          "shot_speed": 300
+        },
+        "2": {
+          "range_radius": 125,
+          "fire_rate": 1.8,
+          "damage": 0,
+          "magic_damage": 23,
+          "armor_pen": 0,
+          "magic_pen": 22,
+          "shot_speed": 300
+        },
+        "3": {
+          "range_radius": 135,
+          "fire_rate": 2.2,
+          "damage": 0,
+          "magic_damage": 51,
+          "armor_pen": 0,
+          "magic_pen": 28,
+          "shot_speed": 300
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\LaserLauncher.gd",
+      "scene_res_path": "res://Scenes/Towers/LaserLauncher.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\LaserLauncher.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/1-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\1-1.png",
+          "website_path": "assets/towers/LaserLauncher_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/1-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\1-2.png",
+          "website_path": "assets/towers/LaserLauncher_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/1-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\1-3.png",
+          "website_path": "assets/towers/LaserLauncher_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MagicAura",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_MAGIC_AURA",
+    "description_key": "TOWER_DESC_MAGIC_AURA",
+    "name": {
+      "en": "Magic Aura",
+      "zh": "法穿光环塔"
+    },
+    "description": {
+      "en": "All towers in range get extra magic penetration.",
+      "zh": "范围内的所有防御塔获得额外的法术穿透。",
+      "en_plain": "All towers in range get extra magic penetration.",
+      "zh_plain": "范围内的所有防御塔获得额外的法术穿透。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 100,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 120,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 140,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\MagicAura.gd",
+      "scene_res_path": "res://Scenes/Towers/MagicAura.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\MagicAura.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/67-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\67-1.png",
+          "website_path": "assets/towers/MagicAura_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/67-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\67-2.png",
+          "website_path": "assets/towers/MagicAura_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/67-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\67-3.png",
+          "website_path": "assets/towers/MagicAura_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ManaArtillery",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_MANA_ARTILLERY",
+    "description_key": "TOWER_DESC_MANA_ARTILLERY",
+    "name": {
+      "en": "Mana Artillery",
+      "zh": "魔动炮"
+    },
+    "description": {
+      "en": "Fires a mana laser each time you cast a spell. The damage scales with the spell cost. Pierces and slows.",
+      "zh": "在你每次施放法术时该塔发射一道魔法激光。伤害随该法术的费用增加。可穿透敌人并造成减速效果。",
+      "en_plain": "Fires a mana laser each time you cast a spell. The damage scales with the spell cost. Pierces and slows.",
+      "zh_plain": "在你每次施放法术时该塔发射一道魔法激光。伤害随该法术的费用增加。可穿透敌人并造成减速效果。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 400,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 60,
+          "armor_pen": 0,
+          "magic_pen": 50,
+          "shot_speed": 450,
+          "slow": 10,
+          "piercing": 100
+        },
+        "2": {
+          "range_radius": 500,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 180,
+          "armor_pen": 0,
+          "magic_pen": 75,
+          "shot_speed": 450,
+          "slow": 30,
+          "piercing": 100
+        },
+        "3": {
+          "range_radius": 600,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 540,
+          "armor_pen": 0,
+          "magic_pen": 100,
+          "shot_speed": 450,
+          "slow": 90,
+          "piercing": 100
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ManaArtillery.gd",
+      "scene_res_path": "res://Scenes/Towers/ManaArtillery.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ManaArtillery.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/47-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\47-1.png",
+          "website_path": "assets/towers/ManaArtillery_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/47-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\47-2.png",
+          "website_path": "assets/towers/ManaArtillery_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/47-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\47-3.png",
+          "website_path": "assets/towers/ManaArtillery_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MiniInferno",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_MINI_INFERNO",
+    "description_key": "TOWER_DESC_MINI_INFERNO",
+    "name": {
+      "en": "Mini Inferno",
+      "zh": "迷你地狱火"
+    },
+    "description": {
+      "en": "Deals increasingly more damage when targeting the same enemy, up to triple damage over 5 seconds.",
+      "zh": "瞄准同一敌人时造成的伤害不断增加，持续5秒可达到最高三倍伤害。",
+      "en_plain": "Deals increasingly more damage when targeting the same enemy, up to triple damage over 5 seconds.",
+      "zh_plain": "瞄准同一敌人时造成的伤害不断增加，持续5秒可达到最高三倍伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 150,
+          "fire_rate": 3,
+          "damage": 0,
+          "magic_damage": 2,
+          "armor_pen": 0,
+          "magic_pen": 40,
+          "shot_speed": 220
+        },
+        "2": {
+          "range_radius": 160,
+          "fire_rate": 3,
+          "damage": 0,
+          "magic_damage": 6,
+          "armor_pen": 0,
+          "magic_pen": 40,
+          "shot_speed": 220
+        },
+        "3": {
+          "range_radius": 170,
+          "fire_rate": 3,
+          "damage": 0,
+          "magic_damage": 18,
+          "armor_pen": 0,
+          "magic_pen": 40,
+          "shot_speed": 220
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\MiniInferno.gd",
+      "scene_res_path": "res://Scenes/Towers/MiniInferno.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\MiniInferno.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/45-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\45-1.png",
+          "website_path": "assets/towers/MiniInferno_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/45-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\45-2.png",
+          "website_path": "assets/towers/MiniInferno_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/45-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\45-3.png",
+          "website_path": "assets/towers/MiniInferno_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MysteryBox",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_MYSTERY_BOX",
+    "description_key": "TOWER_DESC_MYSTERY_BOX",
+    "name": {
+      "en": "Mystery Box",
+      "zh": "神秘盒"
+    },
+    "description": {
+      "en": "Transforms into a random tower two rounds after being placed. Dispel.",
+      "zh": "放置两轮后会转化为一个随机的塔。消耗。",
+      "en_plain": "Transforms into a random tower two rounds after being placed. Dispel.",
+      "zh_plain": "放置两轮后会转化为一个随机的塔。消耗。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 0
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 0
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 0
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\MysteryBox.gd",
+      "scene_res_path": "res://Scenes/Towers/MysteryBox.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\MysteryBox.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/69-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\69-1.png",
+          "website_path": "assets/towers/MysteryBox_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/69-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\69-2.png",
+          "website_path": "assets/towers/MysteryBox_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/69-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\69-3.png",
+          "website_path": "assets/towers/MysteryBox_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "NightCrawler",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_NIGHT_CRAWLER",
+    "description_key": "TOWER_DESC_NIGHT_CRAWLER",
+    "name": {
+      "en": "Night Crawler",
+      "zh": "夜行者"
+    },
+    "description": {
+      "en": "Loses 10% fire rate for each alive enemy.",
+      "zh": "场上每存在一个敌人减少10%射速。",
+      "en_plain": "Loses 10% fire rate for each alive enemy.",
+      "zh_plain": "场上每存在一个敌人减少10%射速。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 180,
+          "fire_rate": 1.8,
+          "damage": 9,
+          "magic_damage": 0,
+          "armor_pen": 10,
+          "magic_pen": 0,
+          "shot_speed": 320
+        },
+        "2": {
+          "range_radius": 190,
+          "fire_rate": 1.9,
+          "damage": 25,
+          "magic_damage": 0,
+          "armor_pen": 15,
+          "magic_pen": 0,
+          "shot_speed": 320
+        },
+        "3": {
+          "range_radius": 200,
+          "fire_rate": 2,
+          "damage": 70,
+          "magic_damage": 0,
+          "armor_pen": 20,
+          "magic_pen": 0,
+          "shot_speed": 320
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\NightCrawler.gd",
+      "scene_res_path": "res://Scenes/Towers/NightCrawler.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\NightCrawler.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/75-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\75-1.png",
+          "website_path": "assets/towers/NightCrawler_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/75-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\75-2.png",
+          "website_path": "assets/towers/NightCrawler_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/75-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\75-3.png",
+          "website_path": "assets/towers/NightCrawler_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PithingNeedle",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_PITHING_NEEDLE",
+    "description_key": "TOWER_DESC_PITHING_NEEDLE",
+    "name": {
+      "en": "Pithing Needle",
+      "zh": "刺针"
+    },
+    "description": {
+      "en": "On play: Lose 1 health. Silence all enemies in range while they are in range.",
+      "zh": "当放置时，失去1点生命值。在自身周围生成沉默效果光环。",
+      "en_plain": "On play: Lose 1 health. Silence all enemies in range while they are in range.",
+      "zh_plain": "当放置时，失去1点生命值。在自身周围生成沉默效果光环。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 150,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 350,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 900,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\PithingNeedle.gd",
+      "scene_res_path": "res://Scenes/Towers/PithingNeedle.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\PithingNeedle.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/63-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\63-1.png",
+          "website_path": "assets/towers/PithingNeedle_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/63-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\63-2.png",
+          "website_path": "assets/towers/PithingNeedle_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/63-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\63-3.png",
+          "website_path": "assets/towers/PithingNeedle_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "RelentlessRealization",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_RELENTLESS_REALIZATION",
+    "description_key": "TOWER_DESC_RELENTLESS_REALIZATION",
+    "name": {
+      "en": "Ruthless End",
+      "zh": "无情终结者"
+    },
+    "description": {
+      "en": "Inflicts damage to all enemies on the battlefield at the same time.",
+      "zh": "同时对场上的所有敌人造成伤害。",
+      "en_plain": "Inflicts damage to all enemies on the battlefield at the same time.",
+      "zh_plain": "同时对场上的所有敌人造成伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 1.1,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 400,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 1.2,
+          "damage": 0,
+          "magic_damage": 3,
+          "armor_pen": 0,
+          "magic_pen": 400,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 1.3,
+          "damage": 0,
+          "magic_damage": 9,
+          "armor_pen": 0,
+          "magic_pen": 400,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\RelentlessRealization.gd",
+      "scene_res_path": "res://Scenes/Towers/RelentlessRealization.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\RelentlessRealization.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/17-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\17-1.png",
+          "website_path": "assets/towers/RelentlessRealization_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/17-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\17-2.png",
+          "website_path": "assets/towers/RelentlessRealization_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/17-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\17-3.png",
+          "website_path": "assets/towers/RelentlessRealization_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "StaticIonizer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_STATIC_IONIZER",
+    "description_key": "TOWER_DESC_STATIC_IONIZER",
+    "name": {
+      "en": "Static Ionizer",
+      "zh": "静电发生器"
+    },
+    "description": {
+      "en": "Fires projectiles that slow enemies and reduce their healing.",
+      "zh": "发射弹丸，使敌人减速并减少生命恢复。",
+      "en_plain": "Fires projectiles that slow enemies and reduce their healing.",
+      "zh_plain": "发射弹丸，使敌人减速并减少生命恢复。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 170,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "slow": 8,
+          "grievous_wounds": true
+        },
+        "2": {
+          "range_radius": 190,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "slow": 18,
+          "grievous_wounds": true
+        },
+        "3": {
+          "range_radius": 210,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "slow": 54,
+          "grievous_wounds": true
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\StaticIonizer.gd",
+      "scene_res_path": "res://Scenes/Towers/StaticIonizer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\StaticIonizer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/14-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\14-1.png",
+          "website_path": "assets/towers/StaticIonizer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/14-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\14-2.png",
+          "website_path": "assets/towers/StaticIonizer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/14-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\14-3.png",
+          "website_path": "assets/towers/StaticIonizer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Thief",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_THIEF",
+    "description_key": "TOWER_DESC_THIEF",
+    "name": {
+      "en": "Thief",
+      "zh": "盗贼"
+    },
+    "description": {
+      "en": "Can target cloaked enemies. If it makes a critical hit, gain crystals.",
+      "zh": "可以攻击隐身的敌人。若打出暴击，则可以获得水晶。",
+      "en_plain": "Can target cloaked enemies. If it makes a critical hit, gain crystals.",
+      "zh_plain": "可以攻击隐身的敌人。若打出暴击，则可以获得水晶。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 140,
+          "fire_rate": 0.4,
+          "damage": 20,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 300,
+          "crystals_on_crit": 1
+        },
+        "2": {
+          "range_radius": 150,
+          "fire_rate": 0.4,
+          "damage": 60,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 300,
+          "crystals_on_crit": 3
+        },
+        "3": {
+          "range_radius": 160,
+          "fire_rate": 0.4,
+          "damage": 180,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 300,
+          "crystals_on_crit": 9
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Thief.gd",
+      "scene_res_path": "res://Scenes/Towers/Thief.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Thief.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/55-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\55-1.png",
+          "website_path": "assets/towers/Thief_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/55-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\55-2.png",
+          "website_path": "assets/towers/Thief_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/55-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\55-3.png",
+          "website_path": "assets/towers/Thief_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Virtuoso",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_VIRTUOSO",
+    "description_key": "TOWER_DESC_VIRTUOSO",
+    "name": {
+      "en": "Virtuoso",
+      "zh": "神枪手"
+    },
+    "description": {
+      "en": "Each shot has a high chance to deal a critical strike, scaling with luck.",
+      "zh": "每发子弹都具有高暴击率，运气值越高，暴击率能获得更高的增幅。",
+      "en_plain": "Each shot has a high chance to deal a critical strike, scaling with luck.",
+      "zh_plain": "每发子弹都具有高暴击率，运气值越高，暴击率能获得更高的增幅。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 120,
+          "fire_rate": 1.1,
+          "damage": 10,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 350
+        },
+        "2": {
+          "range_radius": 120,
+          "fire_rate": 1.1,
+          "damage": 30,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 350
+        },
+        "3": {
+          "range_radius": 120,
+          "fire_rate": 1.1,
+          "damage": 90,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 350
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Virtuoso.gd",
+      "scene_res_path": "res://Scenes/Towers/Virtuoso.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Virtuoso.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/22-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\22-1.png",
+          "website_path": "assets/towers/Virtuoso_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/22-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\22-2.png",
+          "website_path": "assets/towers/Virtuoso_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/22-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\22-3.png",
+          "website_path": "assets/towers/Virtuoso_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Vortex",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_VORTEX",
+    "description_key": "TOWER_DESC_VORTEX",
+    "name": {
+      "en": "Vortex",
+      "zh": "涡流"
+    },
+    "description": {
+      "en": "Shoots stunning projectiles in all directions.",
+      "zh": "向四面八方射出具有眩晕效果的子弹。",
+      "en_plain": "Shoots stunning projectiles in all directions.",
+      "zh_plain": "向四面八方射出具有眩晕效果的子弹。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 1.5,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "stun": 0.5
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 1.5,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "stun": 1.75
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 1.5,
+          "damage": 0,
+          "magic_damage": 1,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "stun": 6
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Vortex.gd",
+      "scene_res_path": "res://Scenes/Towers/Vortex.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Vortex.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/29-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\29-1.png",
+          "website_path": "assets/towers/Vortex_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/29-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\29-2.png",
+          "website_path": "assets/towers/Vortex_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/29-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\29-3.png",
+          "website_path": "assets/towers/Vortex_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "WarfareDisplacer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 1,
+    "name_key": "TOWER_WARFARE_DISPLACER",
+    "description_key": "TOWER_DESC_WARFARE_DISPLACER",
+    "name": {
+      "en": "Warfare Displacer",
+      "zh": "战争干扰器"
+    },
+    "description": {
+      "en": "Every time that this tower deals a critical strike, teleport back the enemy that was hit.",
+      "zh": "每次该塔造成暴击时，将被击中的敌人向出生点传送一段距离。",
+      "en_plain": "Every time that this tower deals a critical strike, teleport back the enemy that was hit.",
+      "zh_plain": "每次该塔造成暴击时，将被击中的敌人向出生点传送一段距离。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 100,
+          "fire_rate": 1.2,
+          "damage": 8,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "teleport_on_crit": 0.2
+        },
+        "2": {
+          "range_radius": 110,
+          "fire_rate": 1.3,
+          "damage": 24,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "teleport_on_crit": 0.6
+        },
+        "3": {
+          "range_radius": 120,
+          "fire_rate": 1.4,
+          "damage": 72,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 260,
+          "teleport_on_crit": 1.8
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\WarfareDisplacer.gd",
+      "scene_res_path": "res://Scenes/Towers/WarfareDisplacer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\WarfareDisplacer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/71-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\71-1.png",
+          "website_path": "assets/towers/WarfareDisplacer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/71-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\71-2.png",
+          "website_path": "assets/towers/WarfareDisplacer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/71-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\71-3.png",
+          "website_path": "assets/towers/WarfareDisplacer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AdaptableStriker",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_ADAPTABLE_STRIKER",
+    "description_key": "TOWER_DESC_ADAPTABLE_STRIKER",
+    "name": {
+      "en": "Adaptable Striker",
+      "zh": "自适应打击者"
+    },
+    "description": {
+      "en": "Can't level up. When you sell this tower, you get all the mana you spent for it.",
+      "zh": "当你卖掉此塔时，你会得到你为其花费的所有法力值。此塔不能正常提升等级。",
+      "en_plain": "Can't level up. When you sell this tower, you get all the mana you spent for it.",
+      "zh_plain": "当你卖掉此塔时，你会得到你为其花费的所有法力值。此塔不能正常提升等级。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 130,
+          "fire_rate": 1.5,
+          "damage": 18,
+          "magic_damage": 0,
+          "armor_pen": 10,
+          "magic_pen": 0,
+          "shot_speed": 280
+        },
+        "2": {
+          "range_radius": 150,
+          "fire_rate": 2,
+          "damage": 50,
+          "magic_damage": 0,
+          "armor_pen": 20,
+          "magic_pen": 0,
+          "shot_speed": 280
+        },
+        "3": {
+          "range_radius": 170,
+          "fire_rate": 2.5,
+          "damage": 150,
+          "magic_damage": 0,
+          "armor_pen": 30,
+          "magic_pen": 0,
+          "shot_speed": 280
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\AdaptableStriker.gd",
+      "scene_res_path": "res://Scenes/Towers/AdaptableStriker.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\AdaptableStriker.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/31-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\31-1.png",
+          "website_path": "assets/towers/AdaptableStriker_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/31-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\31-2.png",
+          "website_path": "assets/towers/AdaptableStriker_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/31-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\31-3.png",
+          "website_path": "assets/towers/AdaptableStriker_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Atom",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_ATOM",
+    "description_key": "TOWER_DESC_ATOM",
+    "name": {
+      "en": "Atomic Orbiter",
+      "zh": "原子飞星塔"
+    },
+    "description": {
+      "en": "Has damaging and slowing spheres that orbit in the shape of an atom symbol.",
+      "zh": "能造成伤害和减速效果的球体在原子形状的轨道上运行。",
+      "en_plain": "Has damaging and slowing spheres that orbit in the shape of an atom symbol.",
+      "zh_plain": "能造成伤害和减速效果的球体在原子形状的轨道上运行。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 130,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 3,
+          "armor_pen": 0,
+          "magic_pen": 100,
+          "shot_speed": 200,
+          "slow": 7
+        },
+        "2": {
+          "range_radius": 140,
+          "fire_rate": 1.1,
+          "damage": 0,
+          "magic_damage": 9,
+          "armor_pen": 0,
+          "magic_pen": 200,
+          "shot_speed": 200,
+          "slow": 15
+        },
+        "3": {
+          "range_radius": 150,
+          "fire_rate": 1.2,
+          "damage": 0,
+          "magic_damage": 27,
+          "armor_pen": 0,
+          "magic_pen": 300,
+          "shot_speed": 200,
+          "slow": 45
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Atom.gd",
+      "scene_res_path": "res://Scenes/Towers/Atom.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Atom.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/30-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\30-1.png",
+          "website_path": "assets/towers/Atom_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/30-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\30-2.png",
+          "website_path": "assets/towers/Atom_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/30-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\30-3.png",
+          "website_path": "assets/towers/Atom_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BasicSniper",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": true,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_BASIC_SNIPER",
+    "description_key": "TOWER_DESC_BASIC_SNIPER",
+    "name": {
+      "en": "Basic Sniper",
+      "zh": "基础狙击手"
+    },
+    "description": {
+      "en": "Weaker version of the Sniper. Attacks from a long range.",
+      "zh": "狙击手的弱化版。从远距离攻击。",
+      "en_plain": "Weaker version of the Sniper. Attacks from a long range.",
+      "zh_plain": "狙击手的弱化版。从远距离攻击。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 270,
+          "fire_rate": 0.45,
+          "damage": 20,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 400
+        },
+        "2": {
+          "range_radius": 345,
+          "fire_rate": 0.55,
+          "damage": 40,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 400
+        },
+        "3": {
+          "range_radius": 410,
+          "fire_rate": 0.65,
+          "damage": 90,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 400
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\BasicSniper.gd",
+      "scene_res_path": "res://Scenes/Towers/BasicSniper.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\BasicSniper.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/24-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\24-1.png",
+          "website_path": "assets/towers/BasicSniper_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/24-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\24-2.png",
+          "website_path": "assets/towers/BasicSniper_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/24-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\24-3.png",
+          "website_path": "assets/towers/BasicSniper_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Bomber",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_BOMBER",
+    "description_key": "TOWER_DESC_BOMBER",
+    "name": {
+      "en": "Bomber",
+      "zh": "爆破手"
+    },
+    "description": {
+      "en": "Fires bombs that deal damage in an area.",
+      "zh": "发射炸弹，造成范围伤害。",
+      "en_plain": "Fires bombs that deal damage in an area.",
+      "zh_plain": "发射炸弹，造成范围伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 105,
+          "fire_rate": 0.6,
+          "damage": 21,
+          "magic_damage": 0,
+          "armor_pen": 15,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 115,
+          "fire_rate": 0.8,
+          "damage": 48,
+          "magic_damage": 0,
+          "armor_pen": 30,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 125,
+          "fire_rate": 1,
+          "damage": 121,
+          "magic_damage": 0,
+          "armor_pen": 45,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Bomber.gd",
+      "scene_res_path": "res://Scenes/Towers/Bomber.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Bomber.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/5-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\5-1.png",
+          "website_path": "assets/towers/Bomber_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/5-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\5-2.png",
+          "website_path": "assets/towers/Bomber_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/5-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\5-3.png",
+          "website_path": "assets/towers/Bomber_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Bullseye",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_BULLSEYE",
+    "description_key": "TOWER_DESC_BULLSEYE",
+    "name": {
+      "en": "Bullseye",
+      "zh": "锁定射手"
+    },
+    "description": {
+      "en": "Can target cloaked enemies. Stuns from a long distance.",
+      "zh": "可以攻击隐身敌人。远距离击晕敌人。",
+      "en_plain": "Can target cloaked enemies. Stuns from a long distance.",
+      "zh_plain": "可以攻击隐身敌人。远距离击晕敌人。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 275,
+          "fire_rate": 0.17,
+          "damage": 34,
+          "magic_damage": 0,
+          "armor_pen": 50,
+          "magic_pen": 0,
+          "shot_speed": 400,
+          "stun": 2.5
+        },
+        "2": {
+          "range_radius": 275,
+          "fire_rate": 0.26,
+          "damage": 67,
+          "magic_damage": 0,
+          "armor_pen": 60,
+          "magic_pen": 0,
+          "shot_speed": 400,
+          "stun": 5
+        },
+        "3": {
+          "range_radius": 275,
+          "fire_rate": 0.35,
+          "damage": 150,
+          "magic_damage": 0,
+          "armor_pen": 70,
+          "magic_pen": 0,
+          "shot_speed": 400,
+          "stun": 11
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Bullseye.gd",
+      "scene_res_path": "res://Scenes/Towers/Bullseye.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Bullseye.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/39-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\39-1.png",
+          "website_path": "assets/towers/Bullseye_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/39-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\39-2.png",
+          "website_path": "assets/towers/Bullseye_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/39-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\39-3.png",
+          "website_path": "assets/towers/Bullseye_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ChaosPillar",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_CHAOS_PILLAR",
+    "description_key": "TOWER_DESC_CHAOS_PILLAR",
+    "name": {
+      "en": "Chaos Pillar",
+      "zh": "混沌之柱"
+    },
+    "description": {
+      "en": "Wave start: This tower gains a secret random attribute that alters the game rules.\nDispel.",
+      "zh": "在每个波次开始时，此塔会获得一个秘密的随机属性，改变游戏规则。消耗。",
+      "en_plain": "Wave start: This tower gains a secret random attribute that alters the game rules.\nDispel.",
+      "zh_plain": "在每个波次开始时，此塔会获得一个秘密的随机属性，改变游戏规则。消耗。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ChaosPillar.gd",
+      "scene_res_path": "res://Scenes/Towers/ChaosPillar.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ChaosPillar.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/76-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\76-1.png",
+          "website_path": "assets/towers/ChaosPillar_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/76-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\76-2.png",
+          "website_path": "assets/towers/ChaosPillar_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/76-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\76-3.png",
+          "website_path": "assets/towers/ChaosPillar_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CrystalMiner",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_CRYSTAL_MINER",
+    "description_key": "TOWER_DESC_CRYSTAL_MINER",
+    "name": {
+      "en": "Crystal Miner",
+      "zh": "水晶矿工"
+    },
+    "description": {
+      "en": "Round start: Generate 2/7/25 crystals.",
+      "zh": "每回合开始生成2/7/25水晶。",
+      "en_plain": "Round start: Generate 2/7/25 crystals.",
+      "zh_plain": "每回合开始生成2/7/25水晶。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\CrystalMiner.gd",
+      "scene_res_path": "res://Scenes/Towers/CrystalMiner.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\CrystalMiner.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/49-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\49-1.png",
+          "website_path": "assets/towers/CrystalMiner_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/49-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\49-2.png",
+          "website_path": "assets/towers/CrystalMiner_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/49-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\49-3.png",
+          "website_path": "assets/towers/CrystalMiner_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "GatlingGun",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_GATLING_GUN",
+    "description_key": "TOWER_DESC_GATLING_GUN",
+    "name": {
+      "en": "Gatling Gun",
+      "zh": "加特林机枪"
+    },
+    "description": {
+      "en": "Fires faster as long as it has targets available, up to triple fire rate over 10 seconds.",
+      "zh": "攻击范围内有敌人便可加快攻速，10秒后逐渐加快至三倍基础射速。",
+      "en_plain": "Fires faster as long as it has targets available, up to triple fire rate over 10 seconds.",
+      "zh_plain": "攻击范围内有敌人便可加快攻速，10秒后逐渐加快至三倍基础射速。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 140,
+          "fire_rate": 2.5,
+          "damage": 3,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 300
+        },
+        "2": {
+          "range_radius": 150,
+          "fire_rate": 2.5,
+          "damage": 9,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 300
+        },
+        "3": {
+          "range_radius": 160,
+          "fire_rate": 2.5,
+          "damage": 27,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 300
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\GatlingGun.gd",
+      "scene_res_path": "res://Scenes/Towers/GatlingGun.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\GatlingGun.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/48-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\48-1.png",
+          "website_path": "assets/towers/GatlingGun_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/48-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\48-2.png",
+          "website_path": "assets/towers/GatlingGun_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/48-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\48-3.png",
+          "website_path": "assets/towers/GatlingGun_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "GiantsBane",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_GIANTS_BANE",
+    "description_key": "TOWER_DESC_GIANTS_BANE",
+    "name": {
+      "en": "Giant's Bane",
+      "zh": "巨人之祸"
+    },
+    "description": {
+      "en": "Every third shot deals a percentage of the enemy's total health as true damage.",
+      "zh": "每隔三发射击都会额外造成敌人最大生命值百分比的真实伤害。",
+      "en_plain": "Every third shot deals a percentage of the enemy's total health as true damage.",
+      "zh_plain": "每隔三发射击都会额外造成敌人最大生命值百分比的真实伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 150,
+          "fire_rate": 1.3,
+          "damage": 12,
+          "magic_damage": 0,
+          "armor_pen": 30,
+          "magic_pen": 0,
+          "shot_speed": 275
+        },
+        "2": {
+          "range_radius": 150,
+          "fire_rate": 1.3,
+          "damage": 36,
+          "magic_damage": 0,
+          "armor_pen": 60,
+          "magic_pen": 0,
+          "shot_speed": 275
+        },
+        "3": {
+          "range_radius": 150,
+          "fire_rate": 1.3,
+          "damage": 108,
+          "magic_damage": 0,
+          "armor_pen": 90,
+          "magic_pen": 0,
+          "shot_speed": 275
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\GiantsBane.gd",
+      "scene_res_path": "res://Scenes/Towers/GiantsBane.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\GiantsBane.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/6-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\6-1.png",
+          "website_path": "assets/towers/GiantsBane_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/6-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\6-2.png",
+          "website_path": "assets/towers/GiantsBane_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/6-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\6-3.png",
+          "website_path": "assets/towers/GiantsBane_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HolySword",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_HOLY_SWORD",
+    "description_key": "TOWER_DESC_HOLY_SWORD",
+    "name": {
+      "en": "Holy Sword",
+      "zh": "圣剑"
+    },
+    "description": {
+      "en": "Its fire rate, range and magic penetration increase as your health gets lower.",
+      "zh": "它的射速、射程和法术穿透随着你的当前生命值数值减少而增加。",
+      "en_plain": "Its fire rate, range and magic penetration increase as your health gets lower.",
+      "zh_plain": "它的射速、射程和法术穿透随着你的当前生命值数值减少而增加。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 100,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 9,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 360
+        },
+        "2": {
+          "range_radius": 100,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 27,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 360
+        },
+        "3": {
+          "range_radius": 100,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 81,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 360
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\HolySword.gd",
+      "scene_res_path": "res://Scenes/Towers/HolySword.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\HolySword.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/52-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\52-1.png",
+          "website_path": "assets/towers/HolySword_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/52-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\52-2.png",
+          "website_path": "assets/towers/HolySword_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/52-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\52-3.png",
+          "website_path": "assets/towers/HolySword_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ImpactSprayer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_IMPACT_SPRAYER",
+    "description_key": "TOWER_DESC_IMPACT_SPRAYER",
+    "name": {
+      "en": "Impact Sprayer",
+      "zh": "冲击式喷雾器"
+    },
+    "description": {
+      "en": "Shoots inaccurate bullets that deal more damage the healthier enemies are.",
+      "zh": "射出制导不精确的弹药。敌人生命值百分比越高，造成伤害越高。",
+      "en_plain": "Shoots inaccurate bullets that deal more damage the healthier enemies are.",
+      "zh_plain": "射出制导不精确的弹药。敌人生命值百分比越高，造成伤害越高。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 140,
+          "fire_rate": 7.5,
+          "damage": 0,
+          "magic_damage": 4,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 220,
+          "health_damage": 0.4,
+          "health_pool": "current",
+          "health_damage_type": "magic"
+        },
+        "2": {
+          "range_radius": 145,
+          "fire_rate": 7.5,
+          "damage": 0,
+          "magic_damage": 12,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 220,
+          "health_damage": 1.2,
+          "health_pool": "current",
+          "health_damage_type": "magic"
+        },
+        "3": {
+          "range_radius": 150,
+          "fire_rate": 7.5,
+          "damage": 0,
+          "magic_damage": 36,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 220,
+          "health_damage": 3.6,
+          "health_pool": "current",
+          "health_damage_type": "magic"
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ImpactSprayer.gd",
+      "scene_res_path": "res://Scenes/Towers/ImpactSprayer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ImpactSprayer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/23-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\23-1.png",
+          "website_path": "assets/towers/ImpactSprayer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/23-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\23-2.png",
+          "website_path": "assets/towers/ImpactSprayer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/23-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\23-3.png",
+          "website_path": "assets/towers/ImpactSprayer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LaserRifle",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_LASER_RIFLE",
+    "description_key": "TOWER_DESC_LASER_RIFLE",
+    "name": {
+      "en": "Laser Rifle",
+      "zh": "激光步枪"
+    },
+    "description": {
+      "en": "Fires lasers that pierce through enemies penetrating their magic resistance.",
+      "zh": "发射具有法术穿透的激光，穿透敌人。",
+      "en_plain": "Fires lasers that pierce through enemies penetrating their magic resistance.",
+      "zh_plain": "发射具有法术穿透的激光，穿透敌人。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 140,
+          "fire_rate": 0.8,
+          "damage": 0,
+          "magic_damage": 10,
+          "armor_pen": 0,
+          "magic_pen": 150
+        },
+        "2": {
+          "range_radius": 140,
+          "fire_rate": 0.83,
+          "damage": 0,
+          "magic_damage": 30,
+          "armor_pen": 0,
+          "magic_pen": 150
+        },
+        "3": {
+          "range_radius": 140,
+          "fire_rate": 0.86,
+          "damage": 0,
+          "magic_damage": 90,
+          "armor_pen": 0,
+          "magic_pen": 150
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\LaserRifle.gd",
+      "scene_res_path": "res://Scenes/Towers/LaserRifle.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\LaserRifle.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/26-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\26-1.png",
+          "website_path": "assets/towers/LaserRifle_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/26-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\26-2.png",
+          "website_path": "assets/towers/LaserRifle_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/26-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\26-3.png",
+          "website_path": "assets/towers/LaserRifle_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LifeAbsorber",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_LIFE_ABSORBER",
+    "description_key": "TOWER_DESC_LIFE_ABSORBER",
+    "name": {
+      "en": "Life Absorber",
+      "zh": "生命吸收器"
+    },
+    "description": {
+      "en": "When the enemies get hit by this tower and die within 2 seconds, there's a chance to restore 1 health.",
+      "zh": "若被其击中的敌人在2秒内死亡，有概率恢复1点生命值。",
+      "en_plain": "When the enemies get hit by this tower and die within 2 seconds, there's a chance to restore 1 health.",
+      "zh_plain": "若被其击中的敌人在2秒内死亡，有概率恢复1点生命值。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 150,
+          "fire_rate": 1,
+          "damage": 16,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "life_drain_chance": 5
+        },
+        "2": {
+          "range_radius": 160,
+          "fire_rate": 1,
+          "damage": 48,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "life_drain_chance": 10
+        },
+        "3": {
+          "range_radius": 170,
+          "fire_rate": 1,
+          "damage": 144,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "life_drain_chance": 20
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\LifeAbsorber.gd",
+      "scene_res_path": "res://Scenes/Towers/LifeAbsorber.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\LifeAbsorber.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/33-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\33-1.png",
+          "website_path": "assets/towers/LifeAbsorber_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/33-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\33-2.png",
+          "website_path": "assets/towers/LifeAbsorber_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/33-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\33-3.png",
+          "website_path": "assets/towers/LifeAbsorber_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ManaCondenser",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_MANA_CONDENSER",
+    "description_key": "TOWER_DESC_MANA_CONDENSER",
+    "name": {
+      "en": "Mana Condenser",
+      "zh": "法力凝结器"
+    },
+    "description": {
+      "en": "When leveling up, gain 5 mana. Slightly slows nearby enemies.",
+      "zh": "当等级提高时，获得5点法力值。略微减缓附近敌人的速度。",
+      "en_plain": "When leveling up, gain 5 mana. Slightly slows nearby enemies.",
+      "zh_plain": "当等级提高时，获得5点法力值。略微减缓附近敌人的速度。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 120,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "slow": 4
+        },
+        "2": {
+          "range_radius": 120,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "slow": 12
+        },
+        "3": {
+          "range_radius": 120,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "slow": 36
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ManaCondenser.gd",
+      "scene_res_path": "res://Scenes/Towers/ManaCondenser.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ManaCondenser.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/72-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\72-1.png",
+          "website_path": "assets/towers/ManaCondenser_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/72-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\72-2.png",
+          "website_path": "assets/towers/ManaCondenser_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/72-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\72-3.png",
+          "website_path": "assets/towers/ManaCondenser_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Reaper",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_REAPER",
+    "description_key": "TOWER_DESC_REAPER",
+    "name": {
+      "en": "Reaper",
+      "zh": "收割者"
+    },
+    "description": {
+      "en": "Deals double damage to slowed or stunned enemies.",
+      "zh": "对被减速或眩晕的敌人造成双倍伤害。",
+      "en_plain": "Deals double damage to slowed or stunned enemies.",
+      "zh_plain": "对被减速或眩晕的敌人造成双倍伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 170,
+          "fire_rate": 1,
+          "damage": 12,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 270,
+          "execute_cc_enemies": true
+        },
+        "2": {
+          "range_radius": 180,
+          "fire_rate": 1,
+          "damage": 36,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 270,
+          "execute_cc_enemies": true
+        },
+        "3": {
+          "range_radius": 190,
+          "fire_rate": 1,
+          "damage": 108,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 270,
+          "execute_cc_enemies": true
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Reaper.gd",
+      "scene_res_path": "res://Scenes/Towers/Reaper.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Reaper.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/50-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\50-1.png",
+          "website_path": "assets/towers/Reaper_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/50-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\50-2.png",
+          "website_path": "assets/towers/Reaper_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/50-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\50-3.png",
+          "website_path": "assets/towers/Reaper_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Riftmaker",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_RIFTMAKER",
+    "description_key": "TOWER_DESC_RIFTMAKER",
+    "name": {
+      "en": "Rift Maker",
+      "zh": "时空裂隙塔"
+    },
+    "description": {
+      "en": "Teleports back enemies, dealing magic damage based on enemy current health.",
+      "zh": "将敌人向出生点传送回去，根据敌人当前生命值造成魔法伤害。",
+      "en_plain": "Teleports back enemies, dealing magic damage based on enemy current health.",
+      "zh_plain": "将敌人向出生点传送回去，根据敌人当前生命值造成魔法伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 200,
+          "fire_rate": 0.12,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "stun": 0.5,
+          "health_damage": 2,
+          "health_pool": "current",
+          "health_damage_type": "magic"
+        },
+        "2": {
+          "range_radius": 200,
+          "fire_rate": 0.36,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "stun": 0.5,
+          "health_damage": 6,
+          "health_pool": "current",
+          "health_damage_type": "magic"
+        },
+        "3": {
+          "range_radius": 200,
+          "fire_rate": 1.08,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "stun": 0.5,
+          "health_damage": 18,
+          "health_pool": "current",
+          "health_damage_type": "magic"
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Riftmaker.gd",
+      "scene_res_path": "res://Scenes/Towers/Riftmaker.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Riftmaker.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/15-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\15-1.png",
+          "website_path": "assets/towers/Riftmaker_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/15-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\15-2.png",
+          "website_path": "assets/towers/Riftmaker_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/15-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\15-3.png",
+          "website_path": "assets/towers/Riftmaker_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "RunicExtractor",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_RUNIC_EXTRACTOR",
+    "description_key": "TOWER_DESC_RUNIC_EXTRACTOR",
+    "name": {
+      "en": "Runic Extractor",
+      "zh": "符文提炼器"
+    },
+    "description": {
+      "en": "On play: Gain 1 max spell mana. Round start: Gain 1/3/9 spell mana. Dispel.",
+      "zh": "放置此塔时，使你的最大法术法力值增加1。每回合开始时恢复1/3/9点法术法力值。消耗。",
+      "en_plain": "On play: Gain 1 max spell mana. Round start: Gain 1/3/9 spell mana. Dispel.",
+      "zh_plain": "放置此塔时，使你的最大法术法力值增加1。每回合开始时恢复1/3/9点法术法力值。消耗。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\RunicExtractor.gd",
+      "scene_res_path": "res://Scenes/Towers/RunicExtractor.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\RunicExtractor.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/42-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\42-1.png",
+          "website_path": "assets/towers/RunicExtractor_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/42-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\42-2.png",
+          "website_path": "assets/towers/RunicExtractor_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/42-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\42-3.png",
+          "website_path": "assets/towers/RunicExtractor_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SentryEngineer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_SENTRY_ENGINEER",
+    "description_key": "TOWER_DESC_SENTRY_ENGINEER",
+    "name": {
+      "en": "Sentry Engineer",
+      "zh": "哨兵工程师"
+    },
+    "description": {
+      "en": "Wave start: Spawn a sentry.",
+      "zh": "在每一波开始时召唤一个哨兵。",
+      "en_plain": "Wave start: Spawn a sentry.",
+      "zh_plain": "在每一波开始时召唤一个哨兵。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\SentryEngineer.gd",
+      "scene_res_path": "res://Scenes/Towers/SentryEngineer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\SentryEngineer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/56-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\56-1.png",
+          "website_path": "assets/towers/SentryEngineer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/56-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\56-2.png",
+          "website_path": "assets/towers/SentryEngineer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/56-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\56-3.png",
+          "website_path": "assets/towers/SentryEngineer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Shotgun",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_SHOTGUN",
+    "description_key": "TOWER_DESC_SHOTGUN",
+    "name": {
+      "en": "Shotgun",
+      "zh": "散弹射手"
+    },
+    "description": {
+      "en": "Shoots multiple pellets that pierce through armor",
+      "zh": "射出可穿透护甲的多枚弹丸。",
+      "en_plain": "Shoots multiple pellets that pierce through armor",
+      "zh_plain": "射出可穿透护甲的多枚弹丸。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 120,
+          "fire_rate": 0.32,
+          "damage": 16,
+          "magic_damage": 0,
+          "armor_pen": 20,
+          "magic_pen": 0,
+          "shot_speed": 260
+        },
+        "2": {
+          "range_radius": 120,
+          "fire_rate": 0.72,
+          "damage": 21,
+          "magic_damage": 0,
+          "armor_pen": 30,
+          "magic_pen": 0,
+          "shot_speed": 260
+        },
+        "3": {
+          "range_radius": 120,
+          "fire_rate": 0.81,
+          "damage": 56,
+          "magic_damage": 0,
+          "armor_pen": 40,
+          "magic_pen": 0,
+          "shot_speed": 260
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Shotgun.gd",
+      "scene_res_path": "res://Scenes/Towers/Shotgun.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Shotgun.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/32-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\32-1.png",
+          "website_path": "assets/towers/Shotgun_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/32-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\32-2.png",
+          "website_path": "assets/towers/Shotgun_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/32-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\32-3.png",
+          "website_path": "assets/towers/Shotgun_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sledgehammer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_SLEDGEHAMMER",
+    "description_key": "TOWER_DESC_SLEDGEHAMMER",
+    "name": {
+      "en": "Sledgehammer",
+      "zh": "战锤"
+    },
+    "description": {
+      "en": "Can be moved once during each wave. When moved, creates a shockwave that slows and deals damage.",
+      "zh": "在每一波中可以被重新放置一次。放置时额外在该处周围减速并伤害敌人。",
+      "en_plain": "Can be moved once during each wave. When moved, creates a shockwave that slows and deals damage.",
+      "zh_plain": "在每一波中可以被重新放置一次。放置时额外在该处周围减速并伤害敌人。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 140,
+          "fire_rate": 0,
+          "damage": 66,
+          "magic_damage": 0,
+          "armor_pen": 30,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "slow": 10
+        },
+        "2": {
+          "range_radius": 150,
+          "fire_rate": 0,
+          "damage": 200,
+          "magic_damage": 0,
+          "armor_pen": 40,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "slow": 30
+        },
+        "3": {
+          "range_radius": 160,
+          "fire_rate": 0,
+          "damage": 600,
+          "magic_damage": 0,
+          "armor_pen": 50,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "slow": 90
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Sledgehammer.gd",
+      "scene_res_path": "res://Scenes/Towers/Sledgehammer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Sledgehammer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/53-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\53-1.png",
+          "website_path": "assets/towers/Sledgehammer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/53-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\53-2.png",
+          "website_path": "assets/towers/Sledgehammer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/53-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\53-3.png",
+          "website_path": "assets/towers/Sledgehammer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Terraformer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_TERRAFORMER",
+    "description_key": "TOWER_DESC_TERRAFORMER",
+    "name": {
+      "en": "Terraformer",
+      "zh": "地形制造者"
+    },
+    "description": {
+      "en": "Can't be moved. Round start: Create 3/10/30 yellow tiles on free spots of the map near this tower.",
+      "zh": "不能重新放置。在每一轮开始时，在这个塔附近的空位上创造3/10/30个黄色地格。",
+      "en_plain": "Can't be moved. Round start: Create 3/10/30 yellow tiles on free spots of the map near this tower.",
+      "zh_plain": "不能重新放置。在每一轮开始时，在这个塔附近的空位上创造3/10/30个黄色地格。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "terraform": 3
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "terraform": 10
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "terraform": 30
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Terraformer.gd",
+      "scene_res_path": "res://Scenes/Towers/Terraformer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Terraformer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/77-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\77-1.png",
+          "website_path": "assets/towers/Terraformer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/77-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\77-2.png",
+          "website_path": "assets/towers/Terraformer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/77-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\77-3.png",
+          "website_path": "assets/towers/Terraformer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "TrickRoom",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 2,
+    "name_key": "TOWER_TRICK_ROOM",
+    "description_key": "TOWER_DESC_TRICK_ROOM",
+    "name": {
+      "en": "Trick Room",
+      "zh": "杂耍屋"
+    },
+    "description": {
+      "en": "Inflicts random effects on the enemies nearby. The strength of the effects scale with luck.",
+      "zh": "对附近的敌人造成随机效果。运气值越高效果强度越高。",
+      "en_plain": "Inflicts random effects on the enemies nearby. The strength of the effects scale with luck.",
+      "zh_plain": "对附近的敌人造成随机效果。运气值越高效果强度越高。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 155,
+          "fire_rate": 0.3,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 155,
+          "fire_rate": 0.7,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 155,
+          "fire_rate": 2.1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\TrickRoom.gd",
+      "scene_res_path": "res://Scenes/Towers/TrickRoom.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\TrickRoom.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/25-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\25-1.png",
+          "website_path": "assets/towers/TrickRoom_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/25-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\25-2.png",
+          "website_path": "assets/towers/TrickRoom_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/25-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\25-3.png",
+          "website_path": "assets/towers/TrickRoom_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Earthquake",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_EARTHQUAKE",
+    "description_key": "TOWER_DESC_EARTHQUAKE",
+    "name": {
+      "en": "Earthquake",
+      "zh": "地震仪"
+    },
+    "description": {
+      "en": "Deals damage and stuns enemies if they are slowed. If not, slows them.",
+      "zh": "造成伤害并眩晕被减速的敌人。若敌人未被减速则使其减速。",
+      "en_plain": "Deals damage and stuns enemies if they are slowed. If not, slows them.",
+      "zh_plain": "造成伤害并眩晕被减速的敌人。若敌人未被减速则使其减速。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 130,
+          "fire_rate": 1,
+          "damage": 10,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "stun": 0.15,
+          "slow": 10
+        },
+        "2": {
+          "range_radius": 130,
+          "fire_rate": 1,
+          "damage": 30,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "stun": 0.45,
+          "slow": 25
+        },
+        "3": {
+          "range_radius": 130,
+          "fire_rate": 1,
+          "damage": 90,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "stun": 1.35,
+          "slow": 75
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Earthquake.gd",
+      "scene_res_path": "res://Scenes/Towers/Earthquake.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Earthquake.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/37-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\37-1.png",
+          "website_path": "assets/towers/Earthquake_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/37-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\37-2.png",
+          "website_path": "assets/towers/Earthquake_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/37-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\37-3.png",
+          "website_path": "assets/towers/Earthquake_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Exhauster",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_EXHAUSTER",
+    "description_key": "TOWER_DESC_EXHAUSTER",
+    "name": {
+      "en": "Exhauster",
+      "zh": "排气机"
+    },
+    "description": {
+      "en": "Permanently reduces enemy speed, up to a maximum of 60% reduction.",
+      "zh": "永久性地降低敌人的速度，最多可降低60%。",
+      "en_plain": "Permanently reduces enemy speed, up to a maximum of 60% reduction.",
+      "zh_plain": "永久性地降低敌人的速度，最多可降低60%。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 250,
+          "fire_rate": 1.8,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "permanent_slow": 0.5
+        },
+        "2": {
+          "range_radius": 275,
+          "fire_rate": 1.9,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "permanent_slow": 1.5
+        },
+        "3": {
+          "range_radius": 300,
+          "fire_rate": 2,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240,
+          "permanent_slow": 4.5
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Exhauster.gd",
+      "scene_res_path": "res://Scenes/Towers/Exhauster.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Exhauster.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/73-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\73-1.png",
+          "website_path": "assets/towers/Exhauster_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/73-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\73-2.png",
+          "website_path": "assets/towers/Exhauster_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/73-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\73-3.png",
+          "website_path": "assets/towers/Exhauster_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "InfernalBeam",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_INFERNAL_BEAM",
+    "description_key": "TOWER_DESC_INFERNAL_BEAM",
+    "name": {
+      "en": "Infernal Beam",
+      "zh": "地狱光束塔"
+    },
+    "description": {
+      "en": "Deals increasingly more damage when targeting the same enemy, up to quadruple damage over 6.5 seconds.",
+      "zh": "瞄准同一敌人时造成的伤害不断增加，持续6.5秒可达到最高四倍伤害。",
+      "en_plain": "Deals increasingly more damage when targeting the same enemy, up to quadruple damage over 6.5 seconds.",
+      "zh_plain": "瞄准同一敌人时造成的伤害不断增加，持续6.5秒可达到最高四倍伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 225,
+          "fire_rate": 3,
+          "damage": 0,
+          "magic_damage": 3,
+          "armor_pen": 0,
+          "magic_pen": 200,
+          "shot_speed": 220
+        },
+        "2": {
+          "range_radius": 250,
+          "fire_rate": 3,
+          "damage": 0,
+          "magic_damage": 9,
+          "armor_pen": 0,
+          "magic_pen": 200,
+          "shot_speed": 220
+        },
+        "3": {
+          "range_radius": 275,
+          "fire_rate": 3,
+          "damage": 0,
+          "magic_damage": 27,
+          "armor_pen": 0,
+          "magic_pen": 200,
+          "shot_speed": 220
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\InfernalBeam.gd",
+      "scene_res_path": "res://Scenes/Towers/InfernalBeam.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\InfernalBeam.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/44-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\44-1.png",
+          "website_path": "assets/towers/InfernalBeam_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/44-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\44-2.png",
+          "website_path": "assets/towers/InfernalBeam_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/44-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\44-3.png",
+          "website_path": "assets/towers/InfernalBeam_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "IronMaiden",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_IRON_MAIDEN",
+    "description_key": "TOWER_DESC_IRON_MAIDEN",
+    "name": {
+      "en": "Iron Maiden",
+      "zh": "铁处女"
+    },
+    "description": {
+      "en": "Slows, reduces health regeneration and deals damage to all enemies in the battlefield at the same time.",
+      "zh": "减速，减少生命恢复，并同时对战场上所有敌人造成伤害。",
+      "en_plain": "Slows, reduces health regeneration and deals damage to all enemies in the battlefield at the same time.",
+      "zh_plain": "减速，减少生命恢复，并同时对战场上所有敌人造成伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 1.25,
+          "damage": 1,
+          "magic_damage": 0,
+          "armor_pen": 400,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "slow": 0.7,
+          "grievous_wounds": true
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 1.4,
+          "damage": 3,
+          "magic_damage": 0,
+          "armor_pen": 400,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "slow": 2.0,
+          "grievous_wounds": true
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 1.55,
+          "damage": 10,
+          "magic_damage": 0,
+          "armor_pen": 400,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "slow": 6.0,
+          "grievous_wounds": true
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\IronMaiden.gd",
+      "scene_res_path": "res://Scenes/Towers/IronMaiden.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\IronMaiden.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/58-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\58-1.png",
+          "website_path": "assets/towers/IronMaiden_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/58-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\58-2.png",
+          "website_path": "assets/towers/IronMaiden_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/58-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\58-3.png",
+          "website_path": "assets/towers/IronMaiden_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Purifier",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_PURIFIER",
+    "description_key": "TOWER_DESC_PURIFIER",
+    "name": {
+      "en": "Purifier",
+      "zh": "净化者"
+    },
+    "description": {
+      "en": "When this tower levels up, it improves much more than other towers. Deals magic damage in an area.",
+      "zh": "每次升级该防御塔都会获得大幅强化。造成范围魔法伤害。",
+      "en_plain": "When this tower levels up, it improves much more than other towers. Deals magic damage in an area.",
+      "zh_plain": "每次升级该防御塔都会获得大幅强化。造成范围魔法伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 120,
+          "fire_rate": 0.7,
+          "damage": 0,
+          "magic_damage": 16,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 180
+        },
+        "2": {
+          "range_radius": 150,
+          "fire_rate": 1.4,
+          "damage": 0,
+          "magic_damage": 34,
+          "armor_pen": 0,
+          "magic_pen": 40,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 270,
+          "fire_rate": 2.1,
+          "damage": 0,
+          "magic_damage": 100,
+          "armor_pen": 0,
+          "magic_pen": 120,
+          "shot_speed": 300
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Purifier.gd",
+      "scene_res_path": "res://Scenes/Towers/Purifier.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Purifier.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/11-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\11-1.png",
+          "website_path": "assets/towers/Purifier_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/11-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\11-2.png",
+          "website_path": "assets/towers/Purifier_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/11-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\11-3.png",
+          "website_path": "assets/towers/Purifier_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "RailGun",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_RAIL_GUN",
+    "description_key": "TOWER_DESC_RAIL_GUN",
+    "name": {
+      "en": "Rail Gun",
+      "zh": "电磁炮"
+    },
+    "description": {
+      "en": "Fires a giant laser that pierces through enemies, stunning them and dealing damage.",
+      "zh": "发射巨大的激光，穿透敌人，使其晕眩并造成伤害。",
+      "en_plain": "Fires a giant laser that pierces through enemies, stunning them and dealing damage.",
+      "zh_plain": "发射巨大的激光，穿透敌人，使其晕眩并造成伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 200,
+          "fire_rate": 0.3,
+          "damage": 0,
+          "magic_damage": 22,
+          "armor_pen": 0,
+          "magic_pen": 100,
+          "stun": 0.4
+        },
+        "2": {
+          "range_radius": 200,
+          "fire_rate": 0.33,
+          "damage": 0,
+          "magic_damage": 66,
+          "armor_pen": 0,
+          "magic_pen": 100,
+          "stun": 1.2
+        },
+        "3": {
+          "range_radius": 200,
+          "fire_rate": 0.36,
+          "damage": 0,
+          "magic_damage": 198,
+          "armor_pen": 0,
+          "magic_pen": 100,
+          "stun": 3.6
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\RailGun.gd",
+      "scene_res_path": "res://Scenes/Towers/RailGun.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\RailGun.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/28-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\28-1.png",
+          "website_path": "assets/towers/RailGun_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/28-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\28-2.png",
+          "website_path": "assets/towers/RailGun_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/28-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\28-3.png",
+          "website_path": "assets/towers/RailGun_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Sniper",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "common",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_SNIPER",
+    "description_key": "TOWER_DESC_SNIPER",
+    "name": {
+      "en": "Sniper",
+      "zh": "狙击手"
+    },
+    "description": {
+      "en": "Can target cloaked enemies. Attacks from a long range.",
+      "zh": "可以攻击隐身的敌人。从远距离攻击。",
+      "en_plain": "Can target cloaked enemies. Attacks from a long range.",
+      "zh_plain": "可以攻击隐身的敌人。从远距离攻击。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 340,
+          "fire_rate": 0.35,
+          "damage": 40,
+          "magic_damage": 0,
+          "armor_pen": 25,
+          "magic_pen": 0,
+          "shot_speed": 500
+        },
+        "2": {
+          "range_radius": 450,
+          "fire_rate": 0.45,
+          "damage": 88,
+          "magic_damage": 0,
+          "armor_pen": 50,
+          "magic_pen": 0,
+          "shot_speed": 500
+        },
+        "3": {
+          "range_radius": 2000,
+          "fire_rate": 0.55,
+          "damage": 212,
+          "magic_damage": 0,
+          "armor_pen": 100,
+          "magic_pen": 0,
+          "shot_speed": 500
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Sniper.gd",
+      "scene_res_path": "res://Scenes/Towers/Sniper.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Sniper.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/2-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\2-1.png",
+          "website_path": "assets/towers/Sniper_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/2-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\2-2.png",
+          "website_path": "assets/towers/Sniper_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/2-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\2-3.png",
+          "website_path": "assets/towers/Sniper_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "TacticalDisplacer",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 3,
+    "name_key": "TOWER_TACTICAL_DISPLACER",
+    "description_key": "TOWER_DESC_TACTICAL_DISPLACER",
+    "name": {
+      "en": "Tactical Displacer",
+      "zh": "战术干扰器"
+    },
+    "description": {
+      "en": "Can only shoot once per wave, increasing with level. Teleports an enemy back to the start. Dispel.",
+      "zh": "每波只能射击一次，随等级增加。将一个敌人传送回出生点。消耗。",
+      "en_plain": "Can only shoot once per wave, increasing with level. Teleports an enemy back to the start. Dispel.",
+      "zh_plain": "每波只能射击一次，随等级增加。将一个敌人传送回出生点。消耗。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 90,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "stun": 0.5
+        },
+        "2": {
+          "range_radius": 90,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "stun": 0.5
+        },
+        "3": {
+          "range_radius": 90,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200,
+          "stun": 0.5
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\TacticalDisplacer.gd",
+      "scene_res_path": "res://Scenes/Towers/TacticalDisplacer.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\TacticalDisplacer.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/61-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\61-1.png",
+          "website_path": "assets/towers/TacticalDisplacer_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/61-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\61-2.png",
+          "website_path": "assets/towers/TacticalDisplacer_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/61-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\61-3.png",
+          "website_path": "assets/towers/TacticalDisplacer_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ArcaneResonator",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "mythic",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_ARCANE_RESONATOR",
+    "description_key": "TOWER_DESC_ARCANE_RESONATOR",
+    "name": {
+      "en": "Arcane Resonator",
+      "zh": "奥术共振器"
+    },
+    "description": {
+      "en": "Casts copies of the last spell cast. Slows down when copying the same spells and when copying expensive spells.",
+      "zh": "重复释放最后一次施放的法术。在多次复制相同法术和复制高费法术时速度减慢。",
+      "en_plain": "Casts copies of the last spell cast. Slows down when copying the same spells and when copying expensive spells.",
+      "zh_plain": "重复释放最后一次施放的法术。在多次复制相同法术和复制高费法术时速度减慢。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 120,
+          "fire_rate": 0.1,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 160,
+          "fire_rate": 0.3,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 200,
+          "fire_rate": 1.0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\ArcaneResonator.gd",
+      "scene_res_path": "res://Scenes/Towers/ArcaneResonator.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\ArcaneResonator.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/20-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\20-1.png",
+          "website_path": "assets/towers/ArcaneResonator_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/20-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\20-2.png",
+          "website_path": "assets/towers/ArcaneResonator_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/20-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\20-3.png",
+          "website_path": "assets/towers/ArcaneResonator_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BlackHoleGenerator",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "mythic",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_BLACK_HOLE_GENERATOR",
+    "description_key": "TOWER_DESC_BLACK_HOLE_GENERATOR",
+    "name": {
+      "en": "Black Hole Generator",
+      "zh": "黑洞发生器"
+    },
+    "description": {
+      "en": "Fires black holes that deal damage and teleport back enemies.",
+      "zh": "发射黑洞，造成伤害并将敌人向出生点传送一段距离。",
+      "en_plain": "Fires black holes that deal damage and teleport back enemies.",
+      "zh_plain": "发射黑洞，造成伤害并将敌人向出生点传送一段距离。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 225,
+          "fire_rate": 0.3,
+          "damage": 0,
+          "magic_damage": 50,
+          "armor_pen": 0,
+          "magic_pen": 50,
+          "shot_speed": 200,
+          "piercing": 999
+        },
+        "2": {
+          "range_radius": 250,
+          "fire_rate": 0.32,
+          "damage": 0,
+          "magic_damage": 150,
+          "armor_pen": 0,
+          "magic_pen": 150,
+          "shot_speed": 200,
+          "piercing": 999
+        },
+        "3": {
+          "range_radius": 275,
+          "fire_rate": 0.34,
+          "damage": 0,
+          "magic_damage": 450,
+          "armor_pen": 0,
+          "magic_pen": 450,
+          "shot_speed": 200,
+          "piercing": 999
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\BlackHoleGenerator.gd",
+      "scene_res_path": "res://Scenes/Towers/BlackHoleGenerator.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\BlackHoleGenerator.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/59-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\59-1.png",
+          "website_path": "assets/towers/BlackHoleGenerator_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/59-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\59-2.png",
+          "website_path": "assets/towers/BlackHoleGenerator_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/59-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\59-3.png",
+          "website_path": "assets/towers/BlackHoleGenerator_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Downshaper",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "mythic",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_DOWNSHAPER",
+    "description_key": "TOWER_DESC_DOWNSHAPER",
+    "name": {
+      "en": "Downshaper",
+      "zh": "缩小仪"
+    },
+    "description": {
+      "en": "Reduces the level of the enemy in range with the highest level. If it's level 1, it receives a slow.",
+      "zh": "降低范围内最高等级敌人的等级。如果是 1 级，则会受到减速效果。",
+      "en_plain": "Reduces the level of the enemy in range with the highest level. If it's level 1, it receives a slow.",
+      "zh_plain": "降低范围内最高等级敌人的等级。如果是 1 级，则会受到减速效果。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 200,
+          "fire_rate": 0.06,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 250,
+          "fire_rate": 0.2,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 300,
+          "fire_rate": 0.7,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Downshaper.gd",
+      "scene_res_path": "res://Scenes/Towers/Downshaper.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Downshaper.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/35-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\35-1.png",
+          "website_path": "assets/towers/Downshaper_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/35-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\35-2.png",
+          "website_path": "assets/towers/Downshaper_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/35-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\35-3.png",
+          "website_path": "assets/towers/Downshaper_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DragonsBreath",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_DRAGONS_BREATH",
+    "description_key": "TOWER_DESC_DRAGONS_BREATH",
+    "name": {
+      "en": "Dragon's Breath",
+      "zh": "龙息炮"
+    },
+    "description": {
+      "en": "Fires 9 projectiles in a cone shape that pierce enemies and decay after a short distance. Reduces enemy regeneration.",
+      "zh": "呈锥形地发射9枚弹丸，刺穿敌人后距离大幅衰减。减少敌人的生命恢复能力。",
+      "en_plain": "Fires 9 projectiles in a cone shape that pierce enemies and decay after a short distance. Reduces enemy regeneration.",
+      "zh_plain": "呈锥形地发射9枚弹丸，刺穿敌人后距离大幅衰减。减少敌人的生命恢复能力。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 100,
+          "fire_rate": 1,
+          "damage": 0,
+          "magic_damage": 4,
+          "armor_pen": 0,
+          "magic_pen": 400,
+          "shot_speed": 240,
+          "grievous_wounds": true
+        },
+        "2": {
+          "range_radius": 120,
+          "fire_rate": 1.25,
+          "damage": 0,
+          "magic_damage": 12,
+          "armor_pen": 0,
+          "magic_pen": 400,
+          "shot_speed": 240,
+          "grievous_wounds": true
+        },
+        "3": {
+          "range_radius": 140,
+          "fire_rate": 1.5,
+          "damage": 0,
+          "magic_damage": 36,
+          "armor_pen": 0,
+          "magic_pen": 400,
+          "shot_speed": 240,
+          "grievous_wounds": true
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\DragonsBreath.gd",
+      "scene_res_path": "res://Scenes/Towers/DragonsBreath.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\DragonsBreath.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/65-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\65-1.png",
+          "website_path": "assets/towers/DragonsBreath_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/65-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\65-2.png",
+          "website_path": "assets/towers/DragonsBreath_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/65-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\65-3.png",
+          "website_path": "assets/towers/DragonsBreath_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Extractor",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_EXTRACTOR",
+    "description_key": "TOWER_DESC_EXTRACTOR",
+    "name": {
+      "en": "Extractor LX-2",
+      "zh": "提取器LX-2"
+    },
+    "description": {
+      "en": "Round start: Gain 1/3/9 mana. Dispel.",
+      "zh": "每回合开始时获得1/3/9法力值。消耗。",
+      "en_plain": "Round start: Gain 1/3/9 mana. Dispel.",
+      "zh_plain": "每回合开始时获得1/3/9法力值。消耗。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "2": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        },
+        "3": {
+          "range_radius": 0,
+          "fire_rate": 0,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 200
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Extractor.gd",
+      "scene_res_path": "res://Scenes/Towers/Extractor.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Extractor.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/13-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\13-1.png",
+          "website_path": "assets/towers/Extractor_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/13-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\13-2.png",
+          "website_path": "assets/towers/Extractor_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/13-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\13-3.png",
+          "website_path": "assets/towers/Extractor_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fulminator",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_FULMINATOR",
+    "description_key": "TOWER_DESC_FULMINATOR",
+    "name": {
+      "en": "Fulminator",
+      "zh": "充能狙击手"
+    },
+    "description": {
+      "en": "Inflicts more damage for each shot this tower type fired this combat.",
+      "zh": "本场战斗中，该类型的防御塔每发射一枪都会造成更大的伤害。",
+      "en_plain": "Inflicts more damage for each shot this tower type fired this combat.",
+      "zh_plain": "本场战斗中，该类型的防御塔每发射一枪都会造成更大的伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 200,
+          "fire_rate": 0.15,
+          "damage": 100,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 250
+        },
+        "2": {
+          "range_radius": 200,
+          "fire_rate": 0.5,
+          "damage": 100,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 250
+        },
+        "3": {
+          "range_radius": 200,
+          "fire_rate": 1.65,
+          "damage": 100,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 250
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\Fulminator.gd",
+      "scene_res_path": "res://Scenes/Towers/Fulminator.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\Fulminator.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/34-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\34-1.png",
+          "website_path": "assets/towers/Fulminator_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/34-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\34-2.png",
+          "website_path": "assets/towers/Fulminator_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/34-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\34-3.png",
+          "website_path": "assets/towers/Fulminator_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LightningRod",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_LIGHTNING_ROD",
+    "description_key": "TOWER_DESC_LIGHTNING_ROD",
+    "name": {
+      "en": "Lightning Rod",
+      "zh": "闪电棒"
+    },
+    "description": {
+      "en": "Casts copies of the Thunder spell on nearby enemies.",
+      "zh": "向附近的敌人施放雷电法术的副本。",
+      "en_plain": "Casts copies of the Thunder spell on nearby enemies.",
+      "zh_plain": "向附近的敌人施放雷电法术的副本。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 225,
+          "fire_rate": 0.07,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 300,
+          "fire_rate": 0.25,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 375,
+          "fire_rate": 0.8,
+          "damage": 0,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\LightningRod.gd",
+      "scene_res_path": "res://Scenes/Towers/LightningRod.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\LightningRod.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/64-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\64-1.png",
+          "website_path": "assets/towers/LightningRod_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/64-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\64-2.png",
+          "website_path": "assets/towers/LightningRod_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/64-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\64-3.png",
+          "website_path": "assets/towers/LightningRod_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "TeslaCoil",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 4,
+    "name_key": "TOWER_TESLA_COIL",
+    "description_key": "TOWER_DESC_TESLA_COIL",
+    "name": {
+      "en": "Tesla Coil",
+      "zh": "特斯拉线圈"
+    },
+    "description": {
+      "en": "Fires electric beams that propagate to nearby enemies and stun them.",
+      "zh": "发射电流传导至到附近的敌人并使他们眩晕。",
+      "en_plain": "Fires electric beams that propagate to nearby enemies and stun them.",
+      "zh_plain": "发射电流传导至到附近的敌人并使他们眩晕。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 110,
+          "fire_rate": 0.3,
+          "damage": 0,
+          "magic_damage": 45,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "stun": 0.33,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 110,
+          "fire_rate": 0.35,
+          "damage": 0,
+          "magic_damage": 135,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "stun": 1,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 110,
+          "fire_rate": 0.4,
+          "damage": 0,
+          "magic_damage": 405,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "stun": 3,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\TeslaCoil.gd",
+      "scene_res_path": "res://Scenes/Towers/TeslaCoil.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\TeslaCoil.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/51-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\51-1.png",
+          "website_path": "assets/towers/TeslaCoil_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/51-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\51-2.png",
+          "website_path": "assets/towers/TeslaCoil_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/51-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\51-3.png",
+          "website_path": "assets/towers/TeslaCoil_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AngelicalCatalyst",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "mythic",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 5,
+    "name_key": "TOWER_ANGELICAL_CATALYST",
+    "description_key": "TOWER_DESC_ANGELICAL_CATALYST",
+    "name": {
+      "en": "Angelic Catalyst",
+      "zh": "天使催化器"
+    },
+    "description": {
+      "en": "Fires slow-moving orbs that deal damage to nearby enemies.",
+      "zh": "发射缓慢移动的球体，对附近的敌人造成伤害。",
+      "en_plain": "Fires slow-moving orbs that deal damage to nearby enemies.",
+      "zh_plain": "发射缓慢移动的球体，对附近的敌人造成伤害。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 350,
+          "fire_rate": 0.4,
+          "damage": 0,
+          "magic_damage": 10,
+          "armor_pen": 0,
+          "magic_pen": 50,
+          "shot_speed": 120,
+          "piercing": 100
+        },
+        "2": {
+          "range_radius": 400,
+          "fire_rate": 0.45,
+          "damage": 0,
+          "magic_damage": 30,
+          "armor_pen": 0,
+          "magic_pen": 100,
+          "shot_speed": 120,
+          "piercing": 100
+        },
+        "3": {
+          "range_radius": 450,
+          "fire_rate": 0.5,
+          "damage": 0,
+          "magic_damage": 90,
+          "armor_pen": 0,
+          "magic_pen": 200,
+          "shot_speed": 120,
+          "piercing": 100
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\AngelicalCatalyst.gd",
+      "scene_res_path": "res://Scenes/Towers/AngelicalCatalyst.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\AngelicalCatalyst.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/66-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\66-1.png",
+          "website_path": "assets/towers/AngelicalCatalyst_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/66-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\66-2.png",
+          "website_path": "assets/towers/AngelicalCatalyst_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/66-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\66-3.png",
+          "website_path": "assets/towers/AngelicalCatalyst_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BFRifle",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "uncommon",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 5,
+    "name_key": "TOWER_BFRIFLE",
+    "description_key": "TOWER_DESC_BFRIFLE",
+    "name": {
+      "en": "BF Rifle",
+      "zh": "BF步枪"
+    },
+    "description": {
+      "en": "Deals a very high amount of damage at a high cost. Stuns enemies.",
+      "zh": "以高代价造成非常高的伤害。眩晕敌人。",
+      "en_plain": "Deals a very high amount of damage at a high cost. Stuns enemies.",
+      "zh_plain": "以高代价造成非常高的伤害。眩晕敌人。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 125,
+          "fire_rate": 0.5,
+          "damage": 65,
+          "magic_damage": 0,
+          "armor_pen": 30,
+          "magic_pen": 0,
+          "shot_speed": 400,
+          "stun": 1
+        },
+        "2": {
+          "range_radius": 135,
+          "fire_rate": 0.75,
+          "damage": 131,
+          "magic_damage": 0,
+          "armor_pen": 50,
+          "magic_pen": 0,
+          "shot_speed": 400,
+          "stun": 3
+        },
+        "3": {
+          "range_radius": 145,
+          "fire_rate": 1,
+          "damage": 307,
+          "magic_damage": 0,
+          "armor_pen": 70,
+          "magic_pen": 0,
+          "shot_speed": 400,
+          "stun": 9
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\BFRifle.gd",
+      "scene_res_path": "res://Scenes/Towers/BFRifle.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\BFRifle.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/16-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\16-1.png",
+          "website_path": "assets/towers/BFRifle_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/16-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\16-2.png",
+          "website_path": "assets/towers/BFRifle_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/16-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\16-3.png",
+          "website_path": "assets/towers/BFRifle_art3.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "GuardianAngel",
+    "type": "TOWER",
+    "classification": "towers",
+    "rarity": "rare",
+    "is_basic": false,
+    "expansion": "liberation",
+    "cost": 11,
+    "name_key": "TOWER_GUARDIAN_ANGEL",
+    "description_key": "TOWER_DESC_GUARDIAN_ANGEL",
+    "name": {
+      "en": "Guardian Angel",
+      "zh": "守护天使"
+    },
+    "description": {
+      "en": "On play: Restore 1 health. Martyr.",
+      "zh": "当放置时，恢复1个生命值。殉道者。",
+      "en_plain": "On play: Restore 1 health. Martyr.",
+      "zh_plain": "当放置时，恢复1个生命值。殉道者。"
+    },
+    "stats": {
+      "hover": {
+        "1": {
+          "range_radius": 140,
+          "fire_rate": 2.4,
+          "damage": 7,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "2": {
+          "range_radius": 140,
+          "fire_rate": 3,
+          "damage": 17,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        },
+        "3": {
+          "range_radius": 140,
+          "fire_rate": 3.6,
+          "damage": 43,
+          "magic_damage": 0,
+          "armor_pen": 0,
+          "magic_pen": 0,
+          "shot_speed": 240
+        }
+      }
+    },
+    "resources": {
+      "tower_script": "..\\export\\Scripts\\Towers\\GuardianAngel.gd",
+      "scene_res_path": "res://Scenes/Towers/GuardianAngel.tscn",
+      "scene_path": "..\\export\\Scenes\\Towers\\GuardianAngel.tscn",
+      "art_variants": [
+        {
+          "variant": "1",
+          "level": "1",
+          "source_res_path": "res://Sprites/Towers/41-1.png",
+          "source_path": "..\\export\\Sprites\\Towers\\41-1.png",
+          "website_path": "assets/towers/GuardianAngel_art1.png"
+        },
+        {
+          "variant": "2",
+          "level": "2",
+          "source_res_path": "res://Sprites/Towers/41-2.png",
+          "source_path": "..\\export\\Sprites\\Towers\\41-2.png",
+          "website_path": "assets/towers/GuardianAngel_art2.png"
+        },
+        {
+          "variant": "3",
+          "level": "3",
+          "source_res_path": "res://Sprites/Towers/41-3.png",
+          "source_path": "..\\export\\Sprites\\Towers\\41-3.png",
+          "website_path": "assets/towers/GuardianAngel_art3.png"
+        }
+      ]
+    }
+  }
+]

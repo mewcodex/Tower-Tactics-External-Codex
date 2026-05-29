@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tower Tactics Codex - Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-a"></div>
+    <div class="bg-orb bg-orb-b"></div>
+
+    <main class="page">
+      <header class="hero table-hero">
+        <p class="eyebrow">Tower Tactics</p>
+        <h1>Tower Stats Table</h1>
+        <p class="subtitle">Sortable overview using level 1 stats by default.</p>
+        <a class="table-back-link" href="index.html">Back to card view</a>
+      </header>
+
+      <section class="controls table-controls">
+        <label>
+          <span>Language</span>
+          <select id="tableLangSelect">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+          </select>
+        </label>
+        <label>
+          <span>Level</span>
+          <select id="tableLevelSelect">
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+            <option value="3">Level 3</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="table-wrap">
+        <table class="codex-table" id="codexTable">
+          <thead>
+            <tr>
+              <th data-key="name" data-type="string">Card</th>
+              <th data-key="damageCombined" data-type="number">Damage (P+M)</th>
+              <th data-key="fireRate" data-type="number">Attack Speed</th>
+              <th data-key="range" data-type="number">Range</th>
+              <th data-key="dps0Armor" data-type="number">DPS (0 Armor)</th>
+              <th data-key="dpsPerCost" data-type="number">DPS / Cost</th>
+              <th data-key="effectiveDamage" data-type="number">Effective Damage</th>
+              <th data-key="effectiveDamagePerCost" data-type="number">Effective / Cost</th>
+            </tr>
+          </thead>
+          <tbody id="codexTableBody"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="table.js"></script>
+  </body>
+</html>

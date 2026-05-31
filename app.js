@@ -501,9 +501,16 @@ function filteredCards() {
   });
 }
 
+function getTowerLevels(card) {
+  if (card && card.can_level_up === false) {
+    return ["1"];
+  }
+  return ["1", "2", "3"];
+}
+
 function renderStatsRail(card, railEl) {
   const hover = (card.stats && card.stats.hover) || {};
-  const levels = ["1", "2", "3"];
+  const levels = getTowerLevels(card);
   railEl.innerHTML = "";
 
   levels.forEach((lv) => {
@@ -548,7 +555,7 @@ function renderStatsRail(card, railEl) {
 
 function renderDetail(card) {
   const hover = (card.stats && card.stats.hover) || {};
-  const levels = ["1", "2", "3"];
+  const levels = getTowerLevels(card);
   const pools = ((card.deck_pool && card.deck_pool.by_deck) || []).slice();
 
   const art = getArt(card);

@@ -1,0 +1,13 @@
+{
+  "source": "G:\\tower tactics\\export",
+  "counts": {
+    "decks": 30,
+    "warnings": 4
+  },
+  "warnings": [
+    "Missing translation key for deck: DECK_TUTORIAL",
+    "Missing translation key for deck: DECK_LETHAL_BULLETS",
+    "Missing translation key for deck: DECK_DISCO_BALL",
+    "Missing translation key for deck: DECK_NUKETOWN"
+  ]
+}

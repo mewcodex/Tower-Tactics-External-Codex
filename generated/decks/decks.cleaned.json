@@ -1,0 +1,1373 @@
+[
+  {
+    "key": "1",
+    "name": "leading_legacy",
+    "name_key": "DECK_LEADING_LEGACY",
+    "difficulty": "easy",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 20,
+      "regen": 0,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 1,
+      "armor_pen_flat": 12,
+      "magic_pen_flat": 12,
+      "range_multiplier": 6,
+      "fire_rate_multiplier": 6,
+      "shield_loss": 0
+    },
+    "trinkets": [],
+    "cards": [
+      {
+        "id": "BasicArcher",
+        "count": 3
+      },
+      {
+        "id": "BasicBomber",
+        "count": 3
+      },
+      {
+        "id": "BasicSniper",
+        "count": 2
+      },
+      {
+        "id": "Thunderbolt",
+        "count": 3
+      },
+      {
+        "id": "Fireball",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Leading Legacy",
+      "zh": "重要遗产"
+    }
+  },
+  {
+    "key": "2",
+    "name": "wandering_colossus",
+    "name_key": "DECK_WANDERING_COLOSSUS",
+    "difficulty": "easy",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 24,
+      "regen": 1,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 1,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "BloodAmulet"
+    ],
+    "cards": [
+      {
+        "id": "RelentlessRealization",
+        "count": 3
+      },
+      {
+        "id": "StaticIonizer",
+        "count": 3
+      },
+      {
+        "id": "LifeAbsorber",
+        "count": 2
+      },
+      {
+        "id": "Blizzard",
+        "count": 3
+      }
+    ],
+    "title": {
+      "en": "Wandering Colossus",
+      "zh": "流浪巨人"
+    }
+  },
+  {
+    "key": "3",
+    "name": "holy_guild",
+    "name_key": "DECK_HOLY_GUILD",
+    "difficulty": "normal",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 16,
+      "regen": 1,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "HolyScepter"
+    ],
+    "cards": [
+      {
+        "id": "Purifier",
+        "count": 3
+      },
+      {
+        "id": "HolyExecutioner",
+        "count": 3
+      },
+      {
+        "id": "SacredPunishment",
+        "count": 3
+      },
+      {
+        "id": "LastHope",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "Holy Guild",
+      "zh": "神圣公会"
+    }
+  },
+  {
+    "key": "4",
+    "name": "everchanging",
+    "name_key": "DECK_EVERCHANGING",
+    "difficulty": "normal",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 15,
+      "regen": 0,
+      "gold": 60,
+      "gold_multiplier": 15,
+      "mana": 3,
+      "luck": 5,
+      "armor_pen_flat": 10,
+      "magic_pen_flat": 10,
+      "range_multiplier": 6,
+      "fire_rate_multiplier": 6,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "GoldenHook",
+      "__RANDOM_COMMON_TRINKET__"
+    ],
+    "cards": [
+      {
+        "id": "Void",
+        "count": 1
+      },
+      {
+        "id": "__RANDOM_TOWER__",
+        "count": 11,
+        "placeholder": "random_tower"
+      }
+    ],
+    "stat_ranges": {
+      "max_health": {
+        "min": 15,
+        "max": 19
+      },
+      "regen": {
+        "min": 0,
+        "max": 1
+      },
+      "gold": {
+        "min": 60,
+        "max": 90
+      },
+      "gold_multiplier": {
+        "min": 15,
+        "max": 30
+      },
+      "mana": {
+        "min": 3,
+        "max": 3
+      },
+      "luck": {
+        "min": 5,
+        "max": 10
+      },
+      "armor_pen_flat": {
+        "min": 10,
+        "max": 20
+      },
+      "magic_pen_flat": {
+        "min": 10,
+        "max": 20
+      },
+      "range_multiplier": {
+        "min": 6,
+        "max": 12
+      },
+      "fire_rate_multiplier": {
+        "min": 6,
+        "max": 12
+      },
+      "shield_loss": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "title": {
+      "en": "Everchanging",
+      "zh": "神圣公会"
+    }
+  },
+  {
+    "key": "5",
+    "name": "resonating_echoes",
+    "name_key": "DECK_RESONATING_ECHOES",
+    "difficulty": "easy",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 16,
+      "regen": 0,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 2,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 30,
+      "range_multiplier": 6,
+      "fire_rate_multiplier": 6,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "SpellAdept",
+      "ForbiddenBrew"
+    ],
+    "cards": [
+      {
+        "id": "IsochronBot",
+        "count": 3
+      },
+      {
+        "id": "ArcaneResonator",
+        "count": 1
+      },
+      {
+        "id": "ManaArtillery",
+        "count": 2
+      },
+      {
+        "id": "ReboundShock",
+        "count": 2
+      },
+      {
+        "id": "MortarStrike",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Resonating Echoes",
+      "zh": "共鸣回声"
+    }
+  },
+  {
+    "key": "6",
+    "name": "lethal_bullets",
+    "name_key": "DECK_LETHAL_BULLETS",
+    "difficulty": "easy",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 30,
+      "regen": 1,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 4,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "FatefulDefense",
+      "SpellMastery"
+    ],
+    "cards": [
+      {
+        "id": "CarePackage",
+        "count": 6
+      },
+      {
+        "id": "ArsenalGear",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "lethal_bullets",
+      "zh": "lethal_bullets"
+    }
+  },
+  {
+    "key": "7",
+    "name": "early_bird",
+    "name_key": "DECK_EARLY_BIRD",
+    "difficulty": "normal",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 14,
+      "regen": 0,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 4,
+      "luck": 0,
+      "armor_pen_flat": 20,
+      "magic_pen_flat": 20,
+      "range_multiplier": 10,
+      "fire_rate_multiplier": 10,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "YellowFeathers"
+    ],
+    "cards": [
+      {
+        "id": "SpikeThrower",
+        "count": 3
+      },
+      {
+        "id": "BeamCannon",
+        "count": 3
+      },
+      {
+        "id": "Thunderbolt",
+        "count": 3
+      },
+      {
+        "id": "Ponder",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Early Bird",
+      "zh": "早起的鸟"
+    }
+  },
+  {
+    "key": "8",
+    "name": "ace_in_the_hole",
+    "name_key": "DECK_ACE_IN_THE_HOLE",
+    "difficulty": "easy",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 7,
+      "regen": 1,
+      "gold": 7,
+      "gold_multiplier": 7,
+      "mana": 3,
+      "luck": 7,
+      "armor_pen_flat": 7,
+      "magic_pen_flat": 7,
+      "range_multiplier": 7,
+      "fire_rate_multiplier": 7,
+      "shield_loss": 0
+    },
+    "trinkets": [],
+    "cards": [
+      {
+        "id": "TrickRoom",
+        "count": 3
+      },
+      {
+        "id": "Virtuoso",
+        "count": 3
+      },
+      {
+        "id": "ElectricBeam",
+        "count": 3
+      }
+    ],
+    "title": {
+      "en": "Ace in the Hole",
+      "zh": "秘藏王牌"
+    }
+  },
+  {
+    "key": "9",
+    "name": "deprived_soul",
+    "name_key": "DECK_DEPRIVED_SOUL",
+    "difficulty": "extreme",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 1,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "EtherealBody",
+      "HolyMantle",
+      "BookOfVirtues"
+    ],
+    "cards": [
+      {
+        "id": "Archer",
+        "count": 1
+      },
+      {
+        "id": "ElectricBeam",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "Deprived Soul",
+      "zh": "秘藏王牌"
+    }
+  },
+  {
+    "key": "10",
+    "name": "broken_legacy",
+    "name_key": "DECK_BROKEN_LEGACY",
+    "difficulty": "hard",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 18,
+      "regen": 1,
+      "gold": 50,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 18,
+      "magic_pen_flat": 18,
+      "range_multiplier": 12,
+      "fire_rate_multiplier": 9,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "RingOfImmutability"
+    ],
+    "cards": [
+      {
+        "id": "Ballista",
+        "count": 3
+      },
+      {
+        "id": "GiantsBane",
+        "count": 3
+      },
+      {
+        "id": "EMPGrenadier",
+        "count": 3
+      },
+      {
+        "id": "TimeTwist",
+        "count": 3
+      }
+    ],
+    "title": {
+      "en": "Broken Legacy",
+      "zh": "破碎的遗产"
+    }
+  },
+  {
+    "key": "11",
+    "name": "ravenous_reaper",
+    "name_key": "DECK_RAVENOUS_REAPER",
+    "difficulty": "normal",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 1,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 1,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "PredatorInstinct"
+    ],
+    "cards": [
+      {
+        "id": "NightCrawler",
+        "count": 4
+      },
+      {
+        "id": "DecimateTheWeak",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "Ravenous Reaper",
+      "zh": "贪婪的死神"
+    }
+  },
+  {
+    "key": "12",
+    "name": "punished_martyr",
+    "name_key": "DECK_PUNISHED_MARTYR",
+    "difficulty": "normal",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 30,
+      "regen": 3,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 6,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 6,
+      "fire_rate_multiplier": 6,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "OnyxGem",
+      "HolyScepter"
+    ],
+    "cards": [
+      {
+        "id": "GuardianAngel",
+        "count": 4
+      },
+      {
+        "id": "LastHope",
+        "count": 1
+      },
+      {
+        "id": "LifeAbsorber",
+        "count": 4
+      }
+    ],
+    "title": {
+      "en": "Punished Martyr",
+      "zh": "受惩罚的殉道者"
+    }
+  },
+  {
+    "key": "13",
+    "name": "singleton_master",
+    "name_key": "DECK_SINGLETON_MASTER",
+    "difficulty": "normal",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 13,
+      "regen": 1,
+      "gold": 60,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 3,
+      "armor_pen_flat": 12,
+      "magic_pen_flat": 12,
+      "range_multiplier": 3,
+      "fire_rate_multiplier": 3,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "SingletonEmblem",
+      "GoldenHook",
+      "__RANDOM_COMMON_TRINKET__"
+    ],
+    "cards": [
+      {
+        "id": "__RANDOM_TOWER__",
+        "count": 12,
+        "placeholder": "random_tower"
+      }
+    ],
+    "title": {
+      "en": "Singleton Master",
+      "zh": "单身大师"
+    }
+  },
+  {
+    "key": "14",
+    "name": "arcane_master",
+    "name_key": "DECK_ARCANE_MASTER",
+    "difficulty": "hard",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 20,
+      "regen": 2,
+      "gold": 60,
+      "gold_multiplier": 20,
+      "mana": 5,
+      "luck": 10,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "ArcaneEmblem"
+    ],
+    "cards": [
+      {
+        "id": "Foresee",
+        "count": 3
+      },
+      {
+        "id": "Fireball",
+        "count": 5
+      },
+      {
+        "id": "MortarStrike",
+        "count": 4
+      },
+      {
+        "id": "SacredPunishment",
+        "count": 4
+      },
+      {
+        "id": "ManaArtillery",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Arcane Master",
+      "zh": "奥术师"
+    }
+  },
+  {
+    "key": "15",
+    "name": "antiquarian",
+    "name_key": "DECK_ANTIQUARIAN",
+    "difficulty": "hard",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 1,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 40,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 20,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "AntiquarianEmblem",
+      "EtherealBody",
+      "__RANDOM_TRINKET__",
+      "__RANDOM_TRINKET__",
+      "__RANDOM_TRINKET__",
+      "__RANDOM_TRINKET__",
+      "__RANDOM_TRINKET__"
+    ],
+    "cards": [
+      {
+        "id": "SpikeThrower",
+        "count": 3
+      },
+      {
+        "id": "Sniper",
+        "count": 3
+      },
+      {
+        "id": "ArmorAura",
+        "count": 2
+      },
+      {
+        "id": "Fissure",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Antiquarian",
+      "zh": "古籍"
+    }
+  },
+  {
+    "key": "16",
+    "name": "summit_slayer",
+    "name_key": "DECK_SUMMIT_SLAYER",
+    "difficulty": "hard",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 19,
+      "regen": 1,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": -20
+    },
+    "trinkets": [
+      "SlayerEmblem"
+    ],
+    "cards": [
+      {
+        "id": "LaserRifle",
+        "count": 3
+      },
+      {
+        "id": "RailGun",
+        "count": 3
+      },
+      {
+        "id": "ShieldsUp",
+        "count": 3
+      },
+      {
+        "id": "Dash",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "Summit Slayer",
+      "zh": "顶级杀手"
+    }
+  },
+  {
+    "key": "17",
+    "name": "earth_fairy",
+    "name_key": "DECK_EARTH_FAIRY",
+    "difficulty": "hard",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 12,
+      "regen": 2,
+      "gold": 50,
+      "gold_multiplier": 10,
+      "mana": 4,
+      "luck": 10,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 10,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "EarthEmblem",
+      "EarthRing",
+      "EarthNecklace"
+    ],
+    "cards": [
+      {
+        "id": "Pollination",
+        "count": 3
+      },
+      {
+        "id": "IntimidatingGlare",
+        "count": 2
+      },
+      {
+        "id": "GatlingGun",
+        "count": 3
+      },
+      {
+        "id": "Earthquake",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Earth Fairy",
+      "zh": "大地仙子"
+    }
+  },
+  {
+    "key": "18",
+    "name": "lost_soul",
+    "name_key": "DECK_LOST_SOUL",
+    "difficulty": "extreme",
+    "expansion": "liberation",
+    "stats": {
+      "max_health": 1,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 1,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "GiftsUngiven",
+      "EtherealBody",
+      "BookOfVirtues"
+    ],
+    "cards": [
+      {
+        "id": "LaserLauncher",
+        "count": 1
+      },
+      {
+        "id": "Blizzard",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "Lost Soul",
+      "zh": "失落的灵魂"
+    }
+  },
+  {
+    "key": "crimson_ascent",
+    "name": "crimson_ascent",
+    "name_key": "DECK_CRIMSON_ASCENT",
+    "difficulty": "normal",
+    "expansion": "astral_siege",
+    "stats": {
+      "max_health": 13,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "CrimsonEmblem"
+    ],
+    "cards": [
+      {
+        "id": "Imp",
+        "count": 3
+      },
+      {
+        "id": "CrimsonDisruptor",
+        "count": 2
+      },
+      {
+        "id": "CrimsonAnthem",
+        "count": 1
+      },
+      {
+        "id": "Whiplash",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Crimson Ascent",
+      "zh": "绯红上升"
+    }
+  },
+  {
+    "key": "disco_ball",
+    "name": "disco_ball",
+    "name_key": "DECK_DISCO_BALL",
+    "difficulty": "normal",
+    "expansion": "astral_siege",
+    "stats": {
+      "max_health": 20,
+      "regen": 2,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 12,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "InfinityPotion"
+    ],
+    "cards": [
+      {
+        "id": "BlindProphet",
+        "count": 2
+      },
+      {
+        "id": "ClairvoyantCannon",
+        "count": 2
+      },
+      {
+        "id": "MoonstoneSavior",
+        "count": 2
+      },
+      {
+        "id": "CableGuy",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "disco_ball",
+      "zh": "disco_ball"
+    }
+  },
+  {
+    "key": "fading_consciousness",
+    "name": "fading_consciousness",
+    "name_key": "DECK_FADING_CONSCIOUSNESS",
+    "difficulty": "hard",
+    "expansion": "celestial_dawn",
+    "stats": {
+      "max_health": 10,
+      "regen": 0,
+      "gold": 30,
+      "gold_multiplier": 50,
+      "mana": 6,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "WheelOfTime",
+      "ManaDeposit"
+    ],
+    "cards": [
+      {
+        "id": "Shotgun",
+        "count": 3
+      },
+      {
+        "id": "DoubleTrouble",
+        "count": 3
+      },
+      {
+        "id": "HarvestKnowledge",
+        "count": 2
+      },
+      {
+        "id": "Brainstorm",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Fading Consciousness",
+      "zh": "消逝的意识"
+    }
+  },
+  {
+    "key": "grand_master",
+    "name": "grand_master",
+    "name_key": "DECK_GRAND_MASTER",
+    "difficulty": "extreme",
+    "expansion": "astral_siege",
+    "stats": {
+      "max_health": 15,
+      "regen": 1,
+      "gold": 30,
+      "gold_multiplier": 0,
+      "mana": 4,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 10,
+      "fire_rate_multiplier": 10,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "MasterBoard"
+    ],
+    "cards": [
+      {
+        "id": "Archer",
+        "count": 3
+      },
+      {
+        "id": "ManaCondenser",
+        "count": 2
+      },
+      {
+        "id": "WisdomPunisher",
+        "count": 2
+      },
+      {
+        "id": "Sentry",
+        "count": 1
+      },
+      {
+        "id": "SentrySquad",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "Grand Master",
+      "zh": "大法师"
+    }
+  },
+  {
+    "key": "illusionist",
+    "name": "illusionist",
+    "name_key": "DECK_ILLUSIONIST",
+    "difficulty": "hard",
+    "expansion": "celestial_dawn",
+    "stats": {
+      "max_health": 10,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "RingOfFaith"
+    ],
+    "cards": [
+      {
+        "id": "BlazingSeal",
+        "count": 2
+      },
+      {
+        "id": "LaserTotem",
+        "count": 3
+      },
+      {
+        "id": "SlowingSeal",
+        "count": 2
+      },
+      {
+        "id": "LaserSpinner",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Illusionist",
+      "zh": "幻术师"
+    }
+  },
+  {
+    "key": "nuketown",
+    "name": "nuketown",
+    "name_key": "DECK_NUKETOWN",
+    "difficulty": "extreme",
+    "expansion": "celestial_dawn",
+    "stats": {
+      "max_health": 7,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 100,
+      "mana": 4,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "CoinOfDestiny"
+    ],
+    "cards": [
+      {
+        "id": "Archer",
+        "count": 3
+      },
+      {
+        "id": "BlockingRitual",
+        "count": 1
+      },
+      {
+        "id": "LittleGhost",
+        "count": 3
+      },
+      {
+        "id": "Fireball",
+        "count": 3
+      },
+      {
+        "id": "LaserLauncher",
+        "count": 3
+      }
+    ],
+    "title": {
+      "en": "nuketown",
+      "zh": "nuketown"
+    }
+  },
+  {
+    "key": "shield_master",
+    "name": "shield_master",
+    "name_key": "DECK_SHIELD_MASTER",
+    "difficulty": "hard",
+    "expansion": "celestial_dawn",
+    "stats": {
+      "max_health": 1,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "RustyGnome",
+      "ForbiddenBrew"
+    ],
+    "cards": [
+      {
+        "id": "SummonTheMaster",
+        "count": 4
+      },
+      {
+        "id": "ShieldForger",
+        "count": 2
+      },
+      {
+        "id": "ShieldsUp",
+        "count": 4
+      },
+      {
+        "id": "Shieldbasher",
+        "count": 3
+      }
+    ],
+    "title": {
+      "en": "Shield Master",
+      "zh": "盾牌大师"
+    }
+  },
+  {
+    "key": "the_duelist",
+    "name": "the_duelist",
+    "name_key": "DECK_THE_DUELIST",
+    "difficulty": "hard",
+    "expansion": "astral_siege",
+    "stats": {
+      "max_health": 15,
+      "regen": 0,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "DuelistScroll",
+      "SolemnNecklace"
+    ],
+    "cards": [
+      {
+        "id": "EvilMagician",
+        "count": 2
+      },
+      {
+        "id": "DarkMagician",
+        "count": 2
+      },
+      {
+        "id": "EarlyProtector",
+        "count": 2
+      },
+      {
+        "id": "HeartOfTheCards",
+        "count": 1
+      },
+      {
+        "id": "Divination",
+        "count": 2
+      },
+      {
+        "id": "TechnicalProwess",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "The Duelist",
+      "zh": "决斗者"
+    }
+  },
+  {
+    "key": "the_engineer",
+    "name": "the_engineer",
+    "name_key": "DECK_THE_ENGINEER",
+    "difficulty": "hard",
+    "expansion": "astral_siege",
+    "stats": {
+      "max_health": 15,
+      "regen": 1,
+      "gold": 30,
+      "gold_multiplier": 10,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 30,
+      "fire_rate_multiplier": 10,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "EngineerMonocle",
+      "JoyfulRattle"
+    ],
+    "cards": [
+      {
+        "id": "StaticRifle",
+        "count": 2
+      },
+      {
+        "id": "CableGuy",
+        "count": 2
+      },
+      {
+        "id": "ElectricBanshee",
+        "count": 2
+      },
+      {
+        "id": "EMPWall",
+        "count": 2
+      },
+      {
+        "id": "AllForOne",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "The Engineer",
+      "zh": "工程师"
+    }
+  },
+  {
+    "key": "tutorial",
+    "name": "tutorial",
+    "name_key": "DECK_TUTORIAL",
+    "difficulty": "",
+    "expansion": "liberation",
+    "stats": {},
+    "trinkets": [],
+    "cards": [
+      {
+        "id": "Archer",
+        "count": 2
+      },
+      {
+        "id": "Bomber",
+        "count": 2
+      },
+      {
+        "id": "Thunderbolt",
+        "count": 1
+      }
+    ],
+    "title": {
+      "en": "tutorial",
+      "zh": "tutorial"
+    }
+  },
+  {
+    "key": "twin_caster",
+    "name": "twin_caster",
+    "name_key": "DECK_TWIN_CASTER",
+    "difficulty": "normal",
+    "expansion": "astral_siege",
+    "stats": {
+      "max_health": 12,
+      "regen": 1,
+      "gold": 0,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 0,
+      "armor_pen_flat": 0,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "SpellcasterSpark",
+      "ForbiddenBrew"
+    ],
+    "cards": [
+      {
+        "id": "Rebounder",
+        "count": 2
+      },
+      {
+        "id": "LaserLauncher",
+        "count": 2
+      },
+      {
+        "id": "BrightBeams",
+        "count": 2
+      },
+      {
+        "id": "Blizzard",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Twin Caster",
+      "zh": "双子施法者"
+    }
+  },
+  {
+    "key": "wanted_fugitive",
+    "name": "wanted_fugitive",
+    "name_key": "DECK_WANTED_FUGITIVE",
+    "difficulty": "extreme",
+    "expansion": "astral_siege",
+    "stats": {
+      "max_health": 10,
+      "regen": 1,
+      "gold": 100,
+      "gold_multiplier": 0,
+      "mana": 3,
+      "luck": 15,
+      "armor_pen_flat": 15,
+      "magic_pen_flat": 0,
+      "range_multiplier": 0,
+      "fire_rate_multiplier": 0,
+      "shield_loss": 0
+    },
+    "trinkets": [
+      "FugitiveDagger"
+    ],
+    "cards": [
+      {
+        "id": "EarlyProtector",
+        "count": 3
+      },
+      {
+        "id": "Rebounder",
+        "count": 2
+      },
+      {
+        "id": "WitheringExecutioner",
+        "count": 1
+      },
+      {
+        "id": "Fireball",
+        "count": 2
+      }
+    ],
+    "title": {
+      "en": "Wanted Fugitive",
+      "zh": "通缉逃犯"
+    }
+  }
+]

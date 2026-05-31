@@ -59,6 +59,172 @@ const STAT_ICON_MAP = {
   health_damage: "assets/icons/heart.png",
 };
 
+const DESCRIPTION_HIGHLIGHTS = [
+  {
+    key: "dispel",
+    color: "B482E4",
+    en: ["Dispel"],
+    zh: ["消耗", "驱散", "散逸", "放逐"],
+  },
+  {
+    key: "martyr",
+    color: "E77D7B",
+    en: ["Martyr"],
+    zh: ["殉道"],
+  },
+  {
+    key: "transcend",
+    color: "7be7b1",
+    en: ["Transcend:"],
+    zh: ["超越：", "超脱：", "飞升："],
+  },
+  {
+    key: "wave_start",
+    color: "FF8C00",
+    en: ["Wave start:"],
+    zh: ["波次开始：", "波开始："],
+  },
+  {
+    key: "wave_end",
+    color: "FF8C00",
+    en: ["Wave end:"],
+    zh: ["波次结束：", "波结束："],
+  },
+  {
+    key: "combat_start",
+    color: "FF69B4",
+    en: ["Combat start:"],
+    zh: ["战斗开始："],
+  },
+  {
+    key: "combat_end",
+    color: "FF69B4",
+    en: ["Combat end:"],
+    zh: ["战斗结束："],
+  },
+  {
+    key: "round_start",
+    color: "9ACD32",
+    en: ["Round start:"],
+    zh: ["回合开始："],
+  },
+  {
+    key: "round_end",
+    color: "9ACD32",
+    en: ["Round end:"],
+    zh: ["回合结束："],
+  },
+  {
+    key: "cant_be_moved",
+    color: "D87093",
+    en: ["Can't be moved."],
+    zh: ["不能被移动。", "无法被移动。"],
+  },
+  {
+    key: "on_play",
+    color: "FFA07A",
+    en: ["On play:"],
+    zh: ["使用时：", "打出时：", "部署时："],
+  },
+  {
+    key: "silence",
+    color: "DAA520",
+    en: ["Silence"],
+    zh: ["沉默"],
+  },
+  {
+    key: "cant_level_up",
+    color: "FFB375",
+    en: ["Can't level up."],
+    zh: ["不能提升等级。", "无法升级。"],
+  },
+  {
+    key: "overload",
+    color: "575CFF",
+    en: ["Overload"],
+    zh: ["过载"],
+  },
+  {
+    key: "rebound",
+    color: "70ffec",
+    en: ["Rebound."],
+    zh: ["回响。", "反弹。"],
+  },
+  {
+    key: "cant_be_deactivated",
+    color: "30fcd7",
+    en: ["Can't be deactivated."],
+    zh: ["它不能被禁用。", "无法被停用。", "不能被停用。"],
+  },
+];
+
+const KEYWORD_EXPLANATIONS = {
+  dispel: {
+    en: "When played, this card disappears until next combat.",
+    zh: "这张牌会消失，直到下一次战斗。",
+  },
+  martyr: {
+    en: "Costs one less for each damage taken this combat.",
+    zh: "在这场战斗中，每受到1点伤害，费用减少1。",
+  },
+  transcend: {
+    en: "You transcend when you have 20 or more cards in your hand and draw, discard and dispel piles combined.",
+    zh: "当你的手牌、抽牌堆、弃牌堆和消耗牌堆加起来有20张或更多的牌时，你就超频了。",
+  },
+  wave_start: {
+    en: "Effect triggers at the start of each wave.",
+    zh: "每个波次开始时触发效果。",
+  },
+  wave_end: {
+    en: "Effect triggers at the end of each wave.",
+    zh: "每个波次结束时触发效果。",
+  },
+  combat_start: {
+    en: "Effect triggers when combat starts.",
+    zh: "战斗开始时触发效果。",
+  },
+  combat_end: {
+    en: "Effect triggers when combat ends.",
+    zh: "战斗结束时触发效果。",
+  },
+  round_start: {
+    en: "Effect triggers at the start of each round.",
+    zh: "每回合开始时触发效果。",
+  },
+  round_end: {
+    en: "Effect triggers at the end of each round.",
+    zh: "每回合结束时触发效果。",
+  },
+  cant_be_moved: {
+    en: "This card cannot be repositioned once placed.",
+    zh: "此卡放置后不能被移动。",
+  },
+  on_play: {
+    en: "Effect resolves immediately when the card is played.",
+    zh: "打出此卡时立即结算效果。",
+  },
+  silence: {
+    en: "Disable all special abilities an enemy has.",
+    zh: "使敌人的所有特殊能力失效。",
+  },
+  cant_level_up: {
+    en: "This card cannot gain levels.",
+    zh: "此卡无法升级。",
+  },
+  overload: {
+    en: "Overload applies a temporary downside after a strong effect.",
+    zh: "过载会在强力效果后附带短暂负面代价。",
+  },
+  rebound: {
+    en: "When you cast this card, you can cast it again once this wave if you have enough mana.",
+    zh: "当你施放这张牌时，如果你有足够的法力，你可以在这一波中再次施放一次。",
+  },
+  cant_be_deactivated: {
+    en: "This card cannot be disabled by effects.",
+    zh: "此卡不会被效果停用。",
+  },
+};
+
 const LANG_STORAGE_KEY = "tt_codex_lang";
 
 function getInitialLanguage() {
@@ -89,6 +255,68 @@ function getName(card) {
 function getDescription(card) {
   if (!card.description) return "";
   return card.description[state.lang] || card.description.en || "";
+}
+
+function getDescriptionHtml(card) {
+  let html = escapeHtml(getDescription(card));
+  const lang = state.lang === "zh" ? "zh" : "en";
+
+  DESCRIPTION_HIGHLIGHTS.forEach((entry) => {
+    const terms = Array.isArray(entry[lang]) && entry[lang].length ? entry[lang] : entry.en;
+    terms.forEach((term) => {
+      if (!term) return;
+      const safeTerm = escapeHtml(term);
+      html = html.split(safeTerm).join(`<span class="desc-keyword" style="--kw-color:#${entry.color};">${safeTerm}</span>`);
+    });
+  });
+
+  return html;
+}
+
+function getKeywordMatches(card) {
+  const description = getDescription(card);
+  if (!description) return [];
+
+  const lang = state.lang === "zh" ? "zh" : "en";
+  const source = lang === "zh" ? description : description.toLowerCase();
+  const matches = [];
+
+  DESCRIPTION_HIGHLIGHTS.forEach((entry) => {
+    const terms = Array.isArray(entry[lang]) && entry[lang].length ? entry[lang] : entry.en;
+    const found = terms.find((term) => {
+      if (!term) return false;
+      if (lang === "zh") return source.includes(term);
+      return source.includes(term.toLowerCase());
+    });
+    if (!found) return;
+
+    matches.push({
+      key: entry.key,
+      color: entry.color,
+      term: found,
+      explanation:
+        (KEYWORD_EXPLANATIONS[entry.key] && KEYWORD_EXPLANATIONS[entry.key][lang]) ||
+        (KEYWORD_EXPLANATIONS[entry.key] && KEYWORD_EXPLANATIONS[entry.key].en) ||
+        "",
+    });
+  });
+
+  return matches;
+}
+
+function renderKeywordRail(card, railEl) {
+  const matches = getKeywordMatches(card);
+  if (!matches.length) return;
+
+  matches.forEach((m) => {
+    const node = document.createElement("section");
+    node.className = "stat-card keyword-card";
+    node.innerHTML = `
+      <div class="keyword-title" style="--kw-color:#${escapeHtml(m.color)};">${escapeHtml(m.term)}</div>
+      <div class="keyword-text">${escapeHtml(m.explanation)}</div>
+    `;
+    railEl.appendChild(node);
+  });
 }
 
 function getArt(card) {
@@ -281,8 +509,11 @@ function renderStatsRail(card, railEl) {
   levels.forEach((lv) => {
     const stats = hover[lv] || {};
     const keys = getDisplayStatKeys(stats);
+    const iconKeys = keys.filter((k) => !!STAT_ICON_MAP[k]);
+    const noIconKeys = keys.filter((k) => !STAT_ICON_MAP[k]);
+    const orderedKeys = [...iconKeys, ...noIconKeys];
 
-    const statRows = keys
+    const statRows = orderedKeys
       .map((k) => {
         const label = statLabel(k);
         const icon = STAT_ICON_MAP[k];
@@ -295,7 +526,7 @@ function renderStatsRail(card, railEl) {
           `;
         }
         return `
-          <div class="stat-item" title="${label}">
+          <div class="stat-item no-icon" title="${label}">
             <span class="stat-fallback-label">${label}</span>
             <span class="stat-value">${stats[k]}</span>
           </div>
@@ -311,6 +542,8 @@ function renderStatsRail(card, railEl) {
     `;
     railEl.appendChild(node);
   });
+
+  renderKeywordRail(card, railEl);
 }
 
 function renderDetail(card) {
@@ -386,7 +619,7 @@ function renderDetail(card) {
           <img class="art" src="${escapeHtml(art)}" alt="${escapeHtml(getName(card))}" loading="lazy" />
           <h2 class="name">${escapeHtml(getName(card))}</h2>
           <div class="rarity ${(card.rarity || "unknown")}">${escapeHtml((card.rarity || "unknown").toUpperCase())}</div>
-          <p class="description">${escapeHtml(getDescription(card))}</p>
+          <p class="description">${getDescriptionHtml(card)}</p>
           <div class="type">TOWER</div>
         </article>
       </aside>
@@ -445,7 +678,7 @@ function renderList() {
 
     costEl.textContent = card.cost;
     nameEl.textContent = getName(card);
-    descEl.textContent = getDescription(card);
+    descEl.innerHTML = getDescriptionHtml(card);
 
     const art = getArt(card);
     artEl.src = art;

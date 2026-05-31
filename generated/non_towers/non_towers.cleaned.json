@@ -1,0 +1,3426 @@
+[
+  {
+    "id": "Curse",
+    "type": "curse",
+    "expansion": "liberation",
+    "rarity": null,
+    "cost": null,
+    "name_key": "CURSE_BANE_OF_EXISTENCE",
+    "description_key": "CURSE_DESC",
+    "name": {
+      "en": "Bane of Existence",
+      "zh": "存在的祸害"
+    },
+    "description": {
+      "en": "Can't be played or removed from your deck.",
+      "zh": "不能被打出或从你的牌组中移除。",
+      "en_plain": "Can't be played or removed from your deck.",
+      "zh_plain": "不能被打出或从你的牌组中移除。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Curses/Curse.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Curses\\Curse.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Curses\\Curse.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Curse.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Curse.png",
+          "website_path": "assets/non_towers/Curse_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfFortune",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": null,
+    "name_key": "EMBLEM_OF_FORTUNE",
+    "description_key": "DESC_EMBLEM_OF_FORTUNE",
+    "name": {
+      "en": "Emblem of Fortune",
+      "zh": "财富之纹章"
+    },
+    "description": {
+      "en": "Towers gain an additional 0.33% critical strike chance for each point of luck you have.",
+      "zh": "你每拥有1点运气，防御塔就会提升0.33%的暴击率。",
+      "en_plain": "Towers gain an additional 0.33% critical strike chance for each point of luck you have.",
+      "zh_plain": "你每拥有1点运气，防御塔就会提升0.33%的暴击率。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfFortune.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfFortune.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfFortune.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfFortune.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfFortune.png",
+          "website_path": "assets/non_towers/EmblemOfFortune_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfHope",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": null,
+    "name_key": "EMBLEM_OF_HOPE",
+    "description_key": "DESC_EMBLEM_OF_HOPE",
+    "name": {
+      "en": "Emblem of Hope",
+      "zh": "希望之纹章"
+    },
+    "description": {
+      "en": "Wave start: If you don't have shields, gain 2 shield.",
+      "zh": "在回合开始时，如果你没有护盾，则获得2点护盾。",
+      "en_plain": "Wave start: If you don't have shields, gain 2 shield.",
+      "zh_plain": "在回合开始时，如果你没有护盾，则获得2点护盾。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfHope.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfHope.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfHope.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfHope.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfHope.png",
+          "website_path": "assets/non_towers/EmblemOfHope_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfLife",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": null,
+    "name_key": "EMBLEM_OF_LIFE",
+    "description_key": "DESC_EMBLEM_OF_LIFE",
+    "name": {
+      "en": "Emblem of Life",
+      "zh": "生命之纹章"
+    },
+    "description": {
+      "en": "Transcend: Wave end: Restore 1 health.",
+      "zh": "超频。每一波次结束，恢复1点生命值。",
+      "en_plain": "Transcend: Wave end: Restore 1 health.",
+      "zh_plain": "超频。每一波次结束，恢复1点生命值。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfLife.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfLife.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfLife.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfLife.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfLife.png",
+          "website_path": "assets/non_towers/EmblemOfLife_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfProsperity",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": null,
+    "name_key": "EMBLEM_OF_PROSPERITY",
+    "description_key": "DESC_EMBLEM_OF_PROSPERITY",
+    "name": {
+      "en": "Emblem of Prosperity",
+      "zh": "繁荣之纹章"
+    },
+    "description": {
+      "en": "Wave end: Spawn a random non-basic tower if you have 7 or more cards in your hand.",
+      "zh": "如果你的手牌有7张或更多，在波次结束时产生一个随机的非基本塔。",
+      "en_plain": "Wave end: Spawn a random non-basic tower if you have 7 or more cards in your hand.",
+      "zh_plain": "如果你的手牌有7张或更多，在波次结束时产生一个随机的非基本塔。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfProsperity.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfProsperity.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfProsperity.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfProsperity.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfProsperity.png",
+          "website_path": "assets/non_towers/EmblemOfProsperity_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfProtection",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": null,
+    "name_key": "EMBLEM_OF_PROTECTION",
+    "description_key": "DESC_EMBLEM_OF_PROTECTION",
+    "name": {
+      "en": "Emblem of Protection",
+      "zh": "保护之纹章"
+    },
+    "description": {
+      "en": "Towers cannot be deactivated. All towers can attack cloaked enemies.",
+      "zh": "防御塔不会被停用。所有防御塔都可以攻击隐身的敌人。",
+      "en_plain": "Towers cannot be deactivated. All towers can attack cloaked enemies.",
+      "zh_plain": "防御塔不会被停用。所有防御塔都可以攻击隐身的敌人。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfProtection.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfProtection.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfProtection.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfProtection.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfProtection.png",
+          "website_path": "assets/non_towers/EmblemOfProtection_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfRenewal",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": null,
+    "name_key": "EMBLEM_OF_RENEWAL",
+    "description_key": "DESC_EMBLEM_OF_RENEWAL",
+    "name": {
+      "en": "Emblem of Renewal",
+      "zh": "复兴之纹章"
+    },
+    "description": {
+      "en": "Every time you play a tower from your hand, draw a card.",
+      "zh": "每当你从手牌中打出一个防御塔，抽一张牌。",
+      "en_plain": "Every time you play a tower from your hand, draw a card.",
+      "zh_plain": "每当你从手牌中打出一个防御塔，抽一张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfRenewal.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfRenewal.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfRenewal.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfRenewal.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfRenewal.png",
+          "website_path": "assets/non_towers/EmblemOfRenewal_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfWar",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": null,
+    "name_key": "EMBLEM_OF_WAR",
+    "description_key": "DESC_EMBLEM_OF_WAR",
+    "name": {
+      "en": "Emblem of War",
+      "zh": "战争之纹章"
+    },
+    "description": {
+      "en": "Towers gain 3% fire rate for each time you have cycled through your deck this combat.",
+      "zh": "你每抽到一张本卡牌，所有防御塔提升3%攻击速度。",
+      "en_plain": "Towers gain 3% fire rate for each time you have cycled through your deck this combat.",
+      "zh_plain": "你每抽到一张本卡牌，所有防御塔提升3%攻击速度。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfWar.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfWar.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfWar.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfWar.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfWar.png",
+          "website_path": "assets/non_towers/EmblemOfWar_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EmblemOfWealth",
+    "type": "emblem",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": null,
+    "name_key": "EMBLEM_OF_WEALTH",
+    "description_key": "DESC_EMBLEM_OF_WEALTH",
+    "name": {
+      "en": "Emblem of Wealth",
+      "zh": "财富之纹章"
+    },
+    "description": {
+      "en": "Wave end: Gain 1 crystal for each 2 cards in your hand.",
+      "zh": "每一波次结束，你手中每有2张牌就获得1个水晶。",
+      "en_plain": "Wave end: Gain 1 crystal for each 2 cards in your hand.",
+      "zh_plain": "每一波次结束，你手中每有2张牌就获得1个水晶。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Emblems/EmblemOfWealth.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Emblems\\EmblemOfWealth.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Emblems\\EmblemOfWealth.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Emblems/EmblemOfWealth.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Emblems\\EmblemOfWealth.png",
+          "website_path": "assets/non_towers/EmblemOfWealth_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BlindingLight",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 1,
+    "name_key": "SPELL_BLINDING_LIGHT",
+    "description_key": "SPELL_DESC_BLINDING_LIGHT",
+    "name": {
+      "en": "Blinding Light",
+      "zh": "耀眼光芒"
+    },
+    "description": {
+      "en": "All towers can now target cloaked enemies. Enemies lose 5% speed.",
+      "zh": "所有防御塔都可以攻击隐身的敌人。敌人全体减速5%。",
+      "en_plain": "All towers can now target cloaked enemies. Enemies lose 5% speed.",
+      "zh_plain": "所有防御塔都可以攻击隐身的敌人。敌人全体减速5%。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/BlindingLight.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\BlindingLight.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\BlindingLight.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/BlindingLight.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\BlindingLight.png",
+          "website_path": "assets/non_towers/BlindingLight_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SongOfTheEarth",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 2,
+    "name_key": "SPELL_SONG_OF_THE_EARTH",
+    "description_key": "SPELL_DESC_SONG_OF_THE_EARTH",
+    "name": {
+      "en": "Song of the Earth",
+      "zh": "大地之歌"
+    },
+    "description": {
+      "en": "Round start: Create two gray tiles on random free spots on the map. Convert two red tiles into gray tiles.",
+      "zh": "在每一轮开始时，在随机的自由位置上创建两个灰色地格，并将两个红色地格变成灰色。",
+      "en_plain": "Round start: Create two gray tiles on random free spots on the map. Convert two red tiles into gray tiles.",
+      "zh_plain": "在每一轮开始时，在随机的自由位置上创建两个灰色地格，并将两个红色地格变成灰色。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SongOfTheEarth.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SongOfTheEarth.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SongOfTheEarth.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SongOfTheEarth.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SongOfTheEarth.png",
+          "website_path": "assets/non_towers/SongOfTheEarth_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "WarpShock",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_WARP_SHOCK",
+    "description_key": "SPELL_DESC_WARP_SHOCK",
+    "name": {
+      "en": "Warp Shock",
+      "zh": "时空震荡"
+    },
+    "description": {
+      "en": "Enemies that get teleported get stunned for 2.5 seconds.",
+      "zh": "被传送的敌人会被击晕2.5秒。",
+      "en_plain": "Enemies that get teleported get stunned for 2.5 seconds.",
+      "zh_plain": "被传送的敌人会被击晕2.5秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/WarpShock.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\WarpShock.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\WarpShock.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/WarpShock.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\WarpShock.png",
+          "website_path": "assets/non_towers/WarpShock_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Barricade",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_BARRICADE",
+    "description_key": "SPELL_DESC_BARRICADE",
+    "name": {
+      "en": "Barricade",
+      "zh": "壁垒"
+    },
+    "description": {
+      "en": "You lose 25% less shield after each wave.",
+      "zh": "每一波之后失去的护盾量减少25%。",
+      "en_plain": "You lose 25% less shield after each wave.",
+      "zh_plain": "每一波之后失去的护盾量减少25%。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Barricade.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Barricade.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Barricade.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Barricade.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Barricade.png",
+          "website_path": "assets/non_towers/Barricade_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EliteReinforcements",
+    "type": "enchantment",
+    "expansion": "celestial_dawn",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_ELITE_REINFORCEMENTS",
+    "description_key": "SPELL_DESC_ELITE_REINFORCEMENTS",
+    "name": {
+      "en": "Elite Reinforcements",
+      "zh": "精英援军"
+    },
+    "description": {
+      "en": "Whenever you play a tower that costs 3 or more, gain 1 shield.",
+      "zh": "每次你打出一个3费或以上的塔时，获得1个护盾。",
+      "en_plain": "Whenever you play a tower that costs 3 or more, gain 1 shield.",
+      "zh_plain": "每次你打出一个3费或以上的塔时，获得1个护盾。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/EliteReinforcements.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\EliteReinforcements.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\EliteReinforcements.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/EliteReinforcements.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\EliteReinforcements.png",
+          "website_path": "assets/non_towers/EliteReinforcements_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ManaImpulse",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_MANA_IMPULSE",
+    "description_key": "SPELL_DESC_MANA_IMPULSE",
+    "name": {
+      "en": "Mana Impulse",
+      "zh": "法力脉冲"
+    },
+    "description": {
+      "en": "Increase your maximum spell mana by 2 for the rest of this combat.",
+      "zh": "在这场战斗的剩余时间里，你的最大法术法力值增加2。",
+      "en_plain": "Increase your maximum spell mana by 2 for the rest of this combat.",
+      "zh_plain": "在这场战斗的剩余时间里，你的最大法术法力值增加2。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ManaImpulse.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ManaImpulse.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ManaImpulse.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ManaImpulse.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ManaImpulse.png",
+          "website_path": "assets/non_towers/ManaImpulse_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Overload",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_OVERLOAD",
+    "description_key": "SPELL_DESC_OVERLOAD",
+    "name": {
+      "en": "Beyond all limits!",
+      "zh": "苏布雷卡奇!"
+    },
+    "description": {
+      "en": "Each wave, all towers have a 25% chance of being deactivated, down to 2.5% at level 3. Gain 1 extra mana every round.",
+      "zh": "每一波，塔有25%的机会停用，3级时降至2.5%。 每轮获得1个额外的法力值。",
+      "en_plain": "Each wave, all towers have a 25% chance of being deactivated, down to 2.5% at level 3. Gain 1 extra mana every round.",
+      "zh_plain": "每一波，塔有25%的机会停用，3级时降至2.5%。 每轮获得1个额外的法力值。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Overload.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Overload.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Overload.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Overload.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Overload.png",
+          "website_path": "assets/non_towers/Overload_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PrecisionTraining",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_PRECISION_TRAINING",
+    "description_key": "SPELL_DESC_PRECISION_TRAINING",
+    "name": {
+      "en": "Precision Training",
+      "zh": "精准培训"
+    },
+    "description": {
+      "en": "All towers have an extra 12% chance of dealing critical strikes.",
+      "zh": "塔楼有额外的12%的关键命中机会。",
+      "en_plain": "All towers have an extra 12% chance of dealing critical strikes.",
+      "zh_plain": "塔楼有额外的12%的关键命中机会。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/PrecisionTraining.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\PrecisionTraining.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\PrecisionTraining.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/PrecisionTraining.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\PrecisionTraining.png",
+          "website_path": "assets/non_towers/PrecisionTraining_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Recycle",
+    "type": "enchantment",
+    "expansion": "astral_siege",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_RECYCLE",
+    "description_key": "SPELL_DESC_RECYCLE",
+    "name": {
+      "en": "Recycle",
+      "zh": "回收"
+    },
+    "description": {
+      "en": "Wave Start: Return a random tower or spell in your Dispel pile to your hand.",
+      "zh": "波浪起始： 将你驱散堆中的一座随机防御塔或咒语放回你的手牌。",
+      "en_plain": "Wave Start: Return a random tower or spell in your Dispel pile to your hand.",
+      "zh_plain": "波浪起始： 将你驱散堆中的一座随机防御塔或咒语放回你的手牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/Recycle.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\Recycle.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\Recycle.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/Recycle.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\Recycle.png",
+          "website_path": "assets/non_towers/Recycle_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Revitalize",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_REVITALIZE",
+    "description_key": "SPELL_DESC_REVITALIZE",
+    "name": {
+      "en": "Revitalize",
+      "zh": "振兴会"
+    },
+    "description": {
+      "en": "Wave start: Restore 1 health if you have less than 50% health.",
+      "zh": "在每一波开始时，如果你的健康总量低于50%，则恢复1个生命值。",
+      "en_plain": "Wave start: Restore 1 health if you have less than 50% health.",
+      "zh_plain": "在每一波开始时，如果你的健康总量低于50%，则恢复1个生命值。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Revitalize.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Revitalize.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Revitalize.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Revitalize.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Revitalize.png",
+          "website_path": "assets/non_towers/Revitalize_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SoftwareUpdate",
+    "type": "enchantment",
+    "expansion": "celestial_dawn",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_SOFTWARE_UPDATE",
+    "description_key": "SPELL_DESC_SOFTWARE_UPDATE",
+    "name": {
+      "en": "Software Update",
+      "zh": "软件升级"
+    },
+    "description": {
+      "en": "Towers cannot be deactivated.\nReduce the overload threshold by 1.",
+      "zh": "塔楼不能被停用。过载阈值降低了1。",
+      "en_plain": "Towers cannot be deactivated.\nReduce the overload threshold by 1.",
+      "zh_plain": "塔楼不能被停用。过载阈值降低了1。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/SoftwareUpdate.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\SoftwareUpdate.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\SoftwareUpdate.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/SoftwareUpdate.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\SoftwareUpdate.png",
+          "website_path": "assets/non_towers/SoftwareUpdate_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AvidReading",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 4,
+    "name_key": "SPELL_AVID_READING",
+    "description_key": "SPELL_DESC_AVID_READING",
+    "name": {
+      "en": "Avid Reading",
+      "zh": "渴望知识"
+    },
+    "description": {
+      "en": "Draw 1 more card each round.",
+      "zh": "每轮额外多抽一张牌。",
+      "en_plain": "Draw 1 more card each round.",
+      "zh_plain": "每轮额外多抽一张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/AvidReading.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\AvidReading.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\AvidReading.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/AvidReading.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\AvidReading.png",
+          "website_path": "assets/non_towers/AvidReading_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CrimsonPyramid",
+    "type": "enchantment",
+    "expansion": "astral_siege",
+    "rarity": "rare",
+    "cost": 4,
+    "name_key": "SPELL_CRIMSON_PYRAMID",
+    "description_key": "SPELL_DESC_CRIMSON_PYRAMID",
+    "name": {
+      "en": "Crimson Pyramid",
+      "zh": "深红金字塔"
+    },
+    "description": {
+      "en": "Round start: Convert 2 Gray or Yellow tiles into Red tiles.\nRed and Crimson Eye tiles give +20% fire rate and range.",
+      "zh": "回合开始： 将 2 张灰色或黄色牌转化为红色牌。红色和绯红之眼牌会带来 +20% 的属性加成。",
+      "en_plain": "Round start: Convert 2 Gray or Yellow tiles into Red tiles.\nRed and Crimson Eye tiles give +20% fire rate and range.",
+      "zh_plain": "回合开始： 将 2 张灰色或黄色牌转化为红色牌。红色和绯红之眼牌会带来 +20% 的属性加成。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/CrimsonPyramid.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\CrimsonPyramid.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\CrimsonPyramid.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/CrimsonPyramid.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\CrimsonPyramid.png",
+          "website_path": "assets/non_towers/CrimsonPyramid_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Delirium",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 4,
+    "name_key": "SPELL_DELIRIUM",
+    "description_key": "SPELL_DESC_DELIRIUM",
+    "name": {
+      "en": "Delirium",
+      "zh": "妄想"
+    },
+    "description": {
+      "en": "Round start: Add a random card to your hand. It costs 1 less this combat.",
+      "zh": "在每个回合开始时，将一张随机的牌加入你的手牌。它的成本是1减去这次战斗。",
+      "en_plain": "Round start: Add a random card to your hand. It costs 1 less this combat.",
+      "zh_plain": "在每个回合开始时，将一张随机的牌加入你的手牌。它的成本是1减去这次战斗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Delirium.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Delirium.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Delirium.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Delirium.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Delirium.png",
+          "website_path": "assets/non_towers/Delirium_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Omniscience",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 5,
+    "name_key": "SPELL_OMNISCIENCE",
+    "description_key": "SPELL_DESC_OMNISCIENCE",
+    "name": {
+      "en": "Omniscience",
+      "zh": "全知"
+    },
+    "description": {
+      "en": "Spells cost 1 less, down to a minimum of 1.",
+      "zh": "法术费用减少1，最低降至1。",
+      "en_plain": "Spells cost 1 less, down to a minimum of 1.",
+      "zh_plain": "法术费用减少1，最低降至1。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Omniscience.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Omniscience.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Omniscience.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Omniscience.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Omniscience.png",
+          "website_path": "assets/non_towers/Omniscience_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ReusableTech",
+    "type": "enchantment",
+    "expansion": "astral_siege",
+    "rarity": "mythic",
+    "cost": 5,
+    "name_key": "SPELL_REUSABLE_TECH",
+    "description_key": "SPELL_DESC_REUSABLE_TECH",
+    "name": {
+      "en": "Reusable Tech",
+      "zh": "可重复使用的技术"
+    },
+    "description": {
+      "en": "All tower cards gain Rebound.\nTowers gain +5% range.",
+      "zh": "所有塔牌获得反弹效果。防御塔获得 +5% 射程。",
+      "en_plain": "All tower cards gain Rebound.\nTowers gain +5% range.",
+      "zh_plain": "所有塔牌获得反弹效果。防御塔获得 +5% 射程。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/ReusableTech.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\ReusableTech.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\ReusableTech.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/ReusableTech.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\ReusableTech.png",
+          "website_path": "assets/non_towers/ReusableTech_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SwordOfTheMeek",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 5,
+    "name_key": "SPELL_SWORD_OF_THE_MEEK",
+    "description_key": "SPELL_DESC_SWORD_OF_THE_MEEK",
+    "name": {
+      "en": "Sword of the Meek",
+      "zh": "温顺者之剑"
+    },
+    "description": {
+      "en": "Round start: Level up a random level 1 tower that costs zero mana by default.",
+      "zh": "在每个回合开始时，随机选择一个默认0费的一级防御塔，将其升级。",
+      "en_plain": "Round start: Level up a random level 1 tower that costs zero mana by default.",
+      "zh_plain": "在每个回合开始时，随机选择一个默认0费的一级防御塔，将其升级。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SwordOfTheMeek.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SwordOfTheMeek.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SwordOfTheMeek.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SwordOfTheMeek.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SwordOfTheMeek.png",
+          "website_path": "assets/non_towers/SwordOfTheMeek_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "EternalSunshine",
+    "type": "enchantment",
+    "expansion": "celestial_dawn",
+    "rarity": "mythic",
+    "cost": 7,
+    "name_key": "SPELL_ETERNAL_SUNSHINE",
+    "description_key": "SPELL_DESC_ETERNAL_SUNSHINE",
+    "name": {
+      "en": "Eternal Sunshine",
+      "zh": "永恒的黎明"
+    },
+    "description": {
+      "en": "On play: Convert all tiles to yellow tiles.\nYellow tiles give +8% stats. Enemies move 8% slower.",
+      "zh": "将所有方格变成黄色。黄色方块提供+8%的状态。敌人的移动速度降低8%。",
+      "en_plain": "On play: Convert all tiles to yellow tiles.\nYellow tiles give +8% stats. Enemies move 8% slower.",
+      "zh_plain": "将所有方格变成黄色。黄色方块提供+8%的状态。敌人的移动速度降低8%。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/EternalSunshine.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\EternalSunshine.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\EternalSunshine.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/EternalSunshine.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\EternalSunshine.png",
+          "website_path": "assets/non_towers/EternalSunshine_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AirSupport",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 9,
+    "name_key": "SPELL_AIR_SUPPORT",
+    "description_key": "SPELL_DESC_AIR_SUPPORT",
+    "name": {
+      "en": "Sky Arsenal",
+      "zh": "高压支援"
+    },
+    "description": {
+      "en": "Round start: Summon a random tower.",
+      "zh": "在每个回合开始时，召唤一个随机防御塔。",
+      "en_plain": "Round start: Summon a random tower.",
+      "zh_plain": "在每个回合开始时，召唤一个随机防御塔。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/AirSupport.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\AirSupport.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\AirSupport.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/AirSupport.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\AirSupport.png",
+          "website_path": "assets/non_towers/AirSupport_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LastHope",
+    "type": "enchantment",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 13,
+    "name_key": "SPELL_LAST_HOPE",
+    "description_key": "SPELL_DESC_LAST_HOPE",
+    "name": {
+      "en": "Last Hope",
+      "zh": "最后的希望"
+    },
+    "description": {
+      "en": "Restore 5 health. During the rest of the combat, ignore all enemy resistances. Martyr.",
+      "zh": "恢复5点生命值。在剩下的战斗中，无视所有敌人的抗性。殉道者。",
+      "en_plain": "Restore 5 health. During the rest of the combat, ignore all enemy resistances. Martyr.",
+      "zh_plain": "恢复5点生命值。在剩下的战斗中，无视所有敌人的抗性。殉道者。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/LastHope.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\LastHope.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\LastHope.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/LastHope.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\LastHope.png",
+          "website_path": "assets/non_towers/LastHope_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BackupPlan",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 0,
+    "name_key": "SPELL_BACKUP_PLAN",
+    "description_key": "SPELL_DESC_BACKUP_PLAN",
+    "name": {
+      "en": "Backup Plan",
+      "zh": "后备计划"
+    },
+    "description": {
+      "en": "Draw cards until you have 3 cards in hand.\nDispel.",
+      "zh": "抽牌直到你有3张手牌。\n消耗。",
+      "en_plain": "Draw cards until you have 3 cards in hand.\nDispel.",
+      "zh_plain": "抽牌直到你有3张手牌。\n消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/BackupPlan.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\BackupPlan.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\BackupPlan.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/BackupPlan.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\BackupPlan.png",
+          "website_path": "assets/non_towers/BackupPlan_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Brainstorm",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_BRAINSTORM",
+    "description_key": "SPELL_DESC_BRAINSTORM",
+    "name": {
+      "en": "Brainstorm",
+      "zh": "脑力激荡"
+    },
+    "description": {
+      "en": "Add a random card to your hand.\nTranscend: Draw 3 cards instead.",
+      "zh": "将一张随机牌加入你的手牌。\n超越：抽3张牌代替。",
+      "en_plain": "Add a random card to your hand.\nTranscend: Draw 3 cards instead.",
+      "zh_plain": "将一张随机牌加入你的手牌。\n超越：抽3张牌代替。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/Brainstorm.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\Brainstorm.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\Brainstorm.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/Brainstorm.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\Brainstorm.png",
+          "website_path": "assets/non_towers/Brainstorm_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DeadlyStorm",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "uncommon",
+    "cost": 0,
+    "name_key": "SPELL_DEADLY_STORM",
+    "description_key": "SPELL_DESC_DEADLY_STORM",
+    "name": {
+      "en": "Deadly Storm",
+      "zh": "致命风暴"
+    },
+    "description": {
+      "en": "Rebound. Deal 10% of enemy max health as magic damage for each spell you cast this wave.",
+      "zh": "反弹。每施放一次魔法，都会造成敌人最大生命值 10%的魔法伤害。",
+      "en_plain": "Rebound. Deal 10% of enemy max health as magic damage for each spell you cast this wave.",
+      "zh_plain": "反弹。每施放一次魔法，都会造成敌人最大生命值 10%的魔法伤害。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/DeadlyStorm.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\DeadlyStorm.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\DeadlyStorm.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/DeadlyStorm.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\DeadlyStorm.png",
+          "website_path": "assets/non_towers/DeadlyStorm_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DecimateTheWeak",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 0,
+    "name_key": "SPELL_DECIMATE_THE_WEAK",
+    "description_key": "SPELL_DESC_DECIMATE_THE_WEAK",
+    "name": {
+      "en": "Decimate the Weak",
+      "zh": "弱者退散"
+    },
+    "description": {
+      "en": "Destroy level 1 enemies. Restore 1 health for each enemy destroyed this way.",
+      "zh": "摧毁等级为1的敌人。每消灭一个敌人，就恢复1点生命值。",
+      "en_plain": "Destroy level 1 enemies. Restore 1 health for each enemy destroyed this way.",
+      "zh_plain": "摧毁等级为1的敌人。每消灭一个敌人，就恢复1点生命值。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/DecimateTheWeak.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\DecimateTheWeak.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\DecimateTheWeak.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/DecimateTheWeak.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\DecimateTheWeak.png",
+          "website_path": "assets/non_towers/DecimateTheWeak_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Esna",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_ESNA",
+    "description_key": "SPELL_DESC_ESNA",
+    "name": {
+      "en": "Esuna",
+      "zh": "驱邪术"
+    },
+    "description": {
+      "en": "Activate all deactivated towers in an area. Draw 1 more card next round.",
+      "zh": "激活一片区域内所有停用的防御塔。下一回合额外抽一张牌。",
+      "en_plain": "Activate all deactivated towers in an area. Draw 1 more card next round.",
+      "zh_plain": "激活一片区域内所有停用的防御塔。下一回合额外抽一张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Esna.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Esna.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Esna.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Esna.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Esna.png",
+          "website_path": "assets/non_towers/Esna_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "FreezingFog",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_FREEZING_FOG",
+    "description_key": "SPELL_DESC_FREEZING_FOG",
+    "name": {
+      "en": "Freezing Fog",
+      "zh": "冻雾"
+    },
+    "description": {
+      "en": "Slow targeted enemies for 4 seconds.",
+      "zh": "使敌人减速4秒。",
+      "en_plain": "Slow targeted enemies for 4 seconds.",
+      "zh_plain": "使敌人减速4秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/FreezingFog.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\FreezingFog.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\FreezingFog.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/FreezingFog.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\FreezingFog.png",
+          "website_path": "assets/non_towers/FreezingFog_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ManaRitual",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "rare",
+    "cost": 0,
+    "name_key": "SPELL_MANA_RITUAL",
+    "description_key": "SPELL_DESC_MANA_RITUAL",
+    "name": {
+      "en": "Mana Ritual",
+      "zh": "法力祭祀"
+    },
+    "description": {
+      "en": "If Overload is active, gain 1 mana.\nDispel.",
+      "zh": "如果 \"过载 \"处于激活状态，则抽出1张法力值。驱散。",
+      "en_plain": "If Overload is active, gain 1 mana.\nDispel.",
+      "zh_plain": "如果 \"过载 \"处于激活状态，则抽出1张法力值。驱散。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/ManaRitual.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\ManaRitual.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\ManaRitual.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/ManaRitual.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\ManaRitual.png",
+          "website_path": "assets/non_towers/ManaRitual_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Premonition",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_PREMONITION",
+    "description_key": "SPELL_DESC_PREMONITION",
+    "name": {
+      "en": "Premonition",
+      "zh": "不祥预感"
+    },
+    "description": {
+      "en": "Draw 2 extra cards next round.",
+      "zh": "在下一回合开始时，抽2张牌。",
+      "en_plain": "Draw 2 extra cards next round.",
+      "zh_plain": "在下一回合开始时，抽2张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Premonition.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Premonition.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Premonition.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Premonition.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Premonition.png",
+          "website_path": "assets/non_towers/Premonition_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ReboundShock",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_REBOUND_SHOCK",
+    "description_key": "SPELL_DESC_REBOUND_SHOCK",
+    "name": {
+      "en": "Rebound Shock",
+      "zh": "反弹冲击"
+    },
+    "description": {
+      "en": "Deal ! magic damage. Increase the damage of all Rebound Shock cards by 10% this combat.",
+      "zh": "造成 ! 魔法伤害。在这场战斗中，所有反弹冲击牌的伤害增加10%。",
+      "en_plain": "Deal ! magic damage. Increase the damage of all Rebound Shock cards by 10% this combat.",
+      "zh_plain": "造成 ! 魔法伤害。在这场战斗中，所有反弹冲击牌的伤害增加10%。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ReboundShock.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ReboundShock.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ReboundShock.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ReboundShock.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ReboundShock.png",
+          "website_path": "assets/non_towers/ReboundShock_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "RecklessYield",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 0,
+    "name_key": "SPELL_RECKLESS_YIELD",
+    "description_key": "SPELL_DESC_RECKLESS_YIELD",
+    "name": {
+      "en": "Reckless Search",
+      "zh": "鲁莽的搜索"
+    },
+    "description": {
+      "en": "Destroy two random tiles on the map with no towers. Draw 2 cards.",
+      "zh": "摧毁地图上随机的两张空地格。抽2张牌。",
+      "en_plain": "Destroy two random tiles on the map with no towers. Draw 2 cards.",
+      "zh_plain": "摧毁地图上随机的两张空地格。抽2张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/RecklessYield.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\RecklessYield.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\RecklessYield.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/RecklessYield.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\RecklessYield.png",
+          "website_path": "assets/non_towers/RecklessYield_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SacredPunishment",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_SACRED_PUNISHMENT",
+    "description_key": "SPELL_DESC_SACRED_PUNISHMENT",
+    "name": {
+      "en": "Sacred Punishment",
+      "zh": "圣光之罚"
+    },
+    "description": {
+      "en": "Deal 60 magic damage. Deal 180 true damage instead if the enemies have less than half health.",
+      "zh": "造成60点魔法伤害。如果敌人的生命值低于一半，则造成180的真实伤害。",
+      "en_plain": "Deal 60 magic damage. Deal 180 true damage instead if the enemies have less than half health.",
+      "zh_plain": "造成60点魔法伤害。如果敌人的生命值低于一半，则造成180的真实伤害。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SacredPunishment.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SacredPunishment.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SacredPunishment.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SacredPunishment.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SacredPunishment.png",
+          "website_path": "assets/non_towers/SacredPunishment_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "StarPower",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 0,
+    "name_key": "SPELL_STAR_POWER",
+    "description_key": "SPELL_DESC_STAR_POWER",
+    "name": {
+      "en": "Star Power",
+      "zh": "星辰之力"
+    },
+    "description": {
+      "en": "The next enchantment you cast this round costs 2 less.\nDispel.",
+      "zh": "你本回合施放的下一个秘法的费用减少2。消耗。",
+      "en_plain": "The next enchantment you cast this round costs 2 less.\nDispel.",
+      "zh_plain": "你本回合施放的下一个秘法的费用减少2。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/StarPower.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\StarPower.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\StarPower.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/StarPower.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\StarPower.png",
+          "website_path": "assets/non_towers/StarPower_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ThePact",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 0,
+    "name_key": "SPELL_THE_PACT",
+    "description_key": "SPELL_DESC_THE_PACT",
+    "name": {
+      "en": "The Pact",
+      "zh": "契约"
+    },
+    "description": {
+      "en": "Gain 2 mana. Lose 2 health and summon a boss modifier.\nDispel.",
+      "zh": "获得2个法力值。损失2个生命值，召唤一个BOSS级负面效果。消耗。",
+      "en_plain": "Gain 2 mana. Lose 2 health and summon a boss modifier.\nDispel.",
+      "zh_plain": "获得2个法力值。损失2个生命值，召唤一个BOSS级负面效果。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ThePact.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ThePact.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ThePact.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ThePact.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ThePact.png",
+          "website_path": "assets/non_towers/ThePact_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Thunderbolt",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_THUNDERBOLT",
+    "description_key": "SPELL_DESC_THUNDERBOLT",
+    "name": {
+      "en": "Thunder",
+      "zh": "雷霆"
+    },
+    "description": {
+      "en": "Stun for 1.5 seconds and deal 12% enemy max health magic damage.",
+      "zh": "眩晕1.5秒，并造成敌人最大生命值12%的魔法伤害。",
+      "en_plain": "Stun for 1.5 seconds and deal 12% enemy max health magic damage.",
+      "zh_plain": "眩晕1.5秒，并造成敌人最大生命值12%的魔法伤害。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Thunderbolt.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Thunderbolt.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Thunderbolt.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Thunderbolt.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Thunderbolt.png",
+          "website_path": "assets/non_towers/Thunderbolt_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "TinkerersRemedy",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "common",
+    "cost": 0,
+    "name_key": "SPELL_TINKERERS_REMEDY",
+    "description_key": "SPELL_DESC_TINKERERS_REMEDY",
+    "name": {
+      "en": "Tinkerer's Remedy",
+      "zh": "巧妙的补救措施"
+    },
+    "description": {
+      "en": "Reset the attack cooldown of all towers.",
+      "zh": "为所有塔楼的下一次攻击做准备。",
+      "en_plain": "Reset the attack cooldown of all towers.",
+      "zh_plain": "为所有塔楼的下一次攻击做准备。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/TinkerersRemedy.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\TinkerersRemedy.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\TinkerersRemedy.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/TinkerersRemedy.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\TinkerersRemedy.png",
+          "website_path": "assets/non_towers/TinkerersRemedy_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Void",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 0,
+    "name_key": "SPELL_VOID",
+    "description_key": "SPELL_DESC_VOID",
+    "name": {
+      "en": "Void",
+      "zh": "虚空"
+    },
+    "description": {
+      "en": "Dispel all the cards in your hand.\nDispel.",
+      "zh": "消耗你手中的所有牌。\n消耗。",
+      "en_plain": "Dispel all the cards in your hand.\nDispel.",
+      "zh_plain": "消耗你手中的所有牌。\n消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Void.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Void.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Void.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Void.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Void.png",
+          "website_path": "assets/non_towers/Void_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Whiplash",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 0,
+    "name_key": "SPELL_WHIPLASH",
+    "description_key": "SPELL_DESC_WHIPLASH",
+    "name": {
+      "en": "Whiplash",
+      "zh": "鞭打"
+    },
+    "description": {
+      "en": "Deal 350 + 20% max health physical damage. Convert two random empty gray/yellow tiles into Crimson Eye.",
+      "zh": "造成350+20%最大生命值的物理伤害。将两个随机的灰/黄色空地格转换成深红眼。",
+      "en_plain": "Deal 350 + 20% max health physical damage. Convert two random empty gray/yellow tiles into Crimson Eye.",
+      "zh_plain": "造成350+20%最大生命值的物理伤害。将两个随机的灰/黄色空地格转换成深红眼。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Whiplash.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Whiplash.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Whiplash.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Whiplash.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Whiplash.png",
+          "website_path": "assets/non_towers/Whiplash_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "AllForOne",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 1,
+    "name_key": "SPELL_ALL_FOR_ONE",
+    "description_key": "SPELL_DESC_ALL_FOR_ONE",
+    "name": {
+      "en": "All for one",
+      "zh": "全部为一"
+    },
+    "description": {
+      "en": "Deal 40 true damage for each deployed tower. Disable all towers for 5 seconds.",
+      "zh": "对目标区域内敌人造成真实伤害，数值为场上的防御塔数量乘以40。使所有防御塔失效5秒。",
+      "en_plain": "Deal 40 true damage for each deployed tower. Disable all towers for 5 seconds.",
+      "zh_plain": "对目标区域内敌人造成真实伤害，数值为场上的防御塔数量乘以40。使所有防御塔失效5秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/AllForOne.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\AllForOne.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\AllForOne.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/AllForOne.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\AllForOne.png",
+          "website_path": "assets/non_towers/AllForOne_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Blizzard",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 1,
+    "name_key": "SPELL_BLIZZARD",
+    "description_key": "SPELL_DESC_BLIZZARD",
+    "name": {
+      "en": "Blizzard",
+      "zh": "暴风雪"
+    },
+    "description": {
+      "en": "Slow all enemies for 6 seconds.",
+      "zh": "使范围内所有敌人减速6秒。",
+      "en_plain": "Slow all enemies for 6 seconds.",
+      "zh_plain": "使范围内所有敌人减速6秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Blizzard.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Blizzard.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Blizzard.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Blizzard.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Blizzard.png",
+          "website_path": "assets/non_towers/Blizzard_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Dash",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_DASH",
+    "description_key": "SPELL_DESC_DASH",
+    "name": {
+      "en": "Dash",
+      "zh": "冲刺"
+    },
+    "description": {
+      "en": "Gain 1 shield and draw 1 card.\nDispel.",
+      "zh": "获得1点护盾并抽1张牌。\n消耗。",
+      "en_plain": "Gain 1 shield and draw 1 card.\nDispel.",
+      "zh_plain": "获得1点护盾并抽1张牌。\n消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Dash.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Dash.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Dash.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Dash.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Dash.png",
+          "website_path": "assets/non_towers/Dash_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Divination",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 1,
+    "name_key": "SPELL_DIVINATION",
+    "description_key": "SPELL_DESC_DIVINATION",
+    "name": {
+      "en": "Divination",
+      "zh": "占卜"
+    },
+    "description": {
+      "en": "Draw 2 cards.",
+      "zh": "抽2张牌。",
+      "en_plain": "Draw 2 cards.",
+      "zh_plain": "抽2张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Divination.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Divination.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Divination.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Divination.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Divination.png",
+          "website_path": "assets/non_towers/Divination_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ElectricBeam",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_ELECTRIC_BEAM",
+    "description_key": "SPELL_DESC_ELECTRIC_BEAM",
+    "name": {
+      "en": "Electric Beam",
+      "zh": "电子束"
+    },
+    "description": {
+      "en": "Stun for 3 seconds and deal 12% max health magic damage to all enemies.",
+      "zh": "眩晕敌人3秒并造成12%最大生命值的魔法伤害。",
+      "en_plain": "Stun for 3 seconds and deal 12% max health magic damage to all enemies.",
+      "zh_plain": "眩晕敌人3秒并造成12%最大生命值的魔法伤害。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ElectricBeam.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ElectricBeam.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ElectricBeam.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ElectricBeam.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ElectricBeam.png",
+          "website_path": "assets/non_towers/ElectricBeam_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "FieldReconfiguration",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "common",
+    "cost": 1,
+    "name_key": "SPELL_FIELD_RECONFIGURATION",
+    "description_key": "SPELL_DESC_FIELD_RECONFIGURATION",
+    "name": {
+      "en": "Field Reconfiguration",
+      "zh": "场地重构"
+    },
+    "description": {
+      "en": "Transform up to 7 random gray tiles into random tiles.\nDraw a card.",
+      "zh": "将最多 7 块随机灰色牌转化为随机牌。抽一张牌。",
+      "en_plain": "Transform up to 7 random gray tiles into random tiles.\nDraw a card.",
+      "zh_plain": "将最多 7 块随机灰色牌转化为随机牌。抽一张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/FieldReconfiguration.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\FieldReconfiguration.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\FieldReconfiguration.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/FieldReconfiguration.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\FieldReconfiguration.png",
+          "website_path": "assets/non_towers/FieldReconfiguration_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fireball",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 1,
+    "name_key": "SPELL_FIREBALL",
+    "description_key": "SPELL_DESC_FIREBALL",
+    "name": {
+      "en": "Fireball",
+      "zh": "火球"
+    },
+    "description": {
+      "en": "Deal 120 + 20% enemy missing health magic damage.",
+      "zh": "对敌人造成120+20%已损失生命值魔法伤害。",
+      "en_plain": "Deal 120 + 20% enemy missing health magic damage.",
+      "zh_plain": "对敌人造成120+20%已损失生命值魔法伤害。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Fireball.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Fireball.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Fireball.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Fireball.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Fireball.png",
+          "website_path": "assets/non_towers/Fireball_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "FutureSight",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_FUTURE_SIGHT",
+    "description_key": "SPELL_DESC_FUTURE_SIGHT",
+    "name": {
+      "en": "Future Sight",
+      "zh": "对未来的看法"
+    },
+    "description": {
+      "en": "Draw a card. If Overload is active, draw 5 cards instead.",
+      "zh": "抽一张牌。如果过载处于激活状态，则抽5张牌。",
+      "en_plain": "Draw a card. If Overload is active, draw 5 cards instead.",
+      "zh_plain": "抽一张牌。如果过载处于激活状态，则抽5张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/FutureSight.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\FutureSight.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\FutureSight.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/FutureSight.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\FutureSight.png",
+          "website_path": "assets/non_towers/FutureSight_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HealingWarcry",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "rare",
+    "cost": 1,
+    "name_key": "SPELL_HEALING_WARCRY",
+    "description_key": "SPELL_DESC_HEALING_WARCRY",
+    "name": {
+      "en": "Healing Warcry",
+      "zh": "治疗战吼"
+    },
+    "description": {
+      "en": "Draw a card.\nIf you received 5 or more damage this combat, restore 2 health and draw another card.",
+      "zh": "抽一张牌。如果你在本场战斗中受到 5 或更多伤害，恢复 2 健康值并再抽一张牌。",
+      "en_plain": "Draw a card.\nIf you received 5 or more damage this combat, restore 2 health and draw another card.",
+      "zh_plain": "抽一张牌。如果你在本场战斗中受到 5 或更多伤害，恢复 2 健康值并再抽一张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/HealingWarcry.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\HealingWarcry.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\HealingWarcry.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/HealingWarcry.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\HealingWarcry.png",
+          "website_path": "assets/non_towers/HealingWarcry_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ManaPotion",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_MANA_POTION",
+    "description_key": "SPELL_DESC_MANA_POTION",
+    "name": {
+      "en": "Mana Potion",
+      "zh": "法力药水"
+    },
+    "description": {
+      "en": "Restore all your spell mana.\nDispel.",
+      "zh": "恢复全部法术法力值。消耗。",
+      "en_plain": "Restore all your spell mana.\nDispel.",
+      "zh_plain": "恢复全部法术法力值。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ManaPotion.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ManaPotion.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ManaPotion.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ManaPotion.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ManaPotion.png",
+          "website_path": "assets/non_towers/ManaPotion_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "OpenTheToolbox",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_OPEN_THE_TOOLBOX",
+    "description_key": "SPELL_DESC_OPEN_THE_TOOLBOX",
+    "name": {
+      "en": "Open The Toolbox",
+      "zh": "打开工具箱"
+    },
+    "description": {
+      "en": "Transform 3 empty Gray or Red tiles into Utility Plug-In tiles.\nDraw a card.\nDispel.",
+      "zh": "将 3 张灰色或红色空牌转化为实用牌。抽一张牌。驱散",
+      "en_plain": "Transform 3 empty Gray or Red tiles into Utility Plug-In tiles.\nDraw a card.\nDispel.",
+      "zh_plain": "将 3 张灰色或红色空牌转化为实用牌。抽一张牌。驱散"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/OpenTheToolbox.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\OpenTheToolbox.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\OpenTheToolbox.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/OpenTheToolbox.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\OpenTheToolbox.png",
+          "website_path": "assets/non_towers/OpenTheToolbox_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Ponder",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_PONDER",
+    "description_key": "SPELL_DESC_PONDER",
+    "name": {
+      "en": "Ponder",
+      "zh": "思考"
+    },
+    "description": {
+      "en": "Draw 3 cards.\nDispel.",
+      "zh": "抽3张牌。\n消耗。",
+      "en_plain": "Draw 3 cards.\nDispel.",
+      "zh_plain": "抽3张牌。\n消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Ponder.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Ponder.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Ponder.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Ponder.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Ponder.png",
+          "website_path": "assets/non_towers/Ponder_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SelfWound",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_SELF_WOUND",
+    "description_key": "SPELL_DESC_SELF_WOUND",
+    "name": {
+      "en": "Self wound",
+      "zh": "自我伤害"
+    },
+    "description": {
+      "en": "Deal 3 damage to yourself.\nRestore 2 health.\nDispel.",
+      "zh": "对自己造成3点伤害。恢复2点生命值。消耗。",
+      "en_plain": "Deal 3 damage to yourself.\nRestore 2 health.\nDispel.",
+      "zh_plain": "对自己造成3点伤害。恢复2点生命值。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SelfWound.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SelfWound.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SelfWound.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SelfWound.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SelfWound.png",
+          "website_path": "assets/non_towers/SelfWound_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SignInBlood",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 1,
+    "name_key": "SPELL_SIGN_IN_BLOOD",
+    "description_key": "SPELL_DESC_SIGN_IN_BLOOD",
+    "name": {
+      "en": "Sign in Blood",
+      "zh": "血之契约"
+    },
+    "description": {
+      "en": "Draw 5 cards. Lose 1 health.",
+      "zh": "抽5张牌。失去1点生命值。",
+      "en_plain": "Draw 5 cards. Lose 1 health.",
+      "zh_plain": "抽5张牌。失去1点生命值。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SignInBlood.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SignInBlood.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SignInBlood.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SignInBlood.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SignInBlood.png",
+          "website_path": "assets/non_towers/SignInBlood_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ThinkTwice",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "common",
+    "cost": 1,
+    "name_key": "SPELL_THINK_TWICE",
+    "description_key": "SPELL_DESC_THINK_TWICE",
+    "name": {
+      "en": "Think Twice",
+      "zh": "思考两遍"
+    },
+    "description": {
+      "en": "Draw 2 cards. Dispel.\nTranscend: Also draw 2 extra cards next turn.",
+      "zh": "抽2张牌。驱散。超越：另外，下一回合再抽2张牌。",
+      "en_plain": "Draw 2 cards. Dispel.\nTranscend: Also draw 2 extra cards next turn.",
+      "zh_plain": "抽2张牌。驱散。超越：另外，下一回合再抽2张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/ThinkTwice.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\ThinkTwice.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\ThinkTwice.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/ThinkTwice.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\ThinkTwice.png",
+          "website_path": "assets/non_towers/ThinkTwice_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "TimeTwist",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 1,
+    "name_key": "SPELL_TIME_TWIST",
+    "description_key": "SPELL_DESC_TIME_TWIST",
+    "name": {
+      "en": "Time Twist",
+      "zh": "时间扭曲"
+    },
+    "description": {
+      "en": "Teleport back enemies and stun them for 1 second.",
+      "zh": "将敌人向出生点传送一段距离，并使他们眩晕1秒。",
+      "en_plain": "Teleport back enemies and stun them for 1 second.",
+      "zh_plain": "将敌人向出生点传送一段距离，并使他们眩晕1秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/TimeTwist.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\TimeTwist.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\TimeTwist.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/TimeTwist.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\TimeTwist.png",
+          "website_path": "assets/non_towers/TimeTwist_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Bite",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_BITE",
+    "description_key": "SPELL_DESC_BITE",
+    "name": {
+      "en": "Bite",
+      "zh": "咬人"
+    },
+    "description": {
+      "en": "Deal 200 true damage to targeted enemies. Restore 1 health.",
+      "zh": "对目标敌人造成200点真实伤害。恢复1个生命。",
+      "en_plain": "Deal 200 true damage to targeted enemies. Restore 1 health.",
+      "zh_plain": "对目标敌人造成200点真实伤害。恢复1个生命。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Bite.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Bite.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Bite.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Bite.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Bite.png",
+          "website_path": "assets/non_towers/Bite_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BlockingRitual",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 2,
+    "name_key": "SPELL_BLOCKING_RITUAL",
+    "description_key": "SPELL_DESC_BLOCKING_RITUAL",
+    "name": {
+      "en": "Blocking Ritual",
+      "zh": "阻挡仪式"
+    },
+    "description": {
+      "en": "Convert 4 random gray or yellow tiles into EMP shield tiles.",
+      "zh": "将4张随机的灰色或黄色地格转化为EMP盾地格。",
+      "en_plain": "Convert 4 random gray or yellow tiles into EMP shield tiles.",
+      "zh_plain": "将4张随机的灰色或黄色地格转化为EMP盾地格。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/BlockingRitual.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\BlockingRitual.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\BlockingRitual.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/BlockingRitual.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\BlockingRitual.png",
+          "website_path": "assets/non_towers/BlockingRitual_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BrightBeams",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_BRIGHT_BEAMS",
+    "description_key": "SPELL_DESC_BRIGHT_BEAMS",
+    "name": {
+      "en": "Bright Beams",
+      "zh": "明亮光束"
+    },
+    "description": {
+      "en": "Rebound. Slow enemies in an area. If this isn't the first spell that you cast this wave, stun them instead.",
+      "zh": "反弹。减速区域内的敌人。如果这不是你这波施放的第一个法术，则改为眩晕。",
+      "en_plain": "Rebound. Slow enemies in an area. If this isn't the first spell that you cast this wave, stun them instead.",
+      "zh_plain": "反弹。减速区域内的敌人。如果这不是你这波施放的第一个法术，则改为眩晕。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/BrightBeams.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\BrightBeams.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\BrightBeams.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/BrightBeams.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\BrightBeams.png",
+          "website_path": "assets/non_towers/BrightBeams_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Cleanse",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 2,
+    "name_key": "SPELL_CLEANSE",
+    "description_key": "SPELL_DESC_CLEANSE",
+    "name": {
+      "en": "Cleanse",
+      "zh": "清洁"
+    },
+    "description": {
+      "en": "Remove a random modifier. Dispel.",
+      "zh": "移除一个随机负面效果。消耗。",
+      "en_plain": "Remove a random modifier. Dispel.",
+      "zh_plain": "移除一个随机负面效果。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Cleanse.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Cleanse.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Cleanse.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Cleanse.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Cleanse.png",
+          "website_path": "assets/non_towers/Cleanse_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DarkReckoning",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_DARK_RECKONING",
+    "description_key": "SPELL_DESC_DARK_RECKONING",
+    "name": {
+      "en": "Dark Reckoning",
+      "zh": "暗黑审判"
+    },
+    "description": {
+      "en": "Deal 200 physical damage to targeted enemies. Deal 600 true damage instead to level 2 or lower enemies.",
+      "zh": "对目标敌人造成200点物理伤害。对2级或以下的敌人造成600点真实伤害。",
+      "en_plain": "Deal 200 physical damage to targeted enemies. Deal 600 true damage instead to level 2 or lower enemies.",
+      "zh_plain": "对目标敌人造成200点物理伤害。对2级或以下的敌人造成600点真实伤害。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/DarkReckoning.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\DarkReckoning.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\DarkReckoning.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/DarkReckoning.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\DarkReckoning.png",
+          "website_path": "assets/non_towers/DarkReckoning_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DesignNewWeapons",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_DESIGN_NEW_WEAPONS",
+    "description_key": "SPELL_DESC_DESIGN_NEW_WEAPONS",
+    "name": {
+      "en": "Design New Weapons",
+      "zh": "设计新武器"
+    },
+    "description": {
+      "en": "Create 3 random towers in your hand. They cost 1 less for the whole combat.\nDispel.",
+      "zh": "在手中随机创建 3 个防御塔。它们在整场战斗中的消耗减少 1。驱散",
+      "en_plain": "Create 3 random towers in your hand. They cost 1 less for the whole combat.\nDispel.",
+      "zh_plain": "在手中随机创建 3 个防御塔。它们在整场战斗中的消耗减少 1。驱散"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/DesignNewWeapons.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\DesignNewWeapons.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\DesignNewWeapons.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/DesignNewWeapons.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\DesignNewWeapons.png",
+          "website_path": "assets/non_towers/DesignNewWeapons_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Fissure",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_FISSURE",
+    "description_key": "SPELL_DESC_FISSURE",
+    "name": {
+      "en": "Fissure",
+      "zh": "裂缝"
+    },
+    "description": {
+      "en": "Destroy a random enemy of level 3 or less.",
+      "zh": "消灭一个随机的3级或以下的敌人。",
+      "en_plain": "Destroy a random enemy of level 3 or less.",
+      "zh_plain": "消灭一个随机的3级或以下的敌人。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Fissure.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Fissure.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Fissure.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Fissure.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Fissure.png",
+          "website_path": "assets/non_towers/Fissure_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Foresee",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_FORESEE",
+    "description_key": "SPELL_DESC_FORESEE",
+    "name": {
+      "en": "Foresee",
+      "zh": "预见"
+    },
+    "description": {
+      "en": "Draw 5 cards.",
+      "zh": "抽5张牌。",
+      "en_plain": "Draw 5 cards.",
+      "zh_plain": "抽5张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Foresee.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Foresee.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Foresee.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Foresee.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Foresee.png",
+          "website_path": "assets/non_towers/Foresee_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HeartOfTheCards",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_HEART_OF_THE_CARDS",
+    "description_key": "SPELL_DESC_HEART_OF_THE_CARDS",
+    "name": {
+      "en": "Heart of the cards",
+      "zh": "卡片之心"
+    },
+    "description": {
+      "en": "Discard your hand and draw that many cards plus one.",
+      "zh": "弃置你的手牌并抽出相同数量的牌加一张。",
+      "en_plain": "Discard your hand and draw that many cards plus one.",
+      "zh_plain": "弃置你的手牌并抽出相同数量的牌加一张。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/HeartOfTheCards.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\HeartOfTheCards.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\HeartOfTheCards.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/HeartOfTheCards.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\HeartOfTheCards.png",
+          "website_path": "assets/non_towers/HeartOfTheCards_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "IntimidatingGlare",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_INTIMIDATING_GLARE",
+    "description_key": "SPELL_DESC_INTIMIDATING_GLARE",
+    "name": {
+      "en": "Intimidating Glare",
+      "zh": "恐吓性的凝视"
+    },
+    "description": {
+      "en": "Silence all enemies.\nDraw a card.",
+      "zh": "沉默所有敌人。抽一张牌。",
+      "en_plain": "Silence all enemies.\nDraw a card.",
+      "zh_plain": "沉默所有敌人。抽一张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/IntimidatingGlare.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\IntimidatingGlare.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\IntimidatingGlare.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/IntimidatingGlare.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\IntimidatingGlare.png",
+          "website_path": "assets/non_towers/IntimidatingGlare_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ManaLightning",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_MANA_LIGHTNING",
+    "description_key": "SPELL_DESC_MANA_LIGHTNING",
+    "name": {
+      "en": "Mana Lightning",
+      "zh": "法力闪电"
+    },
+    "description": {
+      "en": "Stun for 3 seconds and deal 200 magic damage in an area.\nRestore 1 spell mana.",
+      "zh": "眩晕 3 秒并在一个区域内造成 200 魔法伤害。恢复 1 法术法力值。",
+      "en_plain": "Stun for 3 seconds and deal 200 magic damage in an area.\nRestore 1 spell mana.",
+      "zh_plain": "眩晕 3 秒并在一个区域内造成 200 魔法伤害。恢复 1 法术法力值。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/ManaLightning.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\ManaLightning.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\ManaLightning.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/ManaLightning.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\ManaLightning.png",
+          "website_path": "assets/non_towers/ManaLightning_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Mimic",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "mythic",
+    "cost": 2,
+    "name_key": "SPELL_MIMIC",
+    "description_key": "SPELL_DESC_MIMIC",
+    "name": {
+      "en": "Mimic",
+      "zh": "拟态"
+    },
+    "description": {
+      "en": "Add to your hand a copy of each card in your hand.\nDispel.",
+      "zh": "将你手牌中每张牌的副本加入你的手牌。驱散。",
+      "en_plain": "Add to your hand a copy of each card in your hand.\nDispel.",
+      "zh_plain": "将你手牌中每张牌的副本加入你的手牌。驱散。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/Mimic.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\Mimic.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\Mimic.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/Mimic.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\Mimic.png",
+          "website_path": "assets/non_towers/Mimic_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MortarStrike",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_MORTAR_STRIKE",
+    "description_key": "SPELL_DESC_MORTAR_STRIKE",
+    "name": {
+      "en": "Mortar Strike",
+      "zh": "迫击炮攻击"
+    },
+    "description": {
+      "en": "Deal 275 + 25% enemy current health physical damage.",
+      "zh": "对敌人造成275+25%当前生命值物理伤害。",
+      "en_plain": "Deal 275 + 25% enemy current health physical damage.",
+      "zh_plain": "对敌人造成275+25%当前生命值物理伤害。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/MortarStrike.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\MortarStrike.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\MortarStrike.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/MortarStrike.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\MortarStrike.png",
+          "website_path": "assets/non_towers/MortarStrike_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Pollination",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_POLLINATION",
+    "description_key": "SPELL_DESC_POLLINATION",
+    "name": {
+      "en": "Pollination",
+      "zh": "授粉"
+    },
+    "description": {
+      "en": "Convert 8 random gray or red tiles into yellow tiles.\nDraw a card.",
+      "zh": "将8张随机的灰色地格转换成黄色地格。抽一张牌。",
+      "en_plain": "Convert 8 random gray or red tiles into yellow tiles.\nDraw a card.",
+      "zh_plain": "将8张随机的灰色地格转换成黄色地格。抽一张牌。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Pollination.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Pollination.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Pollination.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Pollination.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Pollination.png",
+          "website_path": "assets/non_towers/Pollination_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ResistanceBreak",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_RESISTANCE_BREAK",
+    "description_key": "SPELL_DESC_RESISTANCE_BREAK",
+    "name": {
+      "en": "Resistance Break",
+      "zh": "抵抗破裂"
+    },
+    "description": {
+      "en": "Targeted enemies lose 80% of their armor and magic resist.",
+      "zh": "永久降低一个区域内敌人的护甲和魔法抗性80%。",
+      "en_plain": "Targeted enemies lose 80% of their armor and magic resist.",
+      "zh_plain": "永久降低一个区域内敌人的护甲和魔法抗性80%。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ResistanceBreak.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ResistanceBreak.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ResistanceBreak.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ResistanceBreak.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ResistanceBreak.png",
+          "website_path": "assets/non_towers/ResistanceBreak_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "RuneShard",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 2,
+    "name_key": "SPELL_RUNE_SHARD",
+    "description_key": "SPELL_DESC_RUNE_SHARD",
+    "name": {
+      "en": "Rune Shard",
+      "zh": "符文碎片"
+    },
+    "description": {
+      "en": "Recast the last spell cast from your hand other than this one.\nDispel.",
+      "zh": "重新释放你手中最后施放的咒语。消耗。",
+      "en_plain": "Recast the last spell cast from your hand other than this one.\nDispel.",
+      "zh_plain": "重新释放你手中最后施放的咒语。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/RuneShard.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\RuneShard.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\RuneShard.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/RuneShard.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\RuneShard.png",
+          "website_path": "assets/non_towers/RuneShard_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SeismicImpact",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_SEISMIC_IMPACT",
+    "description_key": "SPELL_DESC_SEISMIC_IMPACT",
+    "name": {
+      "en": "Seismic Impact",
+      "zh": "地震冲击"
+    },
+    "description": {
+      "en": "Summon 3 successive shockwaves that deal 75 physical damage and stun for 1.5s.",
+      "zh": "召唤三个连续的冲击波，造成75点物理伤害并眩晕1.5秒。",
+      "en_plain": "Summon 3 successive shockwaves that deal 75 physical damage and stun for 1.5s.",
+      "zh_plain": "召唤三个连续的冲击波，造成75点物理伤害并眩晕1.5秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SeismicImpact.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SeismicImpact.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Earthquake.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SeismicImpact.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SeismicImpact.png",
+          "website_path": "assets/non_towers/SeismicImpact_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SentrySquad",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 2,
+    "name_key": "SPELL_SENTRY_SQUAD",
+    "description_key": "SPELL_DESC_SENTRY_SQUAD",
+    "name": {
+      "en": "Sentry Squad",
+      "zh": "哨兵小队"
+    },
+    "description": {
+      "en": "Spawn three sentries.",
+      "zh": "随机生成三个哨兵。",
+      "en_plain": "Spawn three sentries.",
+      "zh_plain": "随机生成三个哨兵。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SentrySquad.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SentrySquad.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SentrySquad.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SentrySquad.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SentrySquad.png",
+          "website_path": "assets/non_towers/SentrySquad_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ShrinkingRay",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "common",
+    "cost": 2,
+    "name_key": "SPELL_SHRINKING_RAY",
+    "description_key": "SPELL_DESC_SHRINKING_RAY",
+    "name": {
+      "en": "Shrinking Ray",
+      "zh": "收缩射线"
+    },
+    "description": {
+      "en": "Level down all enemies in an area. If they are level 1, slow them instead.",
+      "zh": "降低区域内所有敌人的等级。如果敌人等级为 1 级，则将其减速。",
+      "en_plain": "Level down all enemies in an area. If they are level 1, slow them instead.",
+      "zh_plain": "降低区域内所有敌人的等级。如果敌人等级为 1 级，则将其减速。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/ShrinkingRay.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\ShrinkingRay.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\ShrinkingRay.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/ShrinkingRay.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\ShrinkingRay.png",
+          "website_path": "assets/non_towers/ShrinkingRay_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CarePackage",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_CARE_PACKAGE",
+    "description_key": "SPELL_DESC_CARE_PACKAGE",
+    "name": {
+      "en": "Care Package",
+      "zh": "护理包"
+    },
+    "description": {
+      "en": "Summon a random non-basic tower.",
+      "zh": "召唤一个随机的非基础防御塔。",
+      "en_plain": "Summon a random non-basic tower.",
+      "zh_plain": "召唤一个随机的非基础防御塔。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/CarePackage.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\CarePackage.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\CarePackage.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/CarePackage.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\CarePackage.png",
+          "website_path": "assets/non_towers/CarePackage_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "CrypticCommand",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_CRYPTIC_COMMAND",
+    "description_key": "SPELL_DESC_CRYPTIC_COMMAND",
+    "name": {
+      "en": "Cryptic Command",
+      "zh": "密令"
+    },
+    "description": {
+      "en": "Stun all enemies for 5 seconds. Draw 3 extra cards next round. Gain 2 shield.",
+      "zh": "眩晕所有敌人5秒。在下一回合开始时额外抽3张牌。获得2点护盾。",
+      "en_plain": "Stun all enemies for 5 seconds. Draw 3 extra cards next round. Gain 2 shield.",
+      "zh_plain": "眩晕所有敌人5秒。在下一回合开始时额外抽3张牌。获得2点护盾。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/CrypticCommand.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\CrypticCommand.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\CrypticCommand.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/CrypticCommand.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\CrypticCommand.png",
+          "website_path": "assets/non_towers/CrypticCommand_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "DoublingSeason",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_DOUBLING_SEASON",
+    "description_key": "SPELL_DESC_DOUBLING_SEASON",
+    "name": {
+      "en": "Doubling Season",
+      "zh": "双倍加料"
+    },
+    "description": {
+      "en": "Summon a level 1 copy of one of the lowest level towers on the field.\nDispel.",
+      "zh": "召唤场上一个最低等级的塔的副本。消耗。",
+      "en_plain": "Summon a level 1 copy of one of the lowest level towers on the field.\nDispel.",
+      "zh_plain": "召唤场上一个最低等级的塔的副本。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/DoublingSeason.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\DoublingSeason.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\DoublingSeason.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/DoublingSeason.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\DoublingSeason.png",
+          "website_path": "assets/non_towers/DoublingSeason_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Medkit",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_MEDKIT",
+    "description_key": "SPELL_DESC_MEDKIT",
+    "name": {
+      "en": "Medkit",
+      "zh": "医疗包"
+    },
+    "description": {
+      "en": "Restore 3 health.\nDispel.",
+      "zh": "恢复3点生命值。消耗。",
+      "en_plain": "Restore 3 health.\nDispel.",
+      "zh_plain": "恢复3点生命值。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Medkit.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Medkit.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Medkit.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Medkit.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Medkit.png",
+          "website_path": "assets/non_towers/Medkit_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MindCrush",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_MIND_CRUSH",
+    "description_key": "SPELL_DESC_MIND_CRUSH",
+    "name": {
+      "en": "Mind Crush",
+      "zh": "心灵粉碎"
+    },
+    "description": {
+      "en": "Deal 3^X true damage to all enemies, where X is the amount of cards in your hand minus 1.\nDispel.",
+      "zh": "对所有敌人造成 3^X 真实伤害，其中 X 是你的手牌数量减 1。驱散。",
+      "en_plain": "Deal 3^X true damage to all enemies, where X is the amount of cards in your hand minus 1.\nDispel.",
+      "zh_plain": "对所有敌人造成 3^X 真实伤害，其中 X 是你的手牌数量减 1。驱散。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/MindCrush.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\MindCrush.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\MindCrush.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/MindCrush.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\MindCrush.png",
+          "website_path": "assets/non_towers/MindCrush_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Permafrost",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_PERMAFROST",
+    "description_key": "SPELL_DESC_PERMAFROST",
+    "name": {
+      "en": "Permafrost",
+      "zh": "超级冰冻"
+    },
+    "description": {
+      "en": "Strongly slow all enemies for 8 seconds.",
+      "zh": "强烈减缓所有敌人的速度，持续8秒。",
+      "en_plain": "Strongly slow all enemies for 8 seconds.",
+      "zh_plain": "强烈减缓所有敌人的速度，持续8秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/Permafrost.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\Permafrost.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\Permafrost.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/Permafrost.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\Permafrost.png",
+          "website_path": "assets/non_towers/Permafrost_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PhantomAnchor",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_PHANTOM_ANCHOR",
+    "description_key": "SPELL_DESC_PHANTOM_ANCHOR",
+    "name": {
+      "en": "Phantom Anchor",
+      "zh": "幻象之锚"
+    },
+    "description": {
+      "en": "Next wave now consists of only level 1 Rookies. Draw 1 card.\nDispel.",
+      "zh": "下一波将只由1级新秀组成。 抽一张牌。消耗。",
+      "en_plain": "Next wave now consists of only level 1 Rookies. Draw 1 card.\nDispel.",
+      "zh_plain": "下一波将只由1级新秀组成。 抽一张牌。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/PhantomAnchor.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\PhantomAnchor.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\PhantomAnchor.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/PhantomAnchor.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\PhantomAnchor.png",
+          "website_path": "assets/non_towers/PhantomAnchor_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ShieldsUp",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "common",
+    "cost": 3,
+    "name_key": "SPELL_SHIELDS_UP",
+    "description_key": "SPELL_DESC_SHIELDS_UP",
+    "name": {
+      "en": "Shields up!",
+      "zh": "护盾！"
+    },
+    "description": {
+      "en": "Gain 2 shield.\nTranscend: This card costs 1 less mana.",
+      "zh": "获得2点护盾。\n超频：这张牌的法力值减少1。",
+      "en_plain": "Gain 2 shield.\nTranscend: This card costs 1 less mana.",
+      "zh_plain": "获得2点护盾。\n超频：这张牌的法力值减少1。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ShieldsUp.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ShieldsUp.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ShieldsUp.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ShieldsUp.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ShieldsUp.png",
+          "website_path": "assets/non_towers/ShieldsUp_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SummonTheMaster",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 3,
+    "name_key": "SPELL_SUMMON_THE_MASTER",
+    "description_key": "SPELL_DESC_SUMMON_THE_MASTER",
+    "name": {
+      "en": "Summon the Master",
+      "zh": "御主召唤"
+    },
+    "description": {
+      "en": "Gain 1 shield, and then summon a random tower with a mana cost closest to your shield amount.",
+      "zh": "获得1点护盾，然后召唤一个法力值与你的护盾值最接近的随机防御塔。",
+      "en_plain": "Gain 1 shield, and then summon a random tower with a mana cost closest to your shield amount.",
+      "zh_plain": "获得1点护盾，然后召唤一个法力值与你的护盾值最接近的随机防御塔。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SummonTheMaster.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SummonTheMaster.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SummonTheMaster.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SummonTheMaster.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SummonTheMaster.png",
+          "website_path": "assets/non_towers/SummonTheMaster_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "TechnicalProwess",
+    "type": "spell",
+    "expansion": "astral_siege",
+    "rarity": "uncommon",
+    "cost": 3,
+    "name_key": "SPELL_TECHNICAL_PROWESS",
+    "description_key": "SPELL_DESC_TECHNICAL_PROWESS",
+    "name": {
+      "en": "Technical Prowess",
+      "zh": "技术能力"
+    },
+    "description": {
+      "en": "Draw 3 cards and reduce their cost by 1 this combat.\nDispel.",
+      "zh": "在本场战斗中抽取 3 张牌，并减少 1 张牌的费用。驱散。",
+      "en_plain": "Draw 3 cards and reduce their cost by 1 this combat.\nDispel.",
+      "zh_plain": "在本场战斗中抽取 3 张牌，并减少 1 张牌的费用。驱散。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/AstralSiege/Scenes/Spells/TechnicalProwess.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scenes\\Spells\\TechnicalProwess.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Scripts\\Spells\\TechnicalProwess.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/AstralSiege/Sprites/Spells/TechnicalProwess.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Spells\\TechnicalProwess.png",
+          "website_path": "assets/non_towers/TechnicalProwess_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "BloodVisions",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 4,
+    "name_key": "SPELL_BLOOD_VISIONS",
+    "description_key": "SPELL_DESC_BLOOD_VISIONS",
+    "name": {
+      "en": "Blood Visions",
+      "zh": "血色幻影"
+    },
+    "description": {
+      "en": "At the start of your next round, draw cards until your hand is full. Martyr.",
+      "zh": "在你下一回合开始时，抽牌直到你的手牌满为止。殉道者。",
+      "en_plain": "At the start of your next round, draw cards until your hand is full. Martyr.",
+      "zh_plain": "在你下一回合开始时，抽牌直到你的手牌满为止。殉道者。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/BloodVisions.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\BloodVisions.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\BloodVisions.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/BloodVisions.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\BloodVisions.png",
+          "website_path": "assets/non_towers/BloodVisions_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "HarvestKnowledge",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 4,
+    "name_key": "SPELL_HARVEST_KNOWLEDGE",
+    "description_key": "SPELL_DESC_HARVEST_KNOWLEDGE",
+    "name": {
+      "en": "Harvest Knowledge",
+      "zh": "收获知识"
+    },
+    "description": {
+      "en": "Add two random spells to your hand. They cost 2 less this combat.",
+      "zh": "将两个随机法术加入你的手牌。他们在这场战斗中的费用减少了2。",
+      "en_plain": "Add two random spells to your hand. They cost 2 less this combat.",
+      "zh_plain": "将两个随机法术加入你的手牌。他们在这场战斗中的费用减少了2。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/HarvestKnowledge.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\HarvestKnowledge.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\HarvestKnowledge.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/HarvestKnowledge.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\HarvestKnowledge.png",
+          "website_path": "assets/non_towers/HarvestKnowledge_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LuckyStreak",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 4,
+    "name_key": "SPELL_LUCKY_STREAK",
+    "description_key": "SPELL_DESC_LUCKY_STREAK",
+    "name": {
+      "en": "Lucky Streak",
+      "zh": "幸运连连"
+    },
+    "description": {
+      "en": "All towers have 100% chance to deal critical strikes this round.",
+      "zh": "塔楼本轮有100%的机会做出关键性的打击。",
+      "en_plain": "All towers have 100% chance to deal critical strikes this round.",
+      "zh_plain": "塔楼本轮有100%的机会做出关键性的打击。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/LuckyStreak.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\LuckyStreak.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\LuckyStreak.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/LuckyStreak.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\LuckyStreak.png",
+          "website_path": "assets/non_towers/LuckyStreak_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Singularity",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "uncommon",
+    "cost": 4,
+    "name_key": "SPELL_SINGULARITY",
+    "description_key": "SPELL_DESC_SINGULARITY",
+    "name": {
+      "en": "Singularity",
+      "zh": "奇异性"
+    },
+    "description": {
+      "en": "Stun all enemies for 8 seconds.",
+      "zh": "眩晕所有敌人，持续8秒。",
+      "en_plain": "Stun all enemies for 8 seconds.",
+      "zh_plain": "眩晕所有敌人，持续8秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/Singularity.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\Singularity.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\Singularity.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/Singularity.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\Singularity.png",
+          "website_path": "assets/non_towers/Singularity_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LuckSynthesis",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 5,
+    "name_key": "SPELL_LUCK_SYNTHESIS",
+    "description_key": "SPELL_DESC_LUCK_SYNTHESIS",
+    "name": {
+      "en": "Luck Synthesis",
+      "zh": "运气合成"
+    },
+    "description": {
+      "en": "Gain 3 luck permanently. Dispel.",
+      "zh": "永久获得3点运气。消耗。",
+      "en_plain": "Gain 3 luck permanently. Dispel.",
+      "zh_plain": "永久获得3点运气。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/LuckSynthesis.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\LuckSynthesis.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\LuckSynthesis.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/LuckSynthesis.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\LuckSynthesis.png",
+          "website_path": "assets/non_towers/LuckSynthesis_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ReshapeTime",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "rare",
+    "cost": 5,
+    "name_key": "SPELL_RESHAPE_TIME",
+    "description_key": "SPELL_DESC_RESHAPE_TIME",
+    "name": {
+      "en": "Reshape Time",
+      "zh": "重构时间"
+    },
+    "description": {
+      "en": "Teleport back all enemies and stun them for 4 seconds.",
+      "zh": "将所有敌人向后传送并使其眩晕4秒。",
+      "en_plain": "Teleport back all enemies and stun them for 4 seconds.",
+      "zh_plain": "将所有敌人向后传送并使其眩晕4秒。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/ReshapeTime.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\ReshapeTime.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\ReshapeTime.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/ReshapeTime.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\ReshapeTime.png",
+          "website_path": "assets/non_towers/ReshapeTime_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "Damnation",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 6,
+    "name_key": "SPELL_DAMNATION",
+    "description_key": "SPELL_DESC_DAMNATION",
+    "name": {
+      "en": "Damnation",
+      "zh": "最后的厄运"
+    },
+    "description": {
+      "en": "Kill all enemies.\nDispel.",
+      "zh": "杀死所有的敌人。消耗。",
+      "en_plain": "Kill all enemies.\nDispel.",
+      "zh_plain": "杀死所有的敌人。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/Damnation.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\Damnation.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\Damnation.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/Damnation.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\Damnation.png",
+          "website_path": "assets/non_towers/Damnation_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "FleetingThoughts",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 6,
+    "name_key": "SPELL_FLEETING_THOUGHTS",
+    "description_key": "SPELL_DESC_FLEETING_THOUGHTS",
+    "name": {
+      "en": "Fleeting Thoughts",
+      "zh": "消逝的思绪"
+    },
+    "description": {
+      "en": "Add three random cards with Dispel to your hand. They cost 0 this combat.\nDispel.",
+      "zh": "将三张带有驱散功能的随机牌加入你的手牌。在这场战斗中，它们的成本为0。消耗。",
+      "en_plain": "Add three random cards with Dispel to your hand. They cost 0 this combat.\nDispel.",
+      "zh_plain": "将三张带有驱散功能的随机牌加入你的手牌。在这场战斗中，它们的成本为0。消耗。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/FleetingThoughts.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\FleetingThoughts.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\FleetingThoughts.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/FleetingThoughts.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\FleetingThoughts.png",
+          "website_path": "assets/non_towers/FleetingThoughts_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "IceWall",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 6,
+    "name_key": "SPELL_ICE_WALL",
+    "description_key": "SPELL_DESC_ICE_WALL",
+    "name": {
+      "en": "Ice Wall",
+      "zh": "冰墙"
+    },
+    "description": {
+      "en": "Draw 2 cards. Gain 1 shield for each card in your hand.",
+      "zh": "抽2张牌。你每有一张手牌，获得1点护盾。",
+      "en_plain": "Draw 2 cards. Gain 1 shield for each card in your hand.",
+      "zh_plain": "抽2张牌。你每有一张手牌，获得1点护盾。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/IceWall.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\IceWall.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\IceWall.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/IceWall.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\IceWall.png",
+          "website_path": "assets/non_towers/IceWall_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MomentaryLapseOfReason",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "rare",
+    "cost": 6,
+    "name_key": "SPELL_MOMENTARY_LAPSE_OF_REASON",
+    "description_key": "SPELL_DESC_MOMENTARY_LAPSE_OF_REASON",
+    "name": {
+      "en": "Lapse of Reason",
+      "zh": "理性蒸发"
+    },
+    "description": {
+      "en": "Go back 1 wave. Dispel. Transcend: Go back 1 more wave.",
+      "zh": "倒退一回合。消耗。超频：额外倒退一回合。",
+      "en_plain": "Go back 1 wave. Dispel. Transcend: Go back 1 more wave.",
+      "zh_plain": "倒退一回合。消耗。超频：额外倒退一回合。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/MomentaryLapseOfReason.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\MomentaryLapseOfReason.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\MomentaryLapseOfReason.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/MomentaryLapseOfReason.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\MomentaryLapseOfReason.png",
+          "website_path": "assets/non_towers/MomentaryLapseOfReason_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "PursueGlory",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 6,
+    "name_key": "SPELL_PURSUE_GLORY",
+    "description_key": "SPELL_DESC_PURSUE_GLORY",
+    "name": {
+      "en": "Pursue Glory",
+      "zh": "追求荣耀"
+    },
+    "description": {
+      "en": "Gain 5 shield. If you have 25 or more shield, level up three random towers.",
+      "zh": "获得 5 个护盾。如果您有 25 个或更多护盾，可随机提升 3 个防御塔的等级。",
+      "en_plain": "Gain 5 shield. If you have 25 or more shield, level up three random towers.",
+      "zh_plain": "获得 5 个护盾。如果您有 25 个或更多护盾，可随机提升 3 个防御塔的等级。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/PursueGlory.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\PursueGlory.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\PursueGlory.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/PursueGlory.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\PursueGlory.png",
+          "website_path": "assets/non_towers/PursueGlory_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "SweetVengeance",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "uncommon",
+    "cost": 6,
+    "name_key": "SPELL_SWEET_VENGEANCE",
+    "description_key": "SPELL_DESC_SWEET_VENGEANCE",
+    "name": {
+      "en": "Sweet Vengeance",
+      "zh": "甜蜜的复仇"
+    },
+    "description": {
+      "en": "Deal 50 physical damage for each damage taken this combat. Martyr.",
+      "zh": "造成物理伤害，数值为在这场战斗中自身受到伤害值乘以50。殉道者。",
+      "en_plain": "Deal 50 physical damage for each damage taken this combat. Martyr.",
+      "zh_plain": "造成物理伤害，数值为在这场战斗中自身受到伤害值乘以50。殉道者。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/SweetVengeance.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\SweetVengeance.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\SweetVengeance.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/SweetVengeance.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\SweetVengeance.png",
+          "website_path": "assets/non_towers/SweetVengeance_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ArsenalGear",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 7,
+    "name_key": "SPELL_ARSENAL_GEAR",
+    "description_key": "SPELL_DESC_ARSENAL_GEAR",
+    "name": {
+      "en": "Arsenal Gear",
+      "zh": "军械库"
+    },
+    "description": {
+      "en": "Summon three random non-basic towers.",
+      "zh": "召唤三个随机的非基础防御塔。",
+      "en_plain": "Summon three random non-basic towers.",
+      "zh_plain": "召唤三个随机的非基础防御塔。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ArsenalGear.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ArsenalGear.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ArsenalGear.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ArsenalGear.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ArsenalGear.png",
+          "website_path": "assets/non_towers/ArsenalGear_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MysteryBoost",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 7,
+    "name_key": "SPELL_MYSTERY_BOOST",
+    "description_key": "SPELL_DESC_MYSTERY_BOOST",
+    "name": {
+      "en": "Mystery Boost",
+      "zh": "神秘加成"
+    },
+    "description": {
+      "en": "Level up a random tower.",
+      "zh": "提升一座随机塔的等级。",
+      "en_plain": "Level up a random tower.",
+      "zh_plain": "提升一座随机塔的等级。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/MysteryBoost.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\MysteryBoost.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\MysteryBoost.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/MysteryBoost.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\MysteryBoost.png",
+          "website_path": "assets/non_towers/MysteryBoost_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ProtectionArtifact",
+    "type": "spell",
+    "expansion": "liberation",
+    "rarity": "mythic",
+    "cost": 9,
+    "name_key": "SPELL_PROTECTION_ARTIFACT",
+    "description_key": "SPELL_DESC_PROTECTION_ARTIFACT",
+    "name": {
+      "en": "Protection Artifact",
+      "zh": "保护神器"
+    },
+    "description": {
+      "en": "Gain 7 shield.\nDispel. Martyr.\nTranscend: Also restore 7 health.",
+      "zh": "Gain 10 shield./n消耗. Martyr.\n超频: 同时恢复10点生命值。",
+      "en_plain": "Gain 7 shield.\nDispel. Martyr.\nTranscend: Also restore 7 health.",
+      "zh_plain": "Gain 10 shield./n消耗. Martyr.\n超频: 同时恢复10点生命值。"
+    },
+    "resources": {
+      "scene_res_path": "res://Scenes/Spells/ProtectionArtifact.tscn",
+      "scene_path": "G:\\tower tactics\\export\\Scenes\\Spells\\ProtectionArtifact.tscn",
+      "script_path": "G:\\tower tactics\\export\\Scripts\\Spells\\ProtectionArtifact.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://Sprites/Spells/ProtectionArtifact.png",
+          "source_path": "G:\\tower tactics\\export\\Sprites\\Spells\\ProtectionArtifact.png",
+          "website_path": "assets/non_towers/ProtectionArtifact_art1.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": "UnyieldingVirtue",
+    "type": "spell",
+    "expansion": "celestial_dawn",
+    "rarity": "mythic",
+    "cost": 10,
+    "name_key": "SPELL_UNYIELDING_VIRTUE",
+    "description_key": "SPELL_DESC_UNYIELDING_VIRTUE",
+    "name": {
+      "en": "Unyielding Virtue",
+      "zh": "牢不可破的美德"
+    },
+    "description": {
+      "en": "Restore all missing health.\nDispel.",
+      "zh": "恢复你所有的生命值。驱散。",
+      "en_plain": "Restore all missing health.\nDispel.",
+      "zh_plain": "恢复你所有的生命值。驱散。"
+    },
+    "resources": {
+      "scene_res_path": "res://DLC/CelestialDawn/Scenes/Spells/UnyieldingVirtue.tscn",
+      "scene_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scenes\\Spells\\UnyieldingVirtue.tscn",
+      "script_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Scripts\\Spells\\UnyieldingVirtue.gd",
+      "art_variants": [
+        {
+          "variant": "1",
+          "source_res_path": "res://DLC/CelestialDawn/Sprites/Spells/UnyieldingVirtue.png",
+          "source_path": "G:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Spells\\UnyieldingVirtue.png",
+          "website_path": "assets/non_towers/UnyieldingVirtue_art1.png"
+        }
+      ]
+    }
+  }
+]

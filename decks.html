@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tower Tactics Codex - Decks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-a"></div>
+    <div class="bg-orb bg-orb-b"></div>
+
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Tower Tactics</p>
+        <h1>Decks</h1>
+        <p class="subtitle">Starting stats, starting cards, and starting trinkets of each deck.</p>
+        <div class="hero-links">
+          <a class="table-back-link" href="index.html">Open towers view</a>
+          <a class="table-back-link" href="non_towers.html">Open non-tower cards</a>
+          <a class="table-back-link" href="relics.html">Open trinkets view</a>
+          <a class="table-back-link" href="table.html">Open table view</a>
+        </div>
+      </header>
+
+      <section class="controls">
+        <label>
+          <span>Language</span>
+          <select id="langSelect">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+          </select>
+        </label>
+        <label>
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Deck / card name" />
+        </label>
+        <label>
+          <span>DLC</span>
+          <select id="dlcSelect"></select>
+        </label>
+        <label>
+          <span>Difficulty</span>
+          <select id="difficultySelect"></select>
+        </label>
+      </section>
+
+      <section class="summary" id="summary"></section>
+      <section class="decks-list" id="decksList"></section>
+    </main>
+
+    <script src="decks.js"></script>
+  </body>
+</html>

@@ -1,8 +1,46 @@
 {
-  "source": "..\\export",
+  "source": "G:\\tower tactics\\export",
   "counts": {
     "towers": 138,
-    "warnings": 0
+    "warnings": 37
   },
-  "warnings": []
+  "warnings": [
+    "Missing card_pools row for AuraAdept; pool status set to unknown",
+    "Missing card_pools row for BackShot; pool status set to unknown",
+    "Missing card_pools row for BFBomber; pool status set to unknown",
+    "Missing card_pools row for BlindProphet; pool status set to unknown",
+    "Missing card_pools row for Blinker; pool status set to unknown",
+    "Missing card_pools row for CableGuy; pool status set to unknown",
+    "Missing card_pools row for ClairvoyantCannon; pool status set to unknown",
+    "Missing card_pools row for CrimsonAnthem; pool status set to unknown",
+    "Missing card_pools row for CrimsonDisruptor; pool status set to unknown",
+    "Missing card_pools row for DarkMagician; pool status set to unknown",
+    "Missing card_pools row for DiscoShifter; pool status set to unknown",
+    "Missing card_pools row for EagleSergeant; pool status set to unknown",
+    "Missing card_pools row for EarlyProtector; pool status set to unknown",
+    "Missing card_pools row for ElectricBanshee; pool status set to unknown",
+    "Missing card_pools row for EvilMagician; pool status set to unknown",
+    "Missing card_pools row for FallenAngel; pool status set to unknown",
+    "Missing card_pools row for GlacialLaser; pool status set to unknown",
+    "Missing card_pools row for HolyPhoenix; pool status set to unknown",
+    "Missing card_pools row for Imp; pool status set to unknown",
+    "Missing card_pools row for JadeDrone; pool status set to unknown",
+    "Missing card_pools row for LightningCatalyst; pool status set to unknown",
+    "Missing card_pools row for MechanicalSpider; pool status set to unknown",
+    "Missing card_pools row for MoonstoneSavior; pool status set to unknown",
+    "Missing card_pools row for Nebula; pool status set to unknown",
+    "Missing card_pools row for Odissey; pool status set to unknown",
+    "Missing card_pools row for Rebounder; pool status set to unknown",
+    "Missing card_pools row for ReplicatingSprouts; pool status set to unknown",
+    "Missing card_pools row for SharpEye; pool status set to unknown",
+    "Missing card_pools row for Starcaller; pool status set to unknown",
+    "Missing card_pools row for StaticEmitter; pool status set to unknown",
+    "Missing card_pools row for StaticRifle; pool status set to unknown",
+    "Missing card_pools row for UnstableReactor; pool status set to unknown",
+    "Missing card_pools row for UtilityOrbiter; pool status set to unknown",
+    "Missing card_pools row for VengefulRifle; pool status set to unknown",
+    "Missing card_pools row for ViciousVindicator; pool status set to unknown",
+    "Missing card_pools row for WisdomPunisher; pool status set to unknown",
+    "Missing card_pools row for WitheringExecutioner; pool status set to unknown"
+  ]
 }

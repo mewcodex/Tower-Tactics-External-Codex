@@ -1,5 +1,7 @@
 const state = {
   cards: [],
+  decks: [],
+  deckCards: new Map(),
   lang: "en",
   query: "",
   rarity: "all",
@@ -227,6 +229,13 @@ const KEYWORD_EXPLANATIONS = {
 
 const LANG_STORAGE_KEY = "tt_codex_lang";
 
+const FULL_POOL_WHEN_MISSING_DECK_KEYS = new Set([
+  "shield_master",
+  "nuketown",
+  "fading_consciousness",
+  "illusionist",
+]);
+
 function getInitialLanguage() {
   const urlLang = new URLSearchParams(window.location.search).get("lang");
   if (urlLang === "en" || urlLang === "zh") return urlLang;
@@ -322,7 +331,66 @@ function renderKeywordRail(card, railEl) {
 function getArt(card) {
   const variants = (card.resources && card.resources.art_variants) || [];
   const lv1 = variants.find((v) => String(v.level) === "1") || variants[0];
-  return lv1 ? `generated/towers/${lv1.website_path}` : "";
+  if (!lv1 || !lv1.website_path) return "";
+  if (String(lv1.website_path).startsWith("assets/non_towers/")) {
+    return `generated/non_towers/${lv1.website_path}`;
+  }
+  return `generated/towers/${lv1.website_path}`;
+}
+
+function normalizeDeckToken(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+function getDeckIconFromDeck(deck) {
+  const icon = deck && deck.resources && deck.resources.icon;
+  const websitePath = icon && icon.website_path;
+  if (websitePath) return `generated/decks/${websitePath}`;
+  return "";
+}
+
+function findDeckForPoolEntry(entry) {
+  const rawKey = entry && entry.deck_key != null ? String(entry.deck_key) : "";
+  if (rawKey) {
+    const byKey = state.decks.find((d) => String(d.key) === rawKey);
+    if (byKey) return byKey;
+  }
+
+  const wanted = normalizeDeckToken((entry && (entry.deck_name || entry.deck_label)) || "");
+  if (!wanted) return null;
+
+  return (
+    state.decks.find((d) => normalizeDeckToken(d.name) === wanted) ||
+    state.decks.find((d) => normalizeDeckToken(d.title && d.title.en) === wanted)
+  );
+}
+
+function getPoolDeckKey(entry, deck) {
+  const rawKey = entry && entry.deck_key != null ? String(entry.deck_key).trim() : "";
+  if (rawKey) return rawKey;
+  if (deck && deck.key != null) return String(deck.key).trim();
+  if (deck && deck.name) return String(deck.name).trim();
+  return "";
+}
+
+function getEffectivePoolState(entry, deck) {
+  const hasRawPoolData = typeof (entry && entry.pool_count) === "number";
+  if (hasRawPoolData) {
+    return {
+      hasPoolData: true,
+      inPool: Number(entry.pool_count || 0) > 0,
+      inferredFullPool: false,
+    };
+  }
+  const deckKey = getPoolDeckKey(entry, deck);
+  // Card pages follow exclusion semantics: missing pool data means included.
+  return {
+    hasPoolData: true,
+    inPool: true,
+    inferredFullPool: !!deckKey || true,
+  };
 }
 
 function statLabel(raw) {
@@ -508,6 +576,13 @@ function getTowerLevels(card) {
   return ["1", "2", "3"];
 }
 
+function getTowerTypeLabel(card) {
+  if (card && card.is_basic) {
+    return state.lang === "zh" ? "基础" : "BASIC";
+  }
+  return "TOWER";
+}
+
 function renderStatsRail(card, railEl) {
   const hover = (card.stats && card.stats.hover) || {};
   const levels = getTowerLevels(card);
@@ -557,6 +632,8 @@ function renderDetail(card) {
   const hover = (card.stats && card.stats.hover) || {};
   const levels = getTowerLevels(card);
   const pools = ((card.deck_pool && card.deck_pool.by_deck) || []).slice();
+  const rarityClass = card.rarity || "unknown";
+  const rarityVisible = !card.is_basic;
 
   const art = getArt(card);
   const statSections = levels
@@ -592,24 +669,52 @@ function renderDetail(card) {
     })
     .join("");
 
-  const poolRows = pools
+  const poolIconItems = pools
     .map((d) => {
-      const inPoolText = d.in_pool ? (state.lang === "zh" ? "有" : "Yes") : state.lang === "zh" ? "无" : "No";
+      const deck = findDeckForPoolEntry(d);
+      const deckName =
+        (deck && ((deck.title && deck.title[state.lang]) || (deck.title && deck.title.en) || deck.name)) ||
+        d.deck_label ||
+        d.deck_name ||
+        d.deck_key ||
+        "-";
+      const icon = deck ? getDeckIconFromDeck(deck) : "";
+      const poolState = getEffectivePoolState(d, deck);
+      const hasPoolData = poolState.hasPoolData;
+      const inPool = poolState.inPool;
+      const initialCount = Number(d.initial_count || 0);
+      const poolStatusText = inPool ? (state.lang === "zh" ? "有" : "Yes") : (state.lang === "zh" ? "无" : "No");
+      const stateClass = inPool ? "is-active" : "is-inactive";
+      const inferredText = poolState.inferredFullPool
+        ? (state.lang === "zh" ? "（按卡组规则推断）" : " (inferred by deck rule)")
+        : "";
+      const title =
+        (state.lang === "zh"
+          ? `${deckName}｜卡池:${poolStatusText}${inferredText}｜初始:${initialCount}`
+          : `${deckName} | Pool:${poolStatusText}${inferredText} | Initial:${initialCount}`);
+      const iconMarkup = icon
+        ? `<img class="pool-icon-art" src="${escapeHtml(icon)}" alt="${escapeHtml(deckName)}" loading="lazy" />`
+        : `<div class="pool-icon-art pool-icon-art-placeholder" title="${escapeHtml(deckName)}">${escapeHtml(deckName)}</div>`;
+
       return `
-        <tr>
-          <td>${escapeHtml(d.deck_label || d.deck_name || d.deck_key || "-")}</td>
-          <td>${escapeHtml(d.initial_count ?? 0)}</td>
-          <td>${escapeHtml(inPoolText)}</td>
-          <td>${escapeHtml(d.pool_count ?? 0)}</td>
-        </tr>
+        <article class="pool-icon-item ${stateClass}" title="${escapeHtml(title)}">
+          ${iconMarkup}
+          <span class="pool-initial-badge ${initialCount > 0 ? "" : "hidden"}">x${escapeHtml(initialCount)}</span>
+        </article>
       `;
     })
     .join("");
 
+  const effectiveInPoolDecks = pools.reduce((sum, entry) => {
+    const deck = findDeckForPoolEntry(entry);
+    const poolState = getEffectivePoolState(entry, deck);
+    return sum + (poolState.inPool ? 1 : 0);
+  }, 0);
+
   const deckSummary = card.deck_pool
     ? state.lang === "zh"
-      ? `卡池中出现于 ${card.deck_pool.in_pool_decks} / ${pools.length} 个卡组，初始牌组携带于 ${card.deck_pool.initial_decks} 个卡组`
-      : `In pool: ${card.deck_pool.in_pool_decks} / ${pools.length} decks, initially carried by ${card.deck_pool.initial_decks} decks`
+      ? `卡池中出现于 ${effectiveInPoolDecks} / ${pools.length} 个卡组，初始牌组携带于 ${card.deck_pool.initial_decks} 个卡组`
+      : `In pool: ${effectiveInPoolDecks} / ${pools.length} decks, initially carried by ${card.deck_pool.initial_decks} decks`
     : state.lang === "zh"
       ? "无卡池数据"
       : "No pool data";
@@ -625,9 +730,9 @@ function renderDetail(card) {
           <div class="cost">${escapeHtml(card.cost)}</div>
           <img class="art" src="${escapeHtml(art)}" alt="${escapeHtml(getName(card))}" loading="lazy" />
           <h2 class="name">${escapeHtml(getName(card))}</h2>
-          <div class="rarity ${(card.rarity || "unknown")}">${escapeHtml((card.rarity || "unknown").toUpperCase())}</div>
+          <div class="rarity ${escapeHtml(rarityClass)} ${rarityVisible ? "" : "hidden"}">${rarityVisible ? escapeHtml(rarityClass.toUpperCase()) : ""}</div>
           <p class="description">${getDescriptionHtml(card)}</p>
-          <div class="type">TOWER</div>
+          <div class="type">${escapeHtml(getTowerTypeLabel(card))}</div>
         </article>
       </aside>
       <section class="detail-right">
@@ -639,18 +744,9 @@ function renderDetail(card) {
         <section class="detail-panel">
           <h3>${state.lang === "zh" ? "卡池情况" : "Deck & Pool Presence"}</h3>
           <p class="detail-note">${escapeHtml(deckSummary)}</p>
-          <div class="detail-table-wrap">
-            <table class="detail-table">
-              <thead>
-                <tr>
-                  <th>${state.lang === "zh" ? "卡组" : "Deck"}</th>
-                  <th>${state.lang === "zh" ? "初始携带" : "Initial"}</th>
-                  <th>${state.lang === "zh" ? "在卡池" : "In Pool"}</th>
-                  <th>${state.lang === "zh" ? "卡池值" : "Pool Count"}</th>
-                </tr>
-              </thead>
-              <tbody>${poolRows}</tbody>
-            </table>
+          <p class="detail-note">${state.lang === "zh" ? "亮色=在卡池，灰色=不在卡池；右下角为初始数量（缺失卡池数据按在卡池处理）" : "Bright = in pool, gray = excluded; bottom-right badge = initial count (missing pool data is treated as included)."}</p>
+          <div class="pool-icons-grid">
+            ${poolIconItems}
           </div>
         </section>
       </section>
@@ -680,6 +776,7 @@ function renderList() {
     const nameEl = node.querySelector(".name");
     const artEl = node.querySelector(".art");
     const rarityEl = node.querySelector(".rarity");
+    const typeEl = node.querySelector(".type");
     const descEl = node.querySelector(".description");
     const railEl = node.querySelector(".stats-rail");
 
@@ -691,8 +788,13 @@ function renderList() {
     artEl.src = art;
     artEl.alt = getName(card);
 
-    rarityEl.textContent = (card.rarity || "unknown").toUpperCase();
-    rarityEl.classList.add(card.rarity || "unknown");
+    const rarityClass = card.rarity || "unknown";
+    rarityEl.textContent = card.is_basic ? "" : rarityClass.toUpperCase();
+    rarityEl.classList.add(rarityClass);
+    rarityEl.classList.toggle("hidden", !!card.is_basic);
+    if (typeEl) {
+      typeEl.textContent = getTowerTypeLabel(card);
+    }
 
     renderStatsRail(card, railEl);
     node.classList.add("card-clickable");
@@ -749,8 +851,16 @@ async function init() {
   state.lang = getInitialLanguage();
   els.langSelect.value = state.lang;
 
-  const res = await fetch("generated/towers/towers.cleaned.json");
-  const cards = await res.json();
+  const [towersRes, nonTowersRes, decksRes] = await Promise.all([
+    fetch("generated/towers/towers.cleaned.json"),
+    fetch("generated/non_towers/non_towers.cleaned.json"),
+    fetch("generated/decks/decks.cleaned.json"),
+  ]);
+
+  const cards = await towersRes.json();
+  const nonTowers = await nonTowersRes.json();
+  state.decks = await decksRes.json();
+  [...cards, ...nonTowers].forEach((card) => state.deckCards.set(card.id, card));
   state.cards = cards.sort((a, b) => (a.cost - b.cost) || a.id.localeCompare(b.id));
 
   populateRaritySelect(state.cards);

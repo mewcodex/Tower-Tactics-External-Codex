@@ -398,6 +398,27 @@ function getArtPath(card) {
   return `generated/non_towers/${first.website_path}`;
 }
 
+function getDeckIconPath(deck) {
+  const icon = deck.resources && deck.resources.icon;
+  const websitePath = icon && icon.website_path;
+  if (websitePath) return `generated/decks/${websitePath}`;
+  return "";
+}
+
+function getCardDetailHref(card) {
+  if (!card) return "#";
+  const id = encodeURIComponent(card.id || "");
+  if (card.type === "tower" || card.classification === "towers" || card.id === "__RANDOM_TOWER__") {
+    return `index.html#card=${id}`;
+  }
+  return `non_tower_card.html?id=${id}`;
+}
+
+function getDeckDetailHref(deck) {
+  const key = encodeURIComponent(String(deck && deck.key != null ? deck.key : deck.name || ""));
+  return `deck_detail.html?deck=${key}`;
+}
+
 function populateDlcSelect() {
   const set = new Set(state.decks.map((d) => d.expansion || "liberation"));
   const values = ["all", "liberation", "astral_siege", "celestial_dawn"].filter(
@@ -738,6 +759,7 @@ function renderDeckCard(card) {
   const typeLabelUpper = String(typeLabel).toUpperCase();
 
   const keywordRail = renderKeywordRail(card);
+  const detailHref = getCardDetailHref(card);
 
   return `
     <article class="tower-card-wrap deck-card-wrap">
@@ -746,9 +768,9 @@ function renderDeckCard(card) {
         ${
           isPlaceholder
             ? `<div class="deck-random-art">${state.lang === "zh" ? "随机塔" : "RANDOM"}</div>`
-            : `<img class="art" src="${escapeHtml(art)}" alt="${escapeHtml(getCardName(card))}" loading="lazy" />`
+            : `<a class="card-open-link" href="${escapeHtml(detailHref)}"><img class="art" src="${escapeHtml(art)}" alt="${escapeHtml(getCardName(card))}" loading="lazy" /></a>`
         }
-        <h3 class="name">${escapeHtml(getCardName(card))}</h3>
+        <h3 class="name"><a class="card-open-link" href="${escapeHtml(detailHref)}">${escapeHtml(getCardName(card))}</a></h3>
         <div class="rarity ${rarityVisible ? "" : "hidden"} ${escapeHtml(rarity)}">${rarityVisible ? escapeHtml(rarity.toUpperCase()) : ""}</div>
         <p class="description">${getCardDescriptionHtml(card)}</p>
         <div class="type">${escapeHtml(typeLabelUpper)}</div>
@@ -830,10 +852,20 @@ function render() {
       const cardsTitle = state.lang === "zh" ? "初始卡牌" : "Starting Cards";
       const trinketsTitle = state.lang === "zh" ? "初始遗物" : "Starting Trinkets";
 
+      const deckName = getDeckName(deck);
+      const deckIconPath = getDeckIconPath(deck);
+      const deckIconHtml = deckIconPath
+        ? `<img class="deck-title-icon" src="${escapeHtml(deckIconPath)}" alt="${escapeHtml(deckName)}" loading="lazy" />`
+        : `<span class="deck-title-icon deck-title-icon-placeholder" title="${escapeHtml(deckName)}">${escapeHtml(deckName)}</span>`;
+      const deckHref = getDeckDetailHref(deck);
+
       return `
         <section class="deck-section">
           <div class="deck-head">
-            <h2>${escapeHtml(getDeckName(deck))}</h2>
+            <h2 class="deck-title-wrap">
+              <a class="deck-open-link" href="${escapeHtml(deckHref)}">${deckIconHtml}</a>
+              <a class="deck-open-link" href="${escapeHtml(deckHref)}">${escapeHtml(deckName)}</a>
+            </h2>
             <div class="deck-meta">
               <span class="deck-pill">${escapeHtml((deck.expansion || "liberation").toUpperCase())}</span>
               <span class="deck-pill difficulty-pill difficulty-${escapeHtml(difficultyClass)}">${escapeHtml(difficulty.toUpperCase())}</span>

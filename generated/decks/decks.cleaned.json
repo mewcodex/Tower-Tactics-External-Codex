@@ -41,6 +41,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/1.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\1.png",
+        "website_path": "assets/decks/1_icon.png"
+      }
+    },
     "title": {
       "en": "Leading Legacy",
       "zh": "重要遗产"
@@ -86,6 +93,13 @@
         "count": 3
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/2.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\2.png",
+        "website_path": "assets/decks/2_icon.png"
+      }
+    },
     "title": {
       "en": "Wandering Colossus",
       "zh": "流浪巨人"
@@ -131,6 +145,13 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/3.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\3.png",
+        "website_path": "assets/decks/3_icon.png"
+      }
+    },
     "title": {
       "en": "Holy Guild",
       "zh": "神圣公会"
@@ -170,6 +191,13 @@
         "placeholder": "random_tower"
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/4.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\4.png",
+        "website_path": "assets/decks/4_icon.png"
+      }
+    },
     "stat_ranges": {
       "max_health": {
         "min": 15,
@@ -266,6 +294,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/5.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\5.png",
+        "website_path": "assets/decks/5_icon.png"
+      }
+    },
     "title": {
       "en": "Resonating Echoes",
       "zh": "共鸣回声"
@@ -304,8 +339,15 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/6.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\6.png",
+        "website_path": "assets/decks/6_icon.png"
+      }
+    },
     "title": {
-      "en": "lethal_bullets",
+      "en": "Lethal Bullets",
       "zh": "lethal_bullets"
     }
   },
@@ -349,6 +391,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/7.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\7.png",
+        "website_path": "assets/decks/7_icon.png"
+      }
+    },
     "title": {
       "en": "Early Bird",
       "zh": "早起的鸟"
@@ -388,6 +437,13 @@
         "count": 3
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/8.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\8.png",
+        "website_path": "assets/decks/8_icon.png"
+      }
+    },
     "title": {
       "en": "Ace in the Hole",
       "zh": "秘藏王牌"
@@ -427,6 +483,13 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/9.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\9.png",
+        "website_path": "assets/decks/9_icon.png"
+      }
+    },
     "title": {
       "en": "Deprived Soul",
       "zh": "秘藏王牌"
@@ -472,6 +535,13 @@
         "count": 3
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/10.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\10.png",
+        "website_path": "assets/decks/10_icon.png"
+      }
+    },
     "title": {
       "en": "Broken Legacy",
       "zh": "破碎的遗产"
@@ -509,6 +579,13 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/11.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\11.png",
+        "website_path": "assets/decks/11_icon.png"
+      }
+    },
     "title": {
       "en": "Ravenous Reaper",
       "zh": "贪婪的死神"
@@ -551,6 +628,13 @@
         "count": 4
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/12.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\12.png",
+        "website_path": "assets/decks/12_icon.png"
+      }
+    },
     "title": {
       "en": "Punished Martyr",
       "zh": "受惩罚的殉道者"
@@ -587,6 +671,13 @@
         "placeholder": "random_tower"
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Icons/decks/13.png",
+        "source_path": "g:\\tower tactics\\export\\Icons\\decks\\13.png",
+        "website_path": "assets/decks/13_icon.png"
+      }
+    },
     "title": {
       "en": "Singleton Master",
       "zh": "单身大师"
@@ -636,6 +727,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Sprites/Trinkets/ArcaneEmblem.png",
+        "source_path": "g:\\tower tactics\\export\\Sprites\\Trinkets\\ArcaneEmblem.png",
+        "website_path": "assets/decks/14_icon.png"
+      }
+    },
     "title": {
       "en": "Arcane Master",
       "zh": "奥术师"
@@ -687,6 +785,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Sprites/Trinkets/AntiquarianEmblem.png",
+        "source_path": "g:\\tower tactics\\export\\Sprites\\Trinkets\\AntiquarianEmblem.png",
+        "website_path": "assets/decks/15_icon.png"
+      }
+    },
     "title": {
       "en": "Antiquarian",
       "zh": "古籍"
@@ -732,6 +837,13 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Sprites/Trinkets/SlayerEmblem.png",
+        "source_path": "g:\\tower tactics\\export\\Sprites\\Trinkets\\SlayerEmblem.png",
+        "website_path": "assets/decks/16_icon.png"
+      }
+    },
     "title": {
       "en": "Summit Slayer",
       "zh": "顶级杀手"
@@ -779,6 +891,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Sprites/Trinkets/EarthEmblem.png",
+        "source_path": "g:\\tower tactics\\export\\Sprites\\Trinkets\\EarthEmblem.png",
+        "website_path": "assets/decks/17_icon.png"
+      }
+    },
     "title": {
       "en": "Earth Fairy",
       "zh": "大地仙子"
@@ -818,6 +937,13 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://Sprites/Trinkets/GiftsUngiven.png",
+        "source_path": "g:\\tower tactics\\export\\Sprites\\Trinkets\\GiftsUngiven.png",
+        "website_path": "assets/decks/18_icon.png"
+      }
+    },
     "title": {
       "en": "Lost Soul",
       "zh": "失落的灵魂"
@@ -863,6 +989,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/AstralSiege/Sprites/Trinkets/CrimsonEmblem.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Trinkets\\CrimsonEmblem.png",
+        "website_path": "assets/decks/crimson_ascent_icon.png"
+      }
+    },
     "title": {
       "en": "Crimson Ascent",
       "zh": "绯红上升"
@@ -908,8 +1041,15 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/AstralSiege/Sprites/Trinkets/InfinityPotion.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Trinkets\\InfinityPotion.png",
+        "website_path": "assets/decks/disco_ball_icon.png"
+      }
+    },
     "title": {
-      "en": "disco_ball",
+      "en": "Disco Ball",
       "zh": "disco_ball"
     }
   },
@@ -954,6 +1094,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/CelestialDawn/Sprites/Trinkets/WheelOfTime.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Trinkets\\WheelOfTime.png",
+        "website_path": "assets/decks/fading_consciousness_icon.png"
+      }
+    },
     "title": {
       "en": "Fading Consciousness",
       "zh": "消逝的意识"
@@ -1003,6 +1150,13 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/AstralSiege/Sprites/Trinkets/MasterBoard.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Trinkets\\MasterBoard.png",
+        "website_path": "assets/decks/grand_master_icon.png"
+      }
+    },
     "title": {
       "en": "Grand Master",
       "zh": "大法师"
@@ -1048,6 +1202,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/CelestialDawn/Sprites/Trinkets/RingOfFaith.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Trinkets\\RingOfFaith.png",
+        "website_path": "assets/decks/illusionist_icon.png"
+      }
+    },
     "title": {
       "en": "Illusionist",
       "zh": "幻术师"
@@ -1097,9 +1258,16 @@
         "count": 3
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/CelestialDawn/Sprites/Trinkets/CoinOfDestiny.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Trinkets\\CoinOfDestiny.png",
+        "website_path": "assets/decks/nuketown_icon.png"
+      }
+    },
     "title": {
-      "en": "nuketown",
-      "zh": "nuketown"
+      "en": "Nuke Town",
+      "zh": "核爆小镇"
     }
   },
   {
@@ -1143,6 +1311,13 @@
         "count": 3
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/CelestialDawn/Sprites/Trinkets/RustyGnome.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\CelestialDawn\\Sprites\\Trinkets\\RustyGnome.png",
+        "website_path": "assets/decks/shield_master_icon.png"
+      }
+    },
     "title": {
       "en": "Shield Master",
       "zh": "盾牌大师"
@@ -1197,6 +1372,13 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/AstralSiege/Sprites/Trinkets/DuelistScroll.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Trinkets\\DuelistScroll.png",
+        "website_path": "assets/decks/the_duelist_icon.png"
+      }
+    },
     "title": {
       "en": "The Duelist",
       "zh": "决斗者"
@@ -1247,6 +1429,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/AstralSiege/Sprites/Trinkets/EngineerMonocle.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Trinkets\\EngineerMonocle.png",
+        "website_path": "assets/decks/the_engineer_icon.png"
+      }
+    },
     "title": {
       "en": "The Engineer",
       "zh": "工程师"
@@ -1274,8 +1463,15 @@
         "count": 1
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "",
+        "source_path": "",
+        "website_path": ""
+      }
+    },
     "title": {
-      "en": "tutorial",
+      "en": "Tutorial",
       "zh": "tutorial"
     }
   },
@@ -1320,6 +1516,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/AstralSiege/Sprites/Trinkets/SpellcasterSpark.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Trinkets\\SpellcasterSpark.png",
+        "website_path": "assets/decks/twin_caster_icon.png"
+      }
+    },
     "title": {
       "en": "Twin Caster",
       "zh": "双子施法者"
@@ -1365,6 +1568,13 @@
         "count": 2
       }
     ],
+    "resources": {
+      "icon": {
+        "source_res_path": "res://DLC/AstralSiege/Sprites/Trinkets/FugitiveDagger.png",
+        "source_path": "g:\\tower tactics\\export\\DLC\\AstralSiege\\Sprites\\Trinkets\\FugitiveDagger.png",
+        "website_path": "assets/decks/wanted_fugitive_icon.png"
+      }
+    },
     "title": {
       "en": "Wanted Fugitive",
       "zh": "通缉逃犯"

@@ -251,6 +251,10 @@ function getArt(card) {
   return first ? `generated/non_towers/${first.website_path}` : "";
 }
 
+function getCardDetailHref(card) {
+  return `non_tower_card.html?id=${encodeURIComponent(card.id || "")}`;
+}
+
 function populateTypeSelect(cards) {
   const set = new Set(cards.map((c) => c.type));
   const values = ["all", "spell", "enchantment", "curse", "emblem"].filter(
@@ -324,6 +328,7 @@ function render() {
     const descEl = node.querySelector(".description");
     const typeEl = node.querySelector(".type");
     const railEl = node.querySelector(".stats-rail");
+    const detailHref = getCardDetailHref(card);
 
     const themeColor = TYPE_THEME[card.type] || TYPE_THEME.tower;
     cardEl.style.setProperty("--card-theme", themeColor);
@@ -356,6 +361,11 @@ function render() {
     }
 
     renderKeywordRail(card, railEl);
+
+    node.classList.add("card-clickable");
+    node.addEventListener("click", () => {
+      window.location.href = detailHref;
+    });
 
     frag.appendChild(node);
   });
